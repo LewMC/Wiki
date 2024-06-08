@@ -1,5 +1,7 @@
 # Home
 
+Welcome to the new LewMC Wiki, if you're looking for content here but can't find it, you should check wiki.lewmc.net instead.
+
 ## Plugins
 
 ![Essence](ES.png){ width=100 }{border-effect=line}
