@@ -3,8 +3,8 @@
 ## Plugins
 
 ![Essence](ES.png){ width=100 }{border-effect=line}
-![Essence](KR.png){ width=100 }{border-effect=line}
-![Essence](JH.png){ width=100 }{border-effect=line}
+![Kryptonite](KR.png){ width=100 }{border-effect=line}
+![Jailhouse](JH.png){ width=100 }{border-effect=line}
 
 ## Modpacks
 
