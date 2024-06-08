@@ -22,5 +22,7 @@
         <toc-element topic="KR-System-Requirements.md"/>
     </toc-element>
     <toc-element topic="Jailhouse.md"/>
-    <toc-element topic="LewMC-Services.md"/>
+    <toc-element topic="LewMC-Services.md">
+        <toc-element topic="APIs.md"/>
+    </toc-element>
 </instance-profile>
