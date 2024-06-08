@@ -4,9 +4,9 @@
 
 <instance-profile id="LewMCWiki"
                  name="LewMC Wiki"
-                 start-page="LewMC Wiki.md">
+                 start-page="LewMCWiki.md">
 
-    <toc-element topic="LewMC Wiki.md"/>
+    <toc-element topic="LewMCWiki.md"/>
     <toc-element topic="Essence.md">
         <toc-element topic="ES-System-Requirements.md"/>
     </toc-element>
