@@ -1,4 +1,5 @@
 # Essence
+
 Essence is a lightweight and customisable plugin that adds warps, homes, and more.
 
 ## Download Essence

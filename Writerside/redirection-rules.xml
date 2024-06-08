@@ -10,4 +10,8 @@
         <description>Created after removal of "Changelogs" from LewMC Wiki</description>
         <accepts>Changelogs.html</accepts>
     </rule>
+    <rule id="7bd197a5">
+        <description>Created after removal of "Commands" from LewMC Wiki</description>
+        <accepts>Commands.html</accepts>
+    </rule>
 </rules>
