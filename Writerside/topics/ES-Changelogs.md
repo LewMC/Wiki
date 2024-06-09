@@ -1,5 +1,9 @@
 # Changelogs
 
+<warning>
+<strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
+</warning>
+
 ## 1.4.0
 _2024-06-07_ - Essence 1.4.0 adds spawn, repair, kit, and teleportation request commands alongside support for Folia-based servers.
 <table>
@@ -20,3 +24,61 @@ _2024-06-07_ - Essence 1.4.0 adds spawn, repair, kit, and teleportation request 
         <td>Nothing was fixed in this update, maybe nothing was broken?</td>
     </tr>
 </table>
+
+## 1.3.2
+_2024-02-03_ - This version is a hotfix for Essence 1.3.
+
+| Added   | /garbage is now an alias for /trash - Essence will now check if it's running Bukkit, Spigot, or Paper and tell the console if it's not on Paper that some commands may not work.                                                                      |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                   |
+| Changed | The plugin no longer disables itself when Essentials is installed, but instead warns the server console of the potential issues.                                                                                                                      |
+| Fixed   | [Issue #33](https://github.com/lewmc/essence/issues/33) - Cooldown starts despite a failed /rtp request. - [Issue #37](https://github.com/lewmc/essence/issues/37) - Error occurs when a player hits another player (both were not on the same team). |
+
+## 1.3.1
+_2024-01-31_ - This version is a hotfix for Essence 1.3.
+
+| Added   | Nothing was added in this update.                                                                                                                                                                                                                  |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                |
+| Changed | Nothing was changed in this update.                                                                                                                                                                                                                |
+| Fixed   | [Issue #28](https://github.com/lewmc/essence/issues/28) - TeleportUtil cooldown does not take into account the date. - [Issue #27](https://github.com/lewmc/essence/issues/27) - Apply cooldown after the teleporation countdown begins for /home. |
+
+## 1.3.0
+_2024-01-30_ - This version adds teleportation cooldowns, overhauls gamemode commands, and adds teams.
+
+| Added   | /team command along with essence.team permissions. (See [Commands](ES-Commands.md)) - 1.19 support - More customizability of messages sent to player. See [this page for more information.](ES-Language-Files.md) - Option to [disable commands](ES-Disabling-Commands.md). Option for teleportation cooldowns. See [Essence Configuration](ES-Configuration.md). |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                                                                               |
+| Changed | Essence now requires Java 11. - General backend optimisations.                                                                                                                                                                                                                                                                                                    |
+| Fixed   | [Issue #22](https://github.com/lewmc/essence/issues/22) - Player data can sometimes generate as a plugin config. - [Issue #18](https://github.com/lewmc/essence/issues/18) - Some auto-completion errors on /home.                                                                                                                                                |
+
+## 1.2.0
+_2024-01-26_ - This version adds random teleportation (/tpr command), fixes /back to work on death, full customisability of messages sent to players, and 1.19 support.
+
+| Added   | /tprandom command along with essence.teleport.random permission. - 1.19 support. - Customisability of messages sent to player. See [this page for more information.](ES-Language-Files.md) |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Dropped 1.18 support.                                                                                                                                                                      |
+| Changed | config.yml now has a language option for deciding which file to get messages from.                                                                                                         |
+| Fixed   | /gm and /gamemode now work correctly                                                                                                                                                       |
+
+## 1.1.0
+_2024-01-19_ - This version adds economy commands and teleportation commands, as well as improving existing ones. Also includes bugfixes and quality-of-life improvements.
+
+| Added   | Tab suggestions for /warp and /home. - /broadcast command along with essence.chat.* and essence.chat.broadcast permissions. - /back command along with essence.teleport.back permission.- /pay /bal commands along with essence.economy.*, essence.economy.pay, and essence.economy.bal permissions. - bStats - Update Checker - 1.18 and 1.19 support                                                                                                   |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Changed | /es, gamemode, and stats commands can now be ran from the console - /home and /sethome now have default values and will work without having to input a name. - Users will now be told if they don't have permissions even if a command is malformed.                                                                                                                                                                                                     |
+| Fixed   | [Issue #6](https://github.com/lewmc/essence/issues/6) - Changing gamemode without permission causes error. - [Issue #4]((https://github.com/lewmc/essence/issues/4) - Running economy commands causes prefix to reset. - [Issue #3](https://github.com/lewmc/essence/issues/3) - Overwriting of homes and warps is possible. - [Issue #2](https://github.com/lewmc/essence/issues/2) - Deleting a home that doesn't exist shows success message in chat. |
+
+## 1.0.0
+_2024-01-17_ - The first version of Essence.
+
+<warning>
+This version contains a large number of known bugs which were fixed in later updates. We do not recommend running this version in a production environment.
+</warning>
+
+| Added   | Added commands essence, gamemode, gms, gmc, gma, gmsp, anvil, cartography, craft, enderchest, grindstone, loom, smithing, stonecutter, trash, tp, warp, setwarp, delwarp, home, sethome, delhome, heal, feed. |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                           |
+| Changed | Nothing was changed in this update.                                                                                                                                                                           |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                                   |
