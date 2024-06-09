@@ -1,14 +1,8 @@
 # Home
 
-<warning>
-<strong>Welcome to the new LewMC Wiki!</strong> Something missing? Try the <a href="https://wiki-old.lewmc.net">old wiki</a>.
-</warning>
-
-Welcome to the new LewMC Wiki, if you're looking for content here but can't find it, you should check wiki.lewmc.net instead.
+Welcome to the new LewMC Wiki, please click one of the links below or in the sidebar to get started.
 
 > **This wiki's content is for most recent version of our software.** If you're running an older version you might not have all the options listed available. You can visit lewmc.net to download the latest versions.
-
-Click one of the links below to get started.
 
 ## Plugins
 - [Essence](Essence.md)

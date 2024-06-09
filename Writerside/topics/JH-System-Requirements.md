@@ -2,5 +2,4 @@
 
 | Kryptonite Version | Minecraft Versions | Supported Software                                            | Java Version |
 |--------------------|--------------------|---------------------------------------------------------------|--------------|
-| 1.3.0+             | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           |
-| 1.0.0 - 1.2.0      | > 1.20.0           | CraftBukkit, Spigot, Paper, or a fork of these (except Folia) | 21           |
+| 1.0.0+             | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           |
