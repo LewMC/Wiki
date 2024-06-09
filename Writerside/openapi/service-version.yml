@@ -1,0 +1,65 @@
+openapi: 3.0.0
+info:
+  title: LewMC Version API
+  description: Collects version information for LewMC resources.
+  version: 1.0.0
+servers:
+  - url: https://service.lewmc.net
+
+paths:
+  /latest-version:
+    get:
+      summary: Get latest version
+      parameters:
+        - name: resource
+          in: path
+          required: true
+          description: The resource to get the latest version for.
+          schema:
+            type: string
+            format: string
+            minimum: 1
+          example: galactica
+      responses:
+        '200': # status code
+          description: Fetch the latest version
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                    description: HTTP status code
+                    example: 200
+                  data:
+                    type: object
+                    properties:
+                      version:
+                        type: string
+                        description: The latest version of the resource
+                        example: "1.11.1"
+                      minecraft:
+                        type: string
+                        description: The Minecraft version compatible with the resource
+                        example: "1.12.2"
+                      modloader:
+                        type: string
+                        description: The modloader version compatible with the resource
+                        example: "Forge 14.23.5.2858"
+                      released:
+                        type: string
+                        format: date
+                        description: The release date of the latest version
+                        example: "2023-10-17"
+        '404':
+          description: Unable to find resource
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                    format: int64
+                    example: 404

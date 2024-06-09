@@ -22,4 +22,8 @@
         <description>Created after removal of "Miscellaneous" from LewMC Wiki</description>
         <accepts>Miscellaneous.html</accepts>
     </rule>
+    <rule id="2de42906">
+        <description>Created after removal of "APIs" from LewMC Wiki</description>
+        <accepts>APIs.html</accepts>
+    </rule>
 </rules>

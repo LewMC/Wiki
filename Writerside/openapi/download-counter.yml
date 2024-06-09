@@ -1,0 +1,68 @@
+openapi: 3.0.0
+info:
+  title: LewMC Download Counter API
+  description: Counts downloads for LewMC resources.
+  version: 1.0.0
+servers:
+  - url: https://service.lewmc.net
+
+paths:
+  /latest-version:
+    get:
+      summary: Get download count
+      parameters:
+        - name: resource
+          in: path
+          required: true
+          description: The resource to get the latest download count for.
+          schema:
+            type: string
+            format: string
+            minimum: 1
+          example: galactica
+      responses:
+        '200': # status code
+          description: Fetch the latest download count
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                    description: HTTP status code
+                    example: 200
+                  data:
+                    type: object
+                    properties:
+                      spigot:
+                        type: integer
+                        description: The latest download statistic from Spigot
+                        example: 2000
+                      modrinth:
+                        type: integer
+                        description: The latest download statistic from Modrinth
+                        example: 1000
+                      hangar:
+                        type: integer
+                        description: The latest download statistic from Hangar
+                        example: 1000
+                      curseforge:
+                        type: integer
+                        description: The latest download statistic from CurseForge
+                        example: 5000
+                      total:
+                        type: integer
+                        description: The total latest download statistic across all sources
+                        example: 9000
+        '404':
+          description: Unable to find resource
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                    format: int64
+                    example: 404
