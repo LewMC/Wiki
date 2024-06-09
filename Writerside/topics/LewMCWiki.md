@@ -15,6 +15,9 @@ Welcome to the new LewMC Wiki, please click one of the links below or in the sid
 - [Lew's Client Pack](LCP.md)
 - [SimplyAesthetic](SimplyAesthetic.md)
 
+## Mods
+- [PackStats](PackStats.md)
+
 ## Other
 - [LewMC Services](LewMC-Services.md)
 
