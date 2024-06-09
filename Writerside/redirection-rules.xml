@@ -30,4 +30,8 @@
         <description>Created after removal of "Configuration" from LewMC Wiki</description>
         <accepts>Configuration.html</accepts>
     </rule>
+    <rule id="3d262783">
+        <description>Created after removal of "Download" from LewMC Wiki</description>
+        <accepts>KR-Download.html</accepts>
+    </rule>
 </rules>
