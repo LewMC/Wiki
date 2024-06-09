@@ -24,6 +24,9 @@ Click one of the links below to get started.
 ## Other
 - [LewMC Services](LewMC-Services.md)
 
+## Help improve this Wiki!
+This wiki is written using [JetBrains Writerside](https://jetbrains.com/writerside) and is open source [on our GitHub](https://github.com/lewmc/Wiki)
+
 <seealso>
     <category ref="opensource">
         <a href="https://github.com/lewmc">GitHub</a>

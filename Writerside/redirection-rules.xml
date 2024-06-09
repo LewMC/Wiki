@@ -26,4 +26,8 @@
         <description>Created after removal of "APIs" from LewMC Wiki</description>
         <accepts>APIs.html</accepts>
     </rule>
+    <rule id="b50523e">
+        <description>Created after removal of "Configuration" from LewMC Wiki</description>
+        <accepts>Configuration.html</accepts>
+    </rule>
 </rules>
