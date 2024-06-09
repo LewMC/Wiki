@@ -5,7 +5,7 @@ Kryptonite is a Minecraft server optimisation and exploit patching assistant.
 
 ## Download Kryptonite
 ### Release Version
-We recommend using '''Modrinth or LewMC''' to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
+We recommend using **Modrinth or LewMC** to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
 
 * LewMC: [https://lewmc.net/plugin/kryptonite](https://lewmc.net/plugin/kryptonite)
 * Modrinth: [https://modrinth.com/plugin/kryptonite](https://modrinth.com/plugin/kryptonite)

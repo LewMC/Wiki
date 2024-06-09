@@ -6,7 +6,7 @@ Jailhouse is a free and easy to use Minecraft banning system. Jailhouse is curre
 ## Download Jailhouse
 
 ### Release Version
-We recommend using '''Modrinth or LewMC''' to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
+We recommend using **Modrinth or LewMC** to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
 
 * LewMC: _Not released on this platform._
 * Modrinth: _Not released on this platform._

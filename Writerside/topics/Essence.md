@@ -7,7 +7,7 @@ Essence is a lightweight and customisable plugin that adds warps, homes, and mor
 ## Download Essence
 
 ### Release Version
-We recommend using '''Modrinth or LewMC''' to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
+We recommend using **Modrinth or LewMC** to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
 
 * LewMC: [https://lewmc.net/plugin/essence](https://lewmc.net/plugin/essence)
 * Modrinth: [https://modrinth.com/plugin/essence-plugin](https://modrinth.com/plugin/essence-plugin)
