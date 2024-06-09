@@ -1,7 +1,7 @@
 # Home
 
 <warning>
-This Wiki is a work in progress and is likely missing content.
+<strong>Welcome to the new LewMC Wiki!</strong> Something missing? Try the <a href="https://wiki-old.lewmc.net">old wiki</a>.
 </warning>
 
 Welcome to the new LewMC Wiki, if you're looking for content here but can't find it, you should check wiki.lewmc.net instead.
