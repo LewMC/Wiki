@@ -7,24 +7,34 @@
                  start-page="LewMCWiki.md">
 
     <toc-element topic="LewMCWiki.md"/>
-    <toc-element topic="Essence.md">
-        <toc-element topic="ES-Changelogs.md"/>
-        <toc-element topic="ES-Configuration.md"/>
-        <toc-element topic="ES-Commands.md">
-            <toc-element topic="ES-Permissions.md"/>
-            <toc-element topic="ES-Disabling-Commands.md"/>
+    <toc-element topic="Plugins.md">
+        <toc-element topic="Jailhouse.md"/>
+        <toc-element topic="Kryptonite.md">
+            <toc-element topic="KR-System-Requirements.md"/>
         </toc-element>
-        <toc-element topic="ES-System-Requirements.md"/>
-        <toc-element topic="ES-Language-Files.md"/>
-        <toc-element topic="ES-Teams.md"/>
-        <toc-element topic="ES-Kits.md"/>
-        <toc-element topic="ES-MOTD.md"/>
+        <toc-element topic="Essence.md">
+            <toc-element topic="ES-Changelogs.md"/>
+            <toc-element topic="ES-Configuration.md"/>
+            <toc-element topic="ES-Commands.md">
+                <toc-element topic="ES-Permissions.md"/>
+                <toc-element topic="ES-Disabling-Commands.md"/>
+            </toc-element>
+            <toc-element topic="ES-System-Requirements.md"/>
+            <toc-element topic="ES-Language-Files.md"/>
+            <toc-element topic="ES-Teams.md"/>
+            <toc-element topic="ES-Kits.md"/>
+            <toc-element topic="ES-MOTD.md"/>
+        </toc-element>
     </toc-element>
-    <toc-element topic="Kryptonite.md">
-        <toc-element topic="KR-System-Requirements.md"/>
+    <toc-element topic="Modpacks.md">
+        <toc-element topic="SimplyAesthetic.md"/>
+        <toc-element topic="LCP.md"/>
+        <toc-element topic="LJP.md"/>
+        <toc-element topic="Galactica.md"/>
     </toc-element>
-    <toc-element topic="Jailhouse.md"/>
-    <toc-element topic="LewMC-Services.md">
-        <toc-element topic="APIs.md"/>
+    <toc-element topic="Other.md">
+        <toc-element topic="LewMC-Services.md">
+            <toc-element topic="APIs.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

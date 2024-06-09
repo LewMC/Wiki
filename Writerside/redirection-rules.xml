@@ -14,4 +14,12 @@
         <description>Created after removal of "Commands" from LewMC Wiki</description>
         <accepts>Commands.html</accepts>
     </rule>
+    <rule id="764c63e6">
+        <description>Created after removal of "Lew's Client Pack" from LewMC Wiki</description>
+        <accepts>LXP.html</accepts>
+    </rule>
+    <rule id="6edc51a5">
+        <description>Created after removal of "Miscellaneous" from LewMC Wiki</description>
+        <accepts>Miscellaneous.html</accepts>
+    </rule>
 </rules>
