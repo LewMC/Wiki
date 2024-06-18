@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.5.0
+_2024-06-18_ - Essence 1.5.0 adds team homes and tpr support.
+
+| Added   | Re-added random teleportation - Added [team homes](ES-Teams.md)           |
+|---------|---------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                       |
+| Changed | Nothing was changed in this update.                                       |
+| Fixed   | Fixed an issue where sometimes team files would not be created correctly. |
+
 ## 1.4.0
 _2024-06-07_ - Essence 1.4.0 adds spawn, repair, kit, and teleportation request commands alongside support for Folia-based servers.
 
