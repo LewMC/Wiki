@@ -130,21 +130,22 @@ Wildcard permission: essence.team.*
 
 > To use /team requests, accept, decline, kick, rule, and changeleader the player must have the permission to do so AND be the team leader.
 
-| Command                                | Permission Required        | Description                                     | Usage                            | Console can run? |
-|----------------------------------------|----------------------------|-------------------------------------------------|----------------------------------|------------------|
-| /team /group                           | essence.team.list          | Get a list of teams.                            | /team /group                     | No               |
-| /team <name> /group <name>             | essence.team.list          | Get information of a specific team.             | /team Red /group Red             | No               |
-| /team join <name> /group join <name>   | essence.team.join          | Join a team.                                    | /team join Red /group join Red   | No               |
-| /team leave <name> /group leave <name> | essence.team.join          | Leave a team.                                   | /team leave Red /group leave Red | No               |
-| /team requests                         | essence.team.manage        | View pending membership requests for your team. | /team requests                   | No               |
-| /team accept <name>                    | essence.team.manage        | Accept a player's membership request.           | /team accept Notch               | No               |
-| /team decline <name>                   | essence.team.manage        | Decline a player's membership request.          | /team decline Notch              | No               |
-| /team kick <name>                      | essence.team.manage        | Kick (remove) a player from your team.          | /team kick Notch                 | No               |
-| /team changeleader <name>              | essence.team.manage        | Transfer leadership to another member.          | /team changeleader Notch         | No               |
-| /team disband                          | essence.team.manage        | Disband your team (delete it).                  | /team disband                    | No               |
-| /team rule <rule>                      | essence.team.manage        | View the value of a team rule.                  | /team rule                       | No               |
-| /team rule <rule> <value>              | essence.team.manage        | Set the value of a team rule.                   |                                  | No               |
-| Team home commands                     | See home commands section. |                                                 |                                  |                  |
+| Command                                  | Permission Required        | Description                                     | Usage                              | Console can run? |
+|------------------------------------------|----------------------------|-------------------------------------------------|------------------------------------|------------------|
+| /team /group                             | essence.team.list          | Get a list of teams.                            | /team /group                       | No               |
+| /team <name> /group <name>               | essence.team.list          | Get information of a specific team.             | /team Red /group Red               | No               |
+| /team create <name> /group create <name> | essence.team.create        | Create a team.                                  | /team create Red /group create Red | No               |
+| /team join <name> /group join <name>     | essence.team.join          | Join a team.                                    | /team join Red /group join Red     | No               |
+| /team leave <name> /group leave <name>   | essence.team.join          | Leave a team.                                   | /team leave Red /group leave Red   | No               |
+| /team requests                           | essence.team.manage        | View pending membership requests for your team. | /team requests                     | No               |
+| /team accept <name>                      | essence.team.manage        | Accept a player's membership request.           | /team accept Notch                 | No               |
+| /team decline <name>                     | essence.team.manage        | Decline a player's membership request.          | /team decline Notch                | No               |
+| /team kick <name>                        | essence.team.manage        | Kick (remove) a player from your team.          | /team kick Notch                   | No               |
+| /team changeleader <name>                | essence.team.manage        | Transfer leadership to another member.          | /team changeleader Notch           | No               |
+| /team disband                            | essence.team.manage        | Disband your team (delete it).                  | /team disband                      | No               |
+| /team rule <rule>                        | essence.team.manage        | View the value of a team rule.                  | /team rule                         | No               |
+| /team rule <rule> <value>                | essence.team.manage        | Set the value of a team rule.                   |                                    | No               |
+| Team home commands                       | See home commands section. |                                                 |                                    |                  |
 
 <seealso>
     <category ref="es-commands">
