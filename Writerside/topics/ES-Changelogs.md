@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.5.1
+_2024-06-18_ - Essence 1.5.1 fixes players not respawning correctly and the /world command failing on non-vanilla generated worlds.
+
+| Added   | Nothing was added in this update.                                                                                                                                                                                                                                                                                |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                              |
+| Changed | Added better protections for detecting non-vanilla generated worlds or non-standard worlds.                                                                                                                                                                                                                      |
+| Fixed   | [Issue #66](https://github.com/lewmc/essence/issues/65) - Players not respawning in beds with "close a file before one had been opened" error. - [Issue #64](https://github.com/lewmc/essence/issues/64) - Fixed bug where using the /world command on a non-vanilla world would cause IllegalArgumentException. |
+
 ## 1.5.0
 _2024-06-18_ - Essence 1.5.0 adds team homes and tpr support.
 
