@@ -29,9 +29,10 @@ If you want to remove someone from your team you can use `/team kick <name>`.
 ### Rules
 Rules are a set of values that control gameplay features when players are in teams. You can set these by using `/team rule <rule> <value>` and see what they're currently set as by using `/team rule <rule>`
 
-| Rule                  | Description                   | Accepted Values | Default |
-|-----------------------|-------------------------------|-----------------|---------|
-| `allow-friendly-fire` | Allows PvP between teammates. | true or false   | true    |
+| Rule                  | Description                         | Accepted Values | Default |
+|-----------------------|-------------------------------------|-----------------|---------|
+| `allow-friendly-fire` | Allows PvP between teammates.       | true or false   | true    |
+| `allow-team-homes`    | Allows the use of joint team homes. | true or false   | true    |
 
 ### Team Homes
 Alongside having personal homes, teams can also have joint homes. These are set using the `/thome` commands.
