@@ -38,3 +38,7 @@ If you'd like to help us add support for these commands on Folia-based servers, 
 | Disabled Command | Since | Reason                                                                                       |
 |------------------|-------|----------------------------------------------------------------------------------------------|
 | /tprandom        | 1.4.0 | Folia generates an exception when running this command due to the way RegionSchedulers work. |
+
+## Incompatabilities
+### Data packs
+- Nice Mobs Remastered: Friends & Foes - causes Essence's /team command to be spammed in the console.

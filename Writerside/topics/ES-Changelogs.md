@@ -4,6 +4,16 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.5.2
+_2024-06-20_ - Essence 1.5.2 fixes exceptions in the /team command, teleportation not working as expected, and more.
+
+| Added   | Nothing was added in this update.                                                                                                                                                                             |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                           |
+| Changed | Teleportation can now handle more types of teleportation.                                                                                                                                                     |
+| Fixed   | Exception when /team is ran by the console is now handled correctly. - Teleporting a player to a coordinate will now teleport that player instead of you. - Debug code left in accidentally has been removed. |
+
+
 ## 1.5.1
 _2024-06-18_ - Essence 1.5.1 fixes players not respawning correctly and the /world command failing on non-vanilla generated worlds.
 
