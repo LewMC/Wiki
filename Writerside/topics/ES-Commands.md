@@ -124,6 +124,8 @@ Wildcard permission: essence.chat.*
 ## Economy Commands
 Wildcard permission: essence.economy.*
 
+> You must have [Vault](https://dev.bukkit.org/projects/vault) installed for these commands to function.
+
 | Command              | Permission Required     | Description         | Usage          | Console can run? |
 |----------------------|-------------------------|---------------------|----------------|------------------|
 | /pay <user> <amount> | essence.economy.pay     | Pay another player. | /pay Notch 10  | No               |

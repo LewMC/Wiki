@@ -4,6 +4,8 @@
 Some commands do not work on Folia-based servers, please see the section at the bottom of this page for more information.
 </warning>
 
+> You must have [Vault](https://dev.bukkit.org/projects/vault) installed for Economy commands to function..
+
 | Essence Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
 |-----------------|--------------------|---------------------------------------------------------------|--------------|----------------|
 | 1.4.0+          | > 1.20.4           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 17           | Yes            |

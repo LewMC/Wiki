@@ -10,7 +10,7 @@ _2024-06-XX_ - Essence 1.5.3 changes how the /home command is handled, and provi
 | Added   | You can now limit the number of homes and warps a player can create by using permissions. [Learn more](ES-Permissions.md#warp-and-home-creation-limits). |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                      |
-| Changed | /home will now list homes if there is no home named "home", instead of telling you it's missing.                                                         |
+| Changed | Economy commands now require Vault to be installed - /home will now list homes if there is no home named "home", instead of telling you it's missing.    |
 | Fixed   | /homes, /warps, and /thomes will now tell you if there's no homes set instead of displaying a blank list when homes/warps have been created in the past. |
 
 
