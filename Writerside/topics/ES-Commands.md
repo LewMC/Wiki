@@ -49,25 +49,27 @@ Wildcard permission: essence.kits.*
 Wildcard permission: essence.teleport.*
 
 <warning>
-    <strong>/tpr was temporarily removed in Essence 1.4.0 due to platform and technical limitations.</strong> We're working on bringing this feature back.
+    <strong>/tpr is unavailable on Folia-based servers.</strong> We're working on bringing this feature back. <a href="https://github.com/LewMC/Essence/issues/63">Learn more</a>.
 </warning>
 
-| Command                               | Permission Required                                   | Description                                             | Usage            | Console can run? |
-|---------------------------------------|-------------------------------------------------------|---------------------------------------------------------|------------------|------------------|
-| /teleport <x> <y> <z> /tp <x> <y> <z> | essence.teleport.coord                                | Teleport to a coordinate location in the world (x,y,z). | /tp 0 64 0       | No               |
-| /teleport <name> /tp <name>           | essence.teleport.player                               | Teleport to another player.                             | /tp Notch        | No               |
-| /tp <user> <x> <y> <z>                | essence.teleport.coord **and** essence.teleport.other | Teleport another player to set coordinates              | /tp Notch 0 64 0 | Yes              |
-| /tpa <user>                           | essence.teleport.request.send                         | Sends a teleportation request to a user.                | /tpa Notch       | No               |
-| /tpahere <user>                       | essence.teleport.request.here                         | Request a user to teleport to you.                      | /tpahere Notch   | No               |
-| /tpaccept                             | essence.teleport.request.accept                       | Accept a teleport request.                              | /tpaccept        | No               |
-| /tpdeny                               | essence.teleport.request.deny                         | Deny a teleport request.                                | /tpdeny          | No               |
-| /tpcancel                             | essence.teleport.request.cancel                       | Cancel a teleport request that you've sent.             | /tpcancel        | No               |
-| /tptoggle                             | essence.teleport.request.toggle                       | Toggle if players can send you teleportation requests.  | /tptoggle        | No               |
-| /tpr /rtp                             | essence.teleport.random                               | Teleport to a random location in the world.             | /tpr /rtp        | No               |
-| /back                                 | essence.teleport.back                                 | Go back to your last location before teleporting.       | /back            | No               |
+| Command                               | Permission Required                                   | Description                                             | Usage               | Console can run? |
+|---------------------------------------|-------------------------------------------------------|---------------------------------------------------------|---------------------|------------------|
+| /teleport <x> <y> <z> /tp <x> <y> <z> | essence.teleport.coord                                | Teleport to a coordinate location in the world (x,y,z). | /tp 0 64 0          | No               |
+| /teleport <name> /tp <name>           | essence.teleport.player                               | Teleport to another player.                             | /tp Notch           | No               |
+| /tp <user> <x> <y> <z>                | essence.teleport.coord **and** essence.teleport.other | Teleport another player to set coordinates              | /tp Notch 0 64 0    | Yes              |
+| /tpa <user>                           | essence.teleport.request.send                         | Sends a teleportation request to a user.                | /tpa Notch          | No               |
+| /tpahere <user>                       | essence.teleport.request.here                         | Request a user to teleport to you.                      | /tpahere Notch      | No               |
+| /tpaccept                             | essence.teleport.request.accept                       | Accept a teleport request.                              | /tpaccept           | No               |
+| /tpdeny                               | essence.teleport.request.deny                         | Deny a teleport request.                                | /tpdeny             | No               |
+| /tpcancel                             | essence.teleport.request.cancel                       | Cancel a teleport request that you've sent.             | /tpcancel           | No               |
+| /tptoggle                             | essence.teleport.request.toggle                       | Toggle if players can send you teleportation requests.  | /tptoggle           | No               |
+| /tpr /rtp /tprandom                   | essence.teleport.random                               | Teleport to a random location in the world.             | /tpr /rtp /tprandom | No               |
+| /back                                 | essence.teleport.back                                 | Go back to your last location before teleporting.       | /back               | No               |
 
 ### Warp Commands
 Wildcard permission: essence.warp.*
+
+You can limit the number of warps a user can create by using `essence.warp.limit.X` - [Learn more](ES-Permissions.md#warp-and-home-creation-limits).
 
 | Command         | Permission Required | Description               | Usage            | Console can run? |
 |-----------------|---------------------|---------------------------|------------------|------------------|
@@ -78,6 +80,8 @@ Wildcard permission: essence.warp.*
 
 ### Home Commands
 Wildcard permission: essence.home.*
+
+You can limit the number of homes a user can create by using `essence.home.limit.X` or `essence.home.team.limit.X` - [Learn more](ES-Permissions.md#warp-and-home-creation-limits).
 
 | Command          | Permission Required      | Description              | Usage            | Console can run? |
 |------------------|--------------------------|--------------------------|------------------|------------------|
