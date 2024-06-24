@@ -2,10 +2,9 @@ name: Build documentation
 
 on:
   push:
-    # To trigger the workflow once you push to the `main` branch
-    # Replace `main` with your branch’s name
-    branches: ["main"]
-  # Specify to run a workflow manually from the Actions tab on GitHub
+    branches:
+      - main
+      - '*'
   workflow_dispatch:
 
 permissions:
@@ -13,11 +12,8 @@ permissions:
   pages: write
 
 env:
-  # Name of module and id separated by a slash
   INSTANCE: Writerside/LewMCWiki
-  # Replace XX with the ID of the instance in capital letters
   ARTIFACT: webHelpLEWMCWIKI2-all.zip
-  # Docker image version
   DOCKER_VERSION: 241.15989
 
 jobs:
@@ -49,7 +45,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    # Requires build job results
     needs: build
     runs-on: ubuntu-latest
 
@@ -65,10 +60,21 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
 
-      - name: Upload artifact
+      - name: Determine Deployment Path
+        id: deployment-path
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            echo "DEPLOY_PATH=." >> $GITHUB_ENV
+          else
+            BRANCH_NAME=$(echo "${{ github.ref }}" | sed 's/refs\/heads\///')
+            echo "DEPLOY_PATH=${BRANCH_NAME}" >> $GITHUB_ENV
+          fi
+
+      - name: Upload artifact to Pages
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: dir
+          deployment-path: ${{ env.DEPLOY_PATH }}
 
       - name: Deploy to GitHub Pages
         id: deployment
