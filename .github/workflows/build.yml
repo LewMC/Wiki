@@ -70,12 +70,15 @@ jobs:
             echo "DEPLOY_PATH=${BRANCH_NAME}" >> $GITHUB_ENV
           fi
 
-      - name: Upload artifact to Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: dir
-          deployment-path: ${{ env.DEPLOY_PATH }}
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.4
+        with:
+          target_branch: gh-pages
+          target_path: ${{ env.DEPLOY_PATH }}
+
