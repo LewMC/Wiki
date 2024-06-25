@@ -24,7 +24,7 @@ Snapshot Builds will have a branch bubble that looks similar to this: ![1.6.0-br
 
 <seealso>
     <category ref="opensource">
-        <a href="https://github.com/lewmc/essence">GitHub</a>
-        <a href="https://lewmc.github.io/Essence">JavaDocs</a>
+        <a href="https://github.com/lewmc/jailhouse">GitHub</a>
+        <a href="https://lewmc.github.io/Jailhouse">JavaDocs</a>
     </category>
 </seealso>
