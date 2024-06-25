@@ -1,4 +1,4 @@
-<img src="packstats.png" alt="PackStats">
+<img src="packstats.png" alt="PackStats" />
 
 # PackStats
 
@@ -21,3 +21,10 @@ PackStats is a proposed replacement for YAMPST (Yet Another Modpack Statistic Tr
 1. Record number of runs.
 2. Record average playtime.
 3. Anonymous data (GDPR).
+
+<seealso>
+    <category ref="opensource">
+        <a href="https://github.com/lewmc/packstats">GitHub</a>
+        <a href="https://lewmc.github.io/packstats">JavaDocs</a>
+    </category>
+</seealso>
