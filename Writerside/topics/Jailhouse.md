@@ -17,4 +17,7 @@ Snapshot Builds are unstable, pre-release versions of Jailhouse built as soon as
 
 You should not use these versions in production environments, and you should backup your sever before using them.
 
+The branch name appears in a blue bubble, if this says `main`, it's unlikely that this artifact is different from the standard release builds, and you should download it from the official links shown above.
+Snapshot Builds will have a branch bubble that looks similar to this: ![branch.png](branch.png)
+
 [Download Snapshot Builds](https://github.com/LewMC/Jailhouse/actions/workflows/maven.yml)
