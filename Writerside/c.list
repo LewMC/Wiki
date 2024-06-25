@@ -2,6 +2,6 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
-    <category id="opensource" name="We're open source!" order="1"/>
+    <category id="opensource" name="Looking to develop with us? Here's some resources that might be helpful:" order="1"/>
     <category id="es-commands" name="Essence Commands" order="2"/>
 </categories>

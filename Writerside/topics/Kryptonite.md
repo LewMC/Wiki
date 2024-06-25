@@ -21,3 +21,10 @@ The branch name appears in a blue bubble, if this says `main`, it's unlikely tha
 Snapshot Builds will have a branch bubble that looks similar to this: ![branch.png](branch.png)
 
 [Download Snapshot Builds](https://github.com/LewMC/Kryptonite/actions/workflows/maven.yml)
+
+<seealso>
+    <category ref="opensource">
+        <a href="https://github.com/lewmc/essence">GitHub</a>
+        <a href="https://lewmc.github.io/Essence">JavaDocs</a>
+    </category>
+</seealso>
