@@ -4,6 +4,16 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.5.3
+_2024-06-25_ - Essence 1.5.3 changes how the /home command is handled, and provides additional quality-of-life fixes and improvements.
+
+| Added   | You can now limit the number of homes and warps a player can create by using permissions. [Learn more](ES-Permissions.md#warp-and-home-creation-limits).                                                                                              |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                   |
+| Changed | /home will now list homes if there is no home named "home", instead of telling you it's missing.                                                                                                                                                      |
+| Fixed   | /homes, /warps, and /thomes will now tell you if there's no homes set instead of displaying a blank list when homes/warps have been created in the past. - Fixes a bug where players would be occasionally teleported into the ground when they died. |
+
+
 ## 1.5.2
 _2024-06-20_ - Essence 1.5.2 fixes exceptions in the /team command, teleportation not working as expected, and more.
 
