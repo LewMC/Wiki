@@ -5,13 +5,13 @@
 </warning>
 
 ## 1.5.3
-_2024-06-XX_ - Essence 1.5.3 changes how the /home command is handled, and provides additional quality-of-life fixes and improvements.
+_2024-06-25_ - Essence 1.5.3 changes how the /home command is handled, and provides additional quality-of-life fixes and improvements.
 
-| Added   | You can now limit the number of homes and warps a player can create by using permissions. [Learn more](ES-Permissions.md#warp-and-home-creation-limits). |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                      |
-| Changed | /home will now list homes if there is no home named "home", instead of telling you it's missing.                                                         |
-| Fixed   | /homes, /warps, and /thomes will now tell you if there's no homes set instead of displaying a blank list when homes/warps have been created in the past. |
+| Added   | You can now limit the number of homes and warps a player can create by using permissions. [Learn more](ES-Permissions.md#warp-and-home-creation-limits).                                                                                              |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                   |
+| Changed | /home will now list homes if there is no home named "home", instead of telling you it's missing.                                                                                                                                                      |
+| Fixed   | /homes, /warps, and /thomes will now tell you if there's no homes set instead of displaying a blank list when homes/warps have been created in the past. - Fixes a bug where players would be occasionally teleported into the ground when they died. |
 
 
 ## 1.5.2
