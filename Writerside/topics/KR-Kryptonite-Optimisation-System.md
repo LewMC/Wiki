@@ -37,3 +37,6 @@ Patches applied to upstreams of forks are also applied to their forks (for examp
 | paper-global.yml         | 0       | Paper, Purpur, Pufferfish, Folia, or forks of any of these.         |
 | purpur.yml               | 8       | Purpur, or any forks of this.                                       |
 | pufferfish.yml           | 8       | Purpur, or any forks of this.                                       |
+
+## Treasure Maps
+Kryptonite may change how Treasure Maps appear and generate in the world - see [Treasure Maps](KR-Treasure-Maps.md) for more information.
