@@ -1,14 +1,33 @@
-# Language Files
+# Supported Languages
+
+| Language             | Supported                                          | Since |
+|----------------------|----------------------------------------------------|-------|
+| Bengali              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| British English      | ✅ Fully                                            | 1.0.0 |
+| Chinese (Simplified) | ✅ Fully                                            | 1.6.0 |
+| French               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| German               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Hindi                | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Japanese             | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Korean               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Portuguese           | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Spanish              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Turkish              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Vietnamese           | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+
+## Translate Essence
+We use Crowdin to provide translations for Essence, it automatically synchronises to our GitHub repository so any changes are automatically pushed with the next Essence update.
+
+Translate to Crowdin: [https://crowdin.com/project/lewmc-essence](https://crowdin.com/project/lewmc-essence)
+
+## Language Files
 
 Language files are used in Essence to serve messages to players
 
 These are automatically updated whenever you update your plugin.
 
-We currently only support en-gb, you can see a [template here](https://github.com/lewmilburn/Essence/blob/main/src/main/resources/language/en-gb.yml) if you'd like to create a translation. If you have created a translation and would like to add it to Essence please open an issue on our [GitHub](https://github.com/lewmc/essence), thank you.
-
-## Creating a new language file.
-> Essence may require restarting after changing the file it uses to grab messages, if you're editing a file that is already set as active in config, no restart is required.
-
+### Creating a new Language File
+> Please consider translating essence to [Crowdin](https://crowdin.com/project/lewmc-essence) so that others can use the language too!
 1. Create a new .yml file in the /plugins/essence/languages folder. You should give it a unique name such as custom.yml
 2. Copy the contents of en-gb.yml to this file.
 3. Customise any messages you wish to.
