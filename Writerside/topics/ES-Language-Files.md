@@ -1,19 +1,19 @@
 # Supported Languages
 
-| Language             | Supported                                          | Since |
-|----------------------|----------------------------------------------------|-------|
-| Bengali              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| British English      | ✅ Fully                                            | 1.0.0 |
-| Chinese (Simplified) | ✅ Fully                                            | 1.6.0 |
-| French               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| German               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Hindi                | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Japanese             | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Korean               | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Portuguese           | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Spanish              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Turkish              | ❌ File exists in snapshot versions, not translated | 1.6.0 |
-| Vietnamese           | ❌ File exists in snapshot versions, not translated | 1.6.0 |
+| Language             | Code  | Supported                                        | Since |
+|----------------------|-------|--------------------------------------------------|-------|
+| Bengali              | bn-BD | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| British English      | en-GB | ✅ Fully                                          | 1.0.0 |
+| Chinese (Simplified) | zn-CN | ✅ Fully                                          | 1.6.0 |
+| French               | fr-FR | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| German               | de-DE | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Hindi                | hi-IN | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Japanese             | ja-JP | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Korean               | ko-KR | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Portuguese           | pt-PT | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Spanish              | es-ES | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Turkish              | tr-TR | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Vietnamese           | vi-VN | ❌ File exists but is not enabled, not translated | 1.6.0 |
 
 ## Translate Essence
 We use Crowdin to provide translations for Essence, it automatically synchronises to our GitHub repository so any changes are automatically pushed with the next Essence update.
