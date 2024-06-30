@@ -158,10 +158,11 @@ Wildcard permission: essence.team.*
 ## Administration Commands
 Wildcard permission: essence.admin.*
 
-| Command      | Permission Required | Description                                     | Usage       | Console can run? |
-|--------------|---------------------|-------------------------------------------------|-------------|------------------|
-| /seen <name> | essence.admin.seen  | Displays the player's last login date and time. | /seen Notch | Yes              |
-| /info <name> | essence.admin.info  | Displays information about the player.          | /info Notch | Yes              |
+| Command      | Permission Required  | Description                                     | Usage       | Console can run? |
+|--------------|----------------------|-------------------------------------------------|-------------|------------------|
+| /seen <name> | essence.admin.seen   | Displays the player's last login date and time. | /seen Notch | Yes              |
+| /info <name> | essence.admin.info   | Displays information about the player.          | /info Notch | Yes              |
+| /reload      | essence.admin.reload | Reloads Essence's configuration.                | /reload     | Yes              |
 
 <seealso>
     <category ref="es-commands">
