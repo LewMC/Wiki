@@ -1,5 +1,7 @@
 # Commands
 
+> See also: [Permissions](ES-Permissions.md)
+
 ## Main Command
 This is the full list of commands included in the most recent version of Essence. Commands [can be disabled](ES-Disabling-Commands.md) by server administrators.
 
@@ -153,13 +155,13 @@ Wildcard permission: essence.team.*
 | /team rule <rule> <value>                | essence.team.manage        | Set the value of a team rule.                   |                                    | No               |
 | Team home commands                       | See home commands section. |                                                 |                                    |                  |
 
-## Player Information Commands
-Wildcard permission: essence.playerinfo.*
+## Administration Commands
+Wildcard permission: essence.admin.*
 
-| Command      | Permission Required        | Description                                     | Usage       | Console can run? |
-|--------------|----------------------------|-------------------------------------------------|-------------|------------------|
-| /seen <name> | essence.playerinfo.seen    | Displays the player's last login date and time. | /seen Notch | Yes              |
-| /info <name> | essence.playerinfo.info    | Displays information about the player.          | /info Notch | Yes              |
+| Command      | Permission Required | Description                                     | Usage       | Console can run? |
+|--------------|---------------------|-------------------------------------------------|-------------|------------------|
+| /seen <name> | essence.admin.seen  | Displays the player's last login date and time. | /seen Notch | Yes              |
+| /info <name> | essence.admin.info  | Displays information about the player.          | /info Notch | Yes              |
 
 <seealso>
     <category ref="es-commands">
