@@ -119,9 +119,11 @@ Wildcard permission: essence.stats.* and essence.stats.other.*
 ## Chat Commands
 Wildcard permission: essence.chat.*
 
-| Command              | Permission Required    | Description                          | Usage                                    | Console can run? |
-|----------------------|------------------------|--------------------------------------|------------------------------------------|------------------|
-| /broadcast <message> | essence.chat.broadcast | Send a message to the entire server. | /broadcast This is an example broadcast. | Yes              |
+| Command                       | Permission Required    | Description                                            | Usage                                    | Console can run? |
+|-------------------------------|------------------------|--------------------------------------------------------|------------------------------------------|------------------|
+| /broadcast <message>          | essence.chat.broadcast | Send a message to the entire server.                   | /broadcast This is an example broadcast. | Yes              |
+| /msg <name> <message>         | essence.chat.msg       | Send a message to a specific user.                     | /msg Notch Hello there!                  | Yes              |
+| /reply <message> /r <message> | essence.chat.reply     | Reply to the last user who sent you a private message. | /r Hey back to you!                      | Yes              |
 
 ## Economy Commands
 Wildcard permission: essence.economy.*
