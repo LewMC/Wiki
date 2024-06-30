@@ -12,6 +12,10 @@ If you use wildcard permissions, you don't need to give players other permission
 Alternatively, you can use granular permissions if there are only certain commands in a section you'd like players to be able to use. They look like this:
 essence.gamemode.survival
 
+### Administrator Wildcard
+
+essence.* provides access to all Essence commands, this is useful for administrators.
+
 ## Warp and Home Creation Limits
 By default, users can create as many warps and homes as they'd like. You can limit this by using permissions.
 

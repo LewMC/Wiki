@@ -153,6 +153,14 @@ Wildcard permission: essence.team.*
 | /team rule <rule> <value>                | essence.team.manage        | Set the value of a team rule.                   |                                    | No               |
 | Team home commands                       | See home commands section. |                                                 |                                    |                  |
 
+## Player Information Commands
+Wildcard permission: essence.playerinfo.*
+
+| Command      | Permission Required        | Description                                     | Usage       | Console can run? |
+|--------------|----------------------------|-------------------------------------------------|-------------|------------------|
+| /seen <name> | essence.playerinfo.seen    | Displays the player's last login date and time. | /seen Notch | Yes              |
+| /info <name> | essence.playerinfo.info    | Displays information about the player.          | /info Notch | Yes              |
+
 <seealso>
     <category ref="es-commands">
         <a href="ES-Teams.md">Teams</a>
