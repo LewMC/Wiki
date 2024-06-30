@@ -162,7 +162,7 @@ Wildcard permission: essence.admin.*
 |--------------|----------------------|-------------------------------------------------|-------------|------------------|
 | /seen <name> | essence.admin.seen   | Displays the player's last login date and time. | /seen Notch | Yes              |
 | /info <name> | essence.admin.info   | Displays information about the player.          | /info Notch | Yes              |
-| /reload      | essence.admin.reload | Reloads Essence's configuration.                | /reload     | Yes              |
+| /es reload   | essence.admin.reload | Reloads Essence's configuration.                | /es reload  | Yes              |
 
 <seealso>
     <category ref="es-commands">
