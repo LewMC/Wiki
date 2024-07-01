@@ -6,11 +6,19 @@ Permissions are listed in the tables on the [commands page](ES-Commands.md).
 
 ## Wildcards vs Granular
 Essence uses Wildcard permissions for some commands. The wildcard permission can be used if you'd like to give users access to all commands in that section, it makes writing permissions a whole lot faster! Wildcard permissions are shows at the top of each section. They look like this:
-essence.gamemode.*
+`essence.gamemode.*`
 If you use wildcard permissions, you don't need to give players other permissions from that section. For example if you use essence.gamemode.* you don't need to also use essence.gamemode.survival as that permission is included in the wildcard.
 
 Alternatively, you can use granular permissions if there are only certain commands in a section you'd like players to be able to use. They look like this:
-essence.gamemode.survival
+`essence.gamemode.survival`
+
+### Administrator Wildcard
+
+`essence.*` provides access to all standard Essence commands, this is useful for administrators.
+
+`essence.admin.*` provides access to all Essence administrator commands, this is useful for administrators.
+
+Administrators who require access to _everything_ should be given both these permissions.
 
 ## Warp and Home Creation Limits
 By default, users can create as many warps and homes as they'd like. You can limit this by using permissions.

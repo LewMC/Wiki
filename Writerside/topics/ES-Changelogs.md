@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.6.0
+_2024-07-XX_ - Essence 1.6.0 adds a whole host of new features including Vault integration.
+
+| Added   | Essence can now be used as an economy provider for other plugins when [Vault](https://www.spigotmc.org/resources/vault.34315/) is installed. - Added /es reload, /msg, /reply, /rules, /seen, and /info commands. - Added Simplified Chinese (zh-CN) translation, very limited French (fr-FR) translation. |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                        |
+| Changed | /broadcast now appears in /es help.                                                                                                                                                                                                                                                                        |
+| Fixed   | essence.* wildcard was not working correctly. - Fixed some aliases being incorrect.                                                                                                                                                                                                                        |
+
 ## 1.5.3
 _2024-06-25_ - Essence 1.5.3 changes how the /home command is handled, and provides additional quality-of-life fixes and improvements.
 
@@ -13,7 +22,6 @@ _2024-06-25_ - Essence 1.5.3 changes how the /home command is handled, and provi
 | Changed | /home will now list homes if there is no home named "home", instead of telling you it's missing.                                                                                                                                                      |
 | Fixed   | /homes, /warps, and /thomes will now tell you if there's no homes set instead of displaying a blank list when homes/warps have been created in the past. - Fixes a bug where players would be occasionally teleported into the ground when they died. |
 
-
 ## 1.5.2
 _2024-06-20_ - Essence 1.5.2 fixes exceptions in the /team command, teleportation not working as expected, and more.
 
@@ -22,7 +30,6 @@ _2024-06-20_ - Essence 1.5.2 fixes exceptions in the /team command, teleportatio
 | Removed | Nothing was removed in this update.                                                                                                                                                                           |
 | Changed | Teleportation can now handle more types of teleportation.                                                                                                                                                     |
 | Fixed   | Exception when /team is ran by the console is now handled correctly. - Teleporting a player to a coordinate will now teleport that player instead of you. - Debug code left in accidentally has been removed. |
-
 
 ## 1.5.1
 _2024-06-18_ - Essence 1.5.1 fixes players not respawning correctly and the /world command failing on non-vanilla generated worlds.

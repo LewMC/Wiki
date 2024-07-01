@@ -1,5 +1,7 @@
 # Commands
 
+> See also: [Permissions](ES-Permissions.md)
+
 ## Main Command
 This is the full list of commands included in the most recent version of Essence. Commands [can be disabled](ES-Disabling-Commands.md) by server administrators.
 
@@ -117,9 +119,11 @@ Wildcard permission: essence.stats.* and essence.stats.other.*
 ## Chat Commands
 Wildcard permission: essence.chat.*
 
-| Command              | Permission Required    | Description                          | Usage                                    | Console can run? |
-|----------------------|------------------------|--------------------------------------|------------------------------------------|------------------|
-| /broadcast <message> | essence.chat.broadcast | Send a message to the entire server. | /broadcast This is an example broadcast. | Yes              |
+| Command                       | Permission Required    | Description                                            | Usage                                    | Console can run? |
+|-------------------------------|------------------------|--------------------------------------------------------|------------------------------------------|------------------|
+| /broadcast <message>          | essence.chat.broadcast | Send a message to the entire server.                   | /broadcast This is an example broadcast. | Yes              |
+| /msg <name> <message>         | essence.chat.msg       | Send a message to a specific user.                     | /msg Notch Hello there!                  | Yes              |
+| /reply <message> /r <message> | essence.chat.reply     | Reply to the last user who sent you a private message. | /r Hey back to you!                      | Yes              |
 
 ## Economy Commands
 Wildcard permission: essence.economy.*
@@ -152,6 +156,22 @@ Wildcard permission: essence.team.*
 | /team rule <rule>                        | essence.team.manage        | View the value of a team rule.                  | /team rule                         | No               |
 | /team rule <rule> <value>                | essence.team.manage        | Set the value of a team rule.                   |                                    | No               |
 | Team home commands                       | See home commands section. |                                                 |                                    |                  |
+
+## Administration Commands
+Wildcard permission: essence.admin.*
+
+| Command                    | Permission Required  | Description                                     | Usage                    | Console can run? |
+|----------------------------|----------------------|-------------------------------------------------|--------------------------|------------------|
+| /seen <name>               | essence.admin.seen   | Displays the player's last login date and time. | /seen Notch              | Yes              |
+| /info <name> /pinfo <name> | essence.admin.info   | Displays information about the player.          | /info Notch /pinfo Notch | Yes              |
+| /es reload                 | essence.admin.reload | Reloads Essence's configuration.                | /es reload               | Yes              |
+
+## Miscellaneous Commands
+Wildcard permission: None
+
+| Command                    | Permission Required  | Description            | Usage  | Console can run? |
+|----------------------------|----------------------|------------------------|--------|------------------|
+| /rules                     | essence.rules        | View the server rules. | /rules | Yes              |
 
 <seealso>
     <category ref="es-commands">
