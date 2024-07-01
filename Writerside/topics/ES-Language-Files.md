@@ -29,6 +29,6 @@ These are automatically updated whenever you update your plugin.
 ### Creating a new Language File
 > Please consider translating essence to [Crowdin](https://crowdin.com/project/lewmc-essence) so that others can use the language too!
 1. Create a new .yml file in the /plugins/essence/languages folder. You should give it a unique name such as custom.yml
-2. Copy the contents of en-gb.yml to this file.
+2. Copy the contents of ![en-gb.yml](en-gb.yml.png) to this file.
 3. Customise any messages you wish to.
 4. Change the language option in config.yml to the name of your file without the yml ending (e.g. "custom").

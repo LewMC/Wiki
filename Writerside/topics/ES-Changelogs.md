@@ -7,11 +7,11 @@
 ## 1.6.0
 _2024-07-XX_ - Essence 1.6.0 adds a whole host of new features including Vault integration.
 
-| Added   | Essence can now be used as an economy provider for other plugins when [Vault](https://www.spigotmc.org/resources/vault.34315/) is installed. - Added /es reload, /msg, /reply, /seen, and /info commands. - Added Simplified Chinese (zh-CN) translation. |
-|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                                                                                                                       |
-| Changed | /broadcast now appears in /es help.                                                                                                                                                                                                                       |
-| Fixed   | essence.* wildcard was not working correctly. - Fixed some aliases being incorrect.                                                                                                                                                                       |
+| Added   | Essence can now be used as an economy provider for other plugins when [Vault](https://www.spigotmc.org/resources/vault.34315/) is installed. - Added /es reload, /msg, /reply, /seen, and /info commands. - Added Simplified Chinese (zh-CN) translation, very limited French (fr-FR) translation. |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                |
+| Changed | /broadcast now appears in /es help.                                                                                                                                                                                                                                                                |
+| Fixed   | essence.* wildcard was not working correctly. - Fixed some aliases being incorrect.                                                                                                                                                                                                                |
 
 ## 1.5.3
 _2024-06-25_ - Essence 1.5.3 changes how the /home command is handled, and provides additional quality-of-life fixes and improvements.
