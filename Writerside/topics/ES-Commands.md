@@ -166,6 +166,13 @@ Wildcard permission: essence.admin.*
 | /info <name> /pinfo <name> | essence.admin.info   | Displays information about the player.          | /info Notch /pinfo Notch | Yes              |
 | /es reload                 | essence.admin.reload | Reloads Essence's configuration.                | /es reload               | Yes              |
 
+## Miscellaneous Commands
+Wildcard permission: None
+
+| Command                    | Permission Required  | Description            | Usage  | Console can run? |
+|----------------------------|----------------------|------------------------|--------|------------------|
+| /rules                     | essence.rules        | View the server rules. | /rules | Yes              |
+
 <seealso>
     <category ref="es-commands">
         <a href="ES-Teams.md">Teams</a>
