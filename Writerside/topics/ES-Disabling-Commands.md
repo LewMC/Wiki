@@ -15,12 +15,12 @@ To disable commands in Essence, you can add them to a list in the configuration 
 If you're looking to disable a command because you prefer another plugin's (or vanilla's) alternative, this system likely won't work for you.
 Spigot requires Essence to register commands in the plugin.yml file, because of this the server still expects the command to work.
 
-In Essence 1.6.0 and below, Essence will refuse to process the command, causing the default error message to appear in chat.
-Here's an example with the /tp command disabled:
+In **Essence 1.6.0 and below**, Essence will refuse to process the command, causing the default error message to appear in chat.
+Here's an example with the `/tp` command disabled:
 
 ![es-disabling-commands.png](es-disabling-commands.png)
 
-In Essence 1.6.1 and above, this will only happen if `verbose` is set to `true` in Essence's config.yml, otherwise nothing will appear in the chat or console.
+In **Essence 1.6.1 and above**, this will only happen if `verbose` is set to `true` in Essence's config.yml, otherwise nothing will appear in the chat or console.
 
 If you want to use a vanilla command, you can append minecraft: to it. For example: /minecraft:teleport
 
