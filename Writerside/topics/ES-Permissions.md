@@ -1,5 +1,9 @@
 # Permissions
 
+<warning>
+Using plugin reloaders can cause permissions lookups to fail. <a href="ES-Troubleshooting.md">Learn more</a>
+</warning>
+
 You need to give your players permission to access certain commands. By default, all Essence commands are restricted to players with permissions. You can use a permission system such as LuckPerms (highly recommended) to give players these permissions. Server operators ("ops") can access every Essence command without requiring permissions.
 
 Permissions are listed in the tables on the [commands page](ES-Commands.md).

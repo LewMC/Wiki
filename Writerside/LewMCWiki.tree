@@ -33,6 +33,7 @@
                 <toc-element topic="KR-Treasure-Maps.md"/>
             </toc-element>
             <toc-element topic="KR-Exploit-Database.md"/>
+            <toc-element topic="KR-Troubleshooting.md"/>
         </toc-element>
         <toc-element topic="Jailhouse.md">
             <toc-element topic="JH-Changelogs.md"/>

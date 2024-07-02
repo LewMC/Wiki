@@ -18,3 +18,12 @@ If this is not causing the issue please [open an issue](https://github.com/lewmc
 ### Pre-1.6.0
 Please delete your en-gb.yml file and restart your server.
 Please note that earlier versions are no longer supported for bug-fixes, and we recommend updating Essence.
+
+## Reloading Essence
+Reloading your server using the /reload command, or reloading Essence using a plugin such as Plugman can cause a huge number of issues.
+
+As such, we will not provide support for plugin reloaders.
+
+Issues caused can range from permissions lookups failing, memory leaks, zip file exceptions, and more.
+
+We **highly** recommend restarting your server instead of reloading it.
