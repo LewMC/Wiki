@@ -27,3 +27,5 @@ As such, we will not provide support for plugin reloaders.
 Issues caused can range from permissions lookups failing, memory leaks, zip file exceptions, and more.
 
 We **highly** recommend restarting your server instead of reloading it.
+
+For more information on the issue please read [https://madelinemiller.dev/blog/problem-with-reload](https://madelinemiller.dev/blog/problem-with-reload)
