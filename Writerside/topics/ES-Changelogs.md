@@ -7,11 +7,11 @@
 ## 1.6.1
 _2024-07-XX_ - Essence 1.6.1 changes how teleportation and command disabling works, and allows importing of data from other plugins.
 
-| Added   | The ~ operator is now supported on /tp commands. - Importing homes, warps, and spawns from EssentialsX.                                                                                    |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                                                        |
-| Changed | Command disabling will now not send the default error message is `verbose` is set to `false` in config.yml. - Permissions can now fallback to Bukkit if Essence couldn't determine access. |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                |
+| Added   | The ~ operator is now supported on /tp commands. - Importing homes, warps, and spawns from EssentialsX.                                                                                                                                    |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                        |
+| Changed | Command disabling will now remove the command from /es help and will no longer send the default error message if `verbose` is set to `false` in config.yml. - Permissions can now fallback to Bukkit if Essence couldn't determine access. |
+| Fixed   | Added missing /kit and team home commands to /es help.                                                                                                                                                                                     |
 
 ## 1.6.0
 _2024-07-01_ - Essence 1.6.0 adds a whole host of new features including Private Messaging, new Language support, and Vault integration.

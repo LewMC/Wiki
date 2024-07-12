@@ -11,7 +11,13 @@ To disable commands in Essence, you can add them to a list in the configuration 
 4. Restart your server or run `/es reload`.
 
 Commands will not execute or appear in /es help, but may still appear in /help, /?, and autocomplete menus.
-You will receive no messages or feedback if you attempt to execute a disabled command unless `verbose` is `true` is Essence's config.yml file.
+
+## Command Feedback
+By default, when a user executes a disabled command they will receive a message informing them that a command is disabled.
+
+If you'd like nothing to happen, no message or feedback, you should set `disabled-commands-feedback` to `false` in config.yml
+
+If you'd like the default error message to appear instead, you can enable `verbose` in `config.yml`, but this may create additional console spam due to extensive logging whist this mode is enabled.
 
 ## Command List
 Most command codes are what you'd expect, but since we use aliases for our commands, some codes may be different that what you're used to.
@@ -112,7 +118,7 @@ Here's an example with the `/tp` command disabled:
 
 ![es-disabling-commands.png](es-disabling-commands.png)
 
-In **Essence 1.6.1 and above**, this will only happen if `verbose` is set to `true` in Essence's config.yml, otherwise nothing will appear in the chat or console.
+In **Essence 1.6.1 and above**, this will only happen if `verbose` is set to `true` in Essence's config.yml, otherwise by default the user will receive an error message. [Learn more](#command-feedback).
 
 If you want to use a vanilla command, you can append minecraft: to it. For example: /minecraft:teleport
 
