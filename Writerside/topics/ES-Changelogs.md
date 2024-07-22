@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.7.0
+_2024-07-22_ - Essence 1.7.0 adds some quality of life features, changes how teleportation and command disabling works, and allows importing of data from other plugins.
+
+| Added   | Custom player joining and leaving messages - The ~ operator is now supported on /tp commands. - Importing homes, warps, and spawns from EssentialsX.                                                                                                                                                                                                                      |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                                                                                       |
+| Changed | Changed to new functions internally that should speed up processing of chat messages. - Command disabling will now remove the command from /es help and will no longer send the default error message if `verbose` is set to `false` in config.yml. [Learn more](ES-Disabling-Commands.md) - Permissions can now fallback to Bukkit if Essence couldn't determine access. |
+| Fixed   | Fixing not having permissions causing default error message to appear. - Added missing /kit and team home commands to /es help.                                                                                                                                                                                                                                           |
+
 ## 1.6.0
 _2024-07-01_ - Essence 1.6.0 adds a whole host of new features including Private Messaging, new Language support, and Vault integration.
 
