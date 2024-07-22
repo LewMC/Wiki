@@ -1,7 +1,7 @@
 # Disabling Commands
-<i>
-This feature is not recommended in versions of Essence below 1.6.1 due to console spam. Please consider alternatives such as permissions.
-</i>
+<warning>
+<strong>This feature is not recommended in versions of Essence below 1.6.1 due to console spam.</strong> Please consider alternatives such as permissions.
+</warning>
 
 To disable commands in Essence, you can add them to a list in the configuration file.
 
