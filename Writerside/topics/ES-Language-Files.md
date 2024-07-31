@@ -4,7 +4,7 @@
 |----------------------|-------|--------------------------------------------------|-------|
 | Bengali              | bn-BD | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | British English      | en-GB | ✅ Fully                                          | 1.0.0 |
-| Chinese (Simplified) | zn-CN | ✅ Fully                                          | 1.6.0 |
+| Chinese (Simplified) | zh-CN | ✅ Fully                                          | 1.6.0 |
 | French               | fr-FR | ⚠ Limited support                                | 1.6.0 |
 | German               | de-DE | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Hindi                | hi-IN | ❌ File exists but is not enabled, not translated | 1.6.0 |
