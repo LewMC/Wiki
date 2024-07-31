@@ -1,5 +1,7 @@
 # Supported Languages
 
+> Is your language not translated? You can help - scroll down to learn more!
+
 | Language             | Code  | Supported                                        | Since |
 |----------------------|-------|--------------------------------------------------|-------|
 | Bengali              | bn-BD | ❌ File exists but is not enabled, not translated | 1.6.0 |
@@ -11,6 +13,7 @@
 | Japanese             | ja-JP | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Korean               | ko-KR | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Portuguese           | pt-PT | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Romanian             | ro-RO | ❌ File exists but is not enabled, not translated | 1.7.1 |
 | Spanish              | es-ES | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Turkish              | tr-TR | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Vietnamese           | vi-VN | ❌ File exists but is not enabled, not translated | 1.6.0 |
