@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.7.1
+_2024-08-06_ - Essence 1.7.1 is a hotfix for v1.7.0, fixing issues when players respawn if they've set a respawn location bed.
+
+| Added   | Nothing was added in this updated.                                                                                                                                                                                   |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                  |
+| Changed | Nothing was changed in this update.                                                                                                                                                                                  |
+| Fixed   | [Issue #145](https://github.com/LewMC/Essence/issues/145) - Fixes an exception when players would teleport to their set respawn bed location using /spawn, /world, or by respawning after death or dimension change. |
+
 ## 1.7.0
 _2024-07-22_ - Essence 1.7.0 adds some quality of life features, changes how teleportation and command disabling works, and allows importing of data from other plugins.
 
