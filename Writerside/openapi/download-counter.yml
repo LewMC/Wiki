@@ -55,6 +55,10 @@ paths:
                         type: integer
                         description: The total latest download statistic across all sources
                         example: 9000
+                  last_updated:
+                    type: integer
+                    description: Timestamp for when the resource's download count was last updated.
+                    example: 1722940838
         '404':
           description: Unable to find resource
           content:

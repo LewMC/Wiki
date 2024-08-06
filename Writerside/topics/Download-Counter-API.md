@@ -8,6 +8,8 @@ https://service.lewmc.net/download-counter?resource=[RESOURCE]
 
 Adding &format=true to the URL formats the number counts as strings with commas for values over 1,000.
 
+Results from this API are cached for 24 hours.
+
 <api-doc openapi-path="../openapi/download-counter.yml"></api-doc>
 
 ## Resources
