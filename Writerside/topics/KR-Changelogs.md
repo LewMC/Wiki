@@ -5,7 +5,7 @@
 </warning>
 
 ## 1.4.0
-_2024-06-24_ - This version adds a GUI to KOS to allow administrators to select the profile that should be used in-game without having to access any configuration files. We've also added a new mob farm friendly profile.
+_2024-09-24_ - This version adds a GUI to KOS to allow administrators to select the profile that should be used in-game without having to access any configuration files. We've also added a new mob farm friendly profile.
 
 | Added   | Administrators can now select a KOS profile without having to access any configuration files if they run the command in-game, new FarmFriendly [profile](KR-Profiles.md) to prevent breaking mob farms. |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
