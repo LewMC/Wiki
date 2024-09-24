@@ -4,10 +4,19 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.7.2
+_2024-09-23_ - Essence 1.7.2 updates libraries used by Essence to add greater compatability with Folia.
+
+| Added   | Nothing was added in this update.                                              |
+|---------|--------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                            |
+| Changed | Updated bstats-bukkit to version 3.1.0 - Updated commons-io to version 2.17.0. |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                    |
+
 ## 1.7.1
 _2024-08-06_ - Essence 1.7.1 is a hotfix for v1.7.0, fixing issues when players respawn if they've set a respawn location bed.
 
-| Added   | Nothing was added in this updated.                                                                                                                                                                                   |
+| Added   | Nothing was added in this update.                                                                                                                                                                                    |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                                                  |
 | Changed | Nothing was changed in this update.                                                                                                                                                                                  |
