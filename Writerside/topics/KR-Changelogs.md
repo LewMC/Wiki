@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.4.0
+_2024-09-24_ - This version adds a GUI to KOS to allow administrators to select the profile that should be used in-game without having to access any configuration files. We've also added a new mob farm friendly profile.
+
+| Added   | Administrators can now select a KOS profile without having to access any configuration files if they run the command in-game, new FarmFriendly [profile](KR-Profiles.md) to prevent breaking mob farms. |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                     |
+| Changed | Updated bstats to version 3.1.0 for better Folia compatibility.                                                                                                                                         |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                             |
+
 ## 1.3.0
 _2024-06-06_ - This version adds support for Folia, adds KOS profiles, and warns server administrator is it detects plugins that may cause additional lag.
 
