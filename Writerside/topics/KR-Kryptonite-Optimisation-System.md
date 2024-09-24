@@ -1,5 +1,9 @@
 # Kryptonite Optimisation System
 
+<warning>
+    <b>This guide applies to Kryptonite 1.4.0 and above.</b> KOS received major changes and improvements in this version. We highly recommend updating.
+</warning>
+
 The Kryptonite Optimisation System (KOS) is the optimisation system that runs on Kryptonite.
 
 It works by modifying configuration files to match values preconfigured in Kryptonite [profiles](KR-Profiles.md). This is **not** a one-size fits all system, and you may wish to modify these values depending on your specific needs.

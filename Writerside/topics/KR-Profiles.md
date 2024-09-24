@@ -1,4 +1,7 @@
 # Profiles
+<warning>
+    <b>This guide applies to Kryptonite 1.4.0 and above.</b> KOS received major changes and improvements in this version. We highly recommend updating.
+</warning>
 
 <warning>
 <strong>Custom profiles MUST have all the options present in the provided profile to work correctly.</strong> There is currently no detection for missing values and leaving values blank <u>will break your server</u>.
