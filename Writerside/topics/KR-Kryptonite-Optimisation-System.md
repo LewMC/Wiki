@@ -11,32 +11,9 @@ It works by modifying configuration files to match values preconfigured in Krypt
 Kryptonite does not optimise the server directly, it enables a number of configuration optimisations built-in to your server software. Because of this you can uninstall the software after running the command, as Kryptonite does not need to be on the server once the process has been completed. However, keeping Kryptonite on the server will give you update messages which may contain additional optimisations in the future.
 
 ## Using KOS
-### In-game
-> This is the recommended way to use KOS.
+See [how to use KOS](KR-KOS-Guide.md)
 
-Run /kos in-game (you must be an operator), select the profile you'd like to use, and then tell KOS if your world is pre-generated.
-
-That's it! Once you're done, you can uninstall Kryptonite or keep it for update notifications.
-
-### From the console
-First, check the profile you want to use is selected (see [configuration](KR-Configuration.md)).
-
-Run /kos, then follow the instructions.
-
-That's it! Once you're done, you can uninstall Kryptonite or keep it for update notifications.
-
-### Custom Profiles
-If you don't like the profiles we've provided, you can make your own! See [profiles](KR-Profiles.md) for more information.
-
-### After KOS has finished.
-Once you get the message saying it's done, restart your server and you're done! You can uninstall Kryptonite if you'd like to, or try the [Exploit Database](KR-Exploit-Database.md) next.
-
-We recommend leaving Kryptonite installed so you get notified of any updates that may add new patches to the system.
-
-Please note that for Purpur does not receive Pufferfish patches, and Pufferfish does not receive Purpur patches. Both receive all other patches.
-
-Patches applied to upstreams of forks are also applied to their forks (for example: Paper gets Paper, Spigot, CraftBukkit, and Vanilla patches).
-
+## Supported patches
 | File                     | Patches | Supported server jars                                               |
 |--------------------------|---------|---------------------------------------------------------------------|
 | server.properties        | 4       | All                                                                 |

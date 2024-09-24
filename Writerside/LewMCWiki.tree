@@ -30,6 +30,7 @@
             <toc-element topic="KR-Commands.md"/>
             <toc-element topic="KR-System-Requirements.md"/>
             <toc-element topic="KR-Kryptonite-Optimisation-System.md">
+                <toc-element topic="KR-KOS-Guide.md"/>
                 <toc-element topic="KR-Profiles.md"/>
                 <toc-element topic="KR-Treasure-Maps.md"/>
             </toc-element>

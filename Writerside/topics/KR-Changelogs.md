@@ -4,6 +4,16 @@
 <strong>You should always run the latest version of all software!</strong> That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 2.0.0
+_2024-XX-XX_ - This version overhauls the Kryptonite Optimisation System to allow you to make more informed decisions about how to optimise your server.
+
+| Added   | Added new KOS menu - Added new "Wizard" mode to help optimise better. |
+|---------|-----------------------------------------------------------------------|
+| Removed | KOS Profiles have been removed.                                       |
+| Changed | KOS overhaul - see additions and removals.                            |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?           |
+
+
 ## 1.4.0
 _2024-09-24_ - This version adds a GUI to KOS to allow administrators to select the profile that should be used in-game without having to access any configuration files. We've also added a new mob farm friendly profile.
 
