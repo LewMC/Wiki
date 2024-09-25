@@ -1,8 +1,14 @@
 # System Requirements
 
+<warning>
+    <strong>Legacy versions of Kryptonite are no longer supported.</strong>
+    If you haven't already, we highly recommend updating to Kryptonite 2.0.0 or newer.
+</warning>
+
 | Kryptonite Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
 |--------------------|--------------------|---------------------------------------------------------------|--------------|----------------|
-| 1.3.0+             | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
+| 2.0.0+             | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
+| 1.3.0 - 1.4.0      | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | No             |
 | 1.0.0 - 1.2.0      | > 1.20.0           | CraftBukkit, Spigot, Paper, or a fork of these (except Folia) | 21           | No             |
 
 ## Version Support

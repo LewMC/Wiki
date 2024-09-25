@@ -1,7 +1,13 @@
 # Changelogs
 
 <warning>
-<strong>You should always run the latest version of all software!</strong> That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
+    <strong>You should always run the latest version of all software!</strong>
+    That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
+</warning>
+
+<warning>
+    <strong>Legacy versions of Kryptonite are no longer supported.</strong>
+    If you haven't already, we highly recommend updating to Kryptonite 2.0.0 or newer.
 </warning>
 
 ## 2.0.0
