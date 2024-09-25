@@ -20,12 +20,22 @@ To change values, simply click on the value you'd like to change! Left clicking 
 
 You can hold the shift key whilst clicking to change the value by 10 either way (depending on which mouse key you click). For example Shift+Left click will decrease the value by 10.
 
+You don't have to have all the blocks green, if your server is running fine with some red - leave it! If it begins to lag, consider reducing the red blocks until it's less laggy.
+
 ### Block Colours
-| Colour | Meaning                                                                                                                                                                                                                                                                                                                          |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Green  | This is an ideal value for this option. Please note that ideal values may be in a range, so you can sometimes go a few options either way.                                                                                                                                                                                       |
-| Red    | This value will likely impact the performance of your server. Hovering over the block will tell you if it's too high or too low.                                                                                                                                                                                                 |
-| Orange | This value will likely impact the experience your players have on your server, as it may differ too far from typical Minecraft behaviour. This may include some features not working as expected, or certain technical skills such as mob farms being broken. Hovering over the block will tell you if it's too high or too low. |
+We use block colours to show the ideal values for each option, some ideal values may have a range, so you can typically go a few spaces either way.
+
+Hovering over the block will give you more information about what the value is, and what we recommend.
+
+You don't have to have all the blocks green, if your server is running fine with some red - leave it! If it begins to lag, consider reducing the red blocks until it's less laggy.
+
+| Colour       | Meaning                                                                                                                                                                                                                                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Green        | This is an ideal value for this option. Please note that ideal values may be in a range, so you can sometimes go a few options either way.                                                                                                                                                                                       |
+| Red          | This value will likely impact the performance of your server. Hovering over the block will tell you if it's too high or too low.                                                                                                                                                                                                 |
+| Orange       | This value will likely impact the experience your players have on your server, as it may differ too far from typical Minecraft behaviour. This may include some features not working as expected, or certain technical skills such as mob farms being broken. Hovering over the block will tell you if it's too high or too low. |
+| White        | This value is ambiguous. This means that it may have been set by another configuration file, and also setting it here may become confusing or cause unexpected behaviors. Hovering over the block should tell you what to do instead.                                                                                            | 
+| Barrier Icon | Something went wrong, please send a screenshot to github.com/lewmc/kryptonite/issues so that we can investigate it. Deleting the affected config file then restarting your server should fix this.                                                                                                                               | 
 
 ## When you're done
 You must restart your server for values set in KOS to be applied.
