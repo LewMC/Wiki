@@ -24,6 +24,9 @@ Alternatively, you can use granular permissions if there are only certain comman
 
 Administrators who require access to _everything_ should be given both these permissions.
 
+## Update Alerts
+`essence.admin.updates` shows update alerts in the chat when first joining.
+
 ## Warp and Home Creation Limits
 By default, users can create as many warps and homes as they'd like. You can limit this by using permissions.
 
