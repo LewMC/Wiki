@@ -11,13 +11,13 @@
 </warning>
 
 ## 2.0.0
-_2024-XX-XX_ - This version overhauls the Kryptonite Optimisation System to allow you to make more informed decisions about how to optimise your server.
+_2025-01-11_ - This version overhauls the Kryptonite Optimisation System to allow you to make more informed decisions about how to optimise your server.
 
-| Added   | Added new KOS menu - Added new "Wizard" mode to help optimise better. |
-|---------|-----------------------------------------------------------------------|
-| Removed | KOS Profiles have been removed.                                       |
-| Changed | KOS overhaul - see additions and removals.                            |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken?           |
+| Added   | KOS has been completely re-written and now has a GUI. KOS can now be ran manually, giving guidance on per-setting optimisations (GUI Only). KOS Auto can now load new profiles faster. EDB now has a GUI. Added new EDB exploits: 10 (Nether roof access), 11 (Xray), 12 (Impersonation). |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Temporarily removed merge-radius optimisation. EDB-10 (Treasure search) was removed, as it is covered in KOS.                                                                                                                                                                             |
+| Changed | Nothing was changed in this update.                                                                                                                                                                                                                                                       |
+| Fixed   | Kryptonite no longer modifies it's own configuration under specific circumstances. Other minor bug & performance fixes.                                                                                                                                                                   |
 
 
 ## 1.4.0

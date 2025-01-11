@@ -12,9 +12,27 @@ Automatic mode will ask you a few questions, then configure the server according
 
 Manual mode allows you to fine-tune configuration options to your liking.
 
+1. Run /kos
+2. Select 'Automatic'
+3. If you have pre-generated your world, click the green button. If not, click red. Pre-generation refers to generating all the chunks in your world using a plugin such as Chunky.
+4. Select the profile you'd like to use.
+5. Restart your server.
+
 ## Automatic
+Automatic mode uses [profiles](KR-Profiles.md) to automatically apply many optimisations at once.
+These give you a good starting point to work from.
+Sometimes you might want to adjust these using Manual mode.
+
+
 
 ## Manual
+
+1. Run /kos
+2. Select 'Manual'
+3. Select the configuration you'd like to modify.
+4. Select the value you'd like to modify (left click = down 1, right click = up 1, see below for more info).
+5. Restart your server.
+
 ### Changing Values
 To change values, simply click on the value you'd like to change! Left clicking will decrease the value by 1, and right clicking will increase the value by 1.
 
