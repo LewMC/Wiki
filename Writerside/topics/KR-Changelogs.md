@@ -1,8 +1,24 @@
 # Changelogs
 
 <warning>
-<strong>You should always run the latest version of all software!</strong> That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
+    <strong>You should always run the latest version of all software!</strong>
+    That includes Kryptonite! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
+
+<warning>
+    <strong>Legacy versions of Kryptonite are no longer supported.</strong>
+    If you haven't already, we highly recommend updating to Kryptonite 2.0.0 or newer.
+</warning>
+
+## 2.0.0
+_2025-01-11_ - This version overhauls the Kryptonite Optimisation System to allow you to make more informed decisions about how to optimise your server.
+
+| Added   | KOS has been completely re-written and now has a GUI. KOS can now be ran manually, giving guidance on per-setting optimisations (GUI Only). KOS Auto can now load new profiles faster. EDB now has a GUI. Added new EDB exploits: 10 (Nether roof access), 11 (Xray), 12 (Impersonation). |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Temporarily removed merge-radius optimisation. EDB-10 (Treasure search) was removed, as it is covered in KOS.                                                                                                                                                                             |
+| Changed | Nothing was changed in this update.                                                                                                                                                                                                                                                       |
+| Fixed   | Kryptonite no longer modifies it's own configuration under specific circumstances. Other minor bug & performance fixes.                                                                                                                                                                   |
+
 
 ## 1.4.0
 _2024-09-24_ - This version adds a GUI to KOS to allow administrators to select the profile that should be used in-game without having to access any configuration files. We've also added a new mob farm friendly profile.

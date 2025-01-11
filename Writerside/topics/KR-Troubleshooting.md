@@ -1,5 +1,9 @@
 # Troubleshooting
 
+<warning>
+    <strong>Legacy versions of Kryptonite are no longer supported.</strong>
+    If you haven't already, we highly recommend updating to Kryptonite 2.0.0 or newer.
+</warning>
 ## Reloading Kryptonite
 Reloading your server using the /reload command, or reloading Kryptonite using a plugin such as Plugman can cause a huge number of issues.
 
