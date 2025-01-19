@@ -25,7 +25,9 @@
             <toc-element topic="ES-Message-Tags.md"/>
         </toc-element>
         <toc-element topic="Kryptonite.md">
-            <toc-element topic="KR-Changelogs.md"/>
+            <toc-element topic="KR-Changelogs.md">
+                <toc-element topic="Legacy-1-X-X.md"/>
+            </toc-element>
             <toc-element topic="KR-Configuration.md"/>
             <toc-element topic="KR-Commands.md"/>
             <toc-element topic="KR-System-Requirements.md"/>
