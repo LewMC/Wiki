@@ -22,10 +22,4 @@ Your server hosting provider may have a backup option on your hosting panel - yo
 If not, you can compress (zip) your server folder and save a copy somewhere else. That works too!
 
 ## Kryptonite broke my server, help!
-Congratulations, you're the first!
-
-We're sorry to hear our software caused you issues, unfortunately there's not much we can do except advise you to use
-one of your backups.
-
-Please send us a copy of your logs and config files via [GitHub](https://gihub.com/lewmc/kryptonite)
-and we'll look into what caused the issue.
+Please see our [troubleshooting page](KR-Troubleshooting.md).
