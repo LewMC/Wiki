@@ -6,7 +6,7 @@
 | /kos                    | Operator            | Kryptonite Optimisation System | /kos  | Yes*             |
 | /edb                    | Operator            | Exploit Database               | /edb  | Yes              |
 
-*Running KOS from the console will use the kos.default-profile parameter in the [configuration](KR-Configuration.md).
+* You can currently only use Automatic KOS from the console, for Manual KOS please run the command in-game.
 
 ## Permissions
 Kryptonite commands can only be ran by players who are operators, or from the server console.
