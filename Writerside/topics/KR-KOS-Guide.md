@@ -23,8 +23,6 @@ Automatic mode uses [profiles](KR-Profiles.md) to automatically apply many optim
 These give you a good starting point to work from.
 Sometimes you might want to adjust these using Manual mode.
 
-
-
 ## Manual
 
 1. Run /kos
