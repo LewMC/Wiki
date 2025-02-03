@@ -23,6 +23,7 @@
             <toc-element topic="ES-MOTD.md"/>
             <toc-element topic="ES-Troubleshooting.md"/>
             <toc-element topic="ES-Message-Tags.md"/>
+            <toc-element topic="Importing-Data.md"/>
         </toc-element>
         <toc-element topic="Kryptonite.md">
             <toc-element topic="KR-Changelogs.md">
