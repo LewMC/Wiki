@@ -1,5 +1,9 @@
 # Version API
 
+<warning>
+If you're having issues with our APIs, try adding a "/" before the "?"
+</warning>
+
 > Base URL: https://service.lewmc.net
 
 Get information about the latest version of a resource.

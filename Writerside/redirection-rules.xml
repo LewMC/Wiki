@@ -34,4 +34,8 @@
         <description>Created after removal of "Download" from LewMC Wiki</description>
         <accepts>KR-Download.html</accepts>
     </rule>
+    <rule id="2ceb2315">
+        <description>Created after removal of "Editions" from LewMC Wiki</description>
+        <accepts>Editions.html</accepts>
+    </rule>
 </rules>

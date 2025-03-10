@@ -23,4 +23,4 @@ _2025-01-11_ - This version overhauls the Kryptonite Optimisation System to allo
 | Changed | Nothing was changed in this update.                                                                                                                                                                                                                                                       |
 | Fixed   | Kryptonite no longer modifies it's own configuration under specific circumstances. Other minor bug & performance fixes.                                                                                                                                                                   |
 
-> For older versions, please see [legacy versions](Legacy-1-X-X.md).
+> For older versions, please see [legacy versions](ES-Legacy-1-X-X.md).

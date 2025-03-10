@@ -1,5 +1,9 @@
 # Download Counter API
 
+<warning>
+If you're having issues with our APIs, try adding a "/" before the "?"
+</warning>
+
 > Base URL: https://service.lewmc.net
 
 Get the number of downloads for a resource.
