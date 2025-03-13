@@ -4,6 +4,8 @@
 You will need to edit your port number in server.properties if your server does not use the default 25565.
 </warning>
 
+> To update your server pack, extract it first outside of the server's directory, delete your existing 'mods' folder, then just upload/copy across the 'mods' folder.
+
 ## Running on a server host
 1. Upload and uncompress the .zip pack file,
 2. In your hosting panel set the startup jar to `galactica-server.jar` for Galactica, or `galactica-je-server.jar` for Galactica: Jurassic Edition, your host should have instructions on how to do this.

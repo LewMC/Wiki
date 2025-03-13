@@ -51,8 +51,8 @@
     <toc-element topic="Modpacks.md">
         <toc-element topic="Galactica.md">
             <toc-element topic="GA-Playing-with-Friends.md">
-                <toc-element topic="GA-Essential-World-Hosting.md"/>
                 <toc-element topic="GA-Server-Pack.md"/>
+                <toc-element topic="GA-Essential-World-Hosting.md"/>
             </toc-element>
             <toc-element topic="GA-Editions.md"/>
         </toc-element>
