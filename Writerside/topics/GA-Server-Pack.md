@@ -12,7 +12,10 @@ You will need to edit your port number in server.properties if your server does 
 5. Restart the server, it should now start.
 
 ## Running Locally
-If you're running a server locally, you'll need to ensure you have enough processing power on your computer to handle the game twice.
+<warning>
+   <strong>Local servers are resource intensive, especially if you're playing the game on the same machine.</strong>
+   If you're running a server locally, you'll need to ensure you have enough processing power on your computer to handle the game twice.
+</warning>
 
 If you'd like your friends to be able to connect, you'll need to port forward your internet. [More info (external link)](https://portforward.com)
 
