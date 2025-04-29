@@ -1,7 +1,7 @@
 # Guide
 
 <warning>
-    <strong>We highly recommend backing up your server before using KOS.</strong>
+    <strong>We recommend backing up your server before using KOS.</strong>
     See <a href="KR-Backup.md">our backup guidance page</a> for more information.
 </warning>
 
@@ -12,18 +12,26 @@ Automatic mode will ask you a few questions, then configure the server according
 
 Manual mode allows you to fine-tune configuration options to your liking.
 
+## Automatic
+Automatic mode uses [profiles](KR-Profiles.md) to automatically apply many optimisations at once.
+These give you a good starting point to work from.
+Sometimes you might want to adjust these using Manual mode.
+
+### In-game
 1. Run /kos
 2. Select 'Automatic'
 3. If you have pre-generated your world, click the green button. If not, click red. Pre-generation refers to generating all the chunks in your world using a plugin such as Chunky.
 4. Select the profile you'd like to use.
 5. Restart your server.
 
-## Automatic
-Automatic mode uses [profiles](KR-Profiles.md) to automatically apply many optimisations at once.
-These give you a good starting point to work from.
-Sometimes you might want to adjust these using Manual mode.
+### Server Console
+Run /kos [profile] [pregenerated]
+
+Replacing [profile] with the name of the profile ([see a list here](KR-Profiles.md)) and <pregenerated> with true or false. If you pre-generated your world, use true. If you haven't, use false.
 
 ## Manual
+
+> Manual mode is currently only accessible in-game.
 
 1. Run /kos
 2. Select 'Manual'
