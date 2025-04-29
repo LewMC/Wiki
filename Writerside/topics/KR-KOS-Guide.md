@@ -20,14 +20,14 @@ Sometimes you might want to adjust these using Manual mode.
 ### In-game
 1. Run `/kos`
 2. Select 'Automatic'
-3. If you have pre-generated your world, click the green button. If not, click red. Pre-generation refers to generating all the chunks in your world using a plugin such as Chunky.
+3. If you have pre-generated your world, click the green button. If not, click red. Pre-generation refers to generating all the chunks in your world using a plugin such as Chunky. If you're not sure, click the red button.
 4. Select the profile you'd like to use.
 5. Restart your server.
 
 ### Server Console
 Run `/kos [profile] [pregenerated]`
 
-Replacing [profile] with the name of the profile ([see a list here](KR-Profiles.md)) and <pregenerated> with true or false. If you pre-generated your world, use true. If you haven't, use false.
+Replacing [profile] with the name of the profile ([see a list here](KR-Profiles.md)) and <pregenerated> with true or false. If you pre-generated your world, use true. If you haven't, use false. If you're not sure, use false.
 
 For example: `/kos FarmFriendly.kos true` will apply the FarmFriendly profile on a pre-generated world.
 For example: `/kos YouHaveTrouble.kos false` will apply the YouHaveTrouble profile on a non-pre-generated world.
