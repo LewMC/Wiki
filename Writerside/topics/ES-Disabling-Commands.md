@@ -61,6 +61,7 @@ Most command codes are what you'd expect, but since we use aliases for our comma
 | /home                      | home                   |
 | /homes                     | homes                  |
 | /info                      | info                   |
+| /invisible                 | invisible              |
 | /kit                       | kit                    |
 | /loom                      | loom                   |
 | /msg                       | msg                    |
@@ -104,6 +105,8 @@ Most command codes are what you'd expect, but since we use aliases for our comma
 | /tptoggle                  | tptoggle               |
 | /toggletp                  | tptoggle               |
 | /trash                     | trash                  |
+| /v                         | invisible              |
+| /visible                   | invisible              |
 | /warp                      | warp                   |
 | /warps                     | warps                  |
 | /workbench                 | craft                  |
