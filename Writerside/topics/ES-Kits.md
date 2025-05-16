@@ -24,7 +24,7 @@ These example kits come pre-installed with Essence. If you've accidentally delet
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|
 | Kit name (root-level) | The name of your Kit - can be any string                                                                                                                                                             | Yes       | wooden-tools                                                     |
 | items                 | List of items you'd like the player to receive from this kit - must be a list of strings (Each string must be a valid [Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)) | Yes       | `["WOODEN_AXE","WOODEN_PICKAXE","WOODEN_SHOVEL","WOODEN_SWORD"]` |
-| maxclaims            | The maximum number of times the kit can be claimed. To disable set to -1.                                                                                                                                   | Yes        | 3                                                 |
+| maxclaims            | The maximum number of times the kit can be claimed. To disable set to -1. Can be bypassed with permissions, see below.                                                                                                                                  | Yes        | 3                                                 |
 | permission            | <strong>Optional</strong> - See the "Permissions" section below.                                                                                                                                     | No        | essence.kits.god                                                 |
 
 ## Permissions
@@ -32,7 +32,7 @@ Kits require users to have a set of permissions to access them.
 
 You can set the permission to whatever you want, or remove it if you'd like any players to be able to get the kit.
 
-Players with the "essence.kits.all" permission can access all kits regardless of this value.
+Players with the `essence.kits.all` permission can access all kits regardless of this value.
 
 Players with `essence.bypass.maxkitclaims`, including `essence.bypass.*` can redeem kits an infinite number of times.
 
