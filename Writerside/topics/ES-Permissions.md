@@ -20,9 +20,20 @@ Alternatively, you can use granular permissions if there are only certain comman
 
 `essence.*` provides access to all standard Essence commands, this is useful for administrators.
 
-`essence.admin.*` provides access to all Essence administrator commands, this is useful for administrators.
+`essence.admin.*` provides access to all Essence administrator commands, this is useful for administrators. Also allows for bypassing of various restrictions.
 
 Administrators who require access to _everything_ should be given both these permissions.
+
+#### Bypassing Restrictions
+`essence.admin.bypass.*` allows bypassing of all restrictions listed below. Users who have `essence.admin.*` automatically have this permission as well.
+
+Please note you should not give all players these permissions, instead disable the functionality in the configuration if desired.
+
+| Restriction | Bypass Permission | Scope |
+|-------------|-------------------|-------|
+| Teleport cooldown times (please wait X seconds before teleporting again) | `essence.admin.bypass.teleportcooldown` | All teleportation commands |
+| Teleport delay times (teleporting in X seconds) | `essence.admin.bypass.teleportdelay` | All teleportation commands |
+| Maximum kit claims | `essence.admin.bypass.maxkitclaims` | All kit commands |
 
 ## Update Alerts
 `essence.admin.updates` shows update alerts in the chat when first joining.
