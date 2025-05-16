@@ -7,7 +7,7 @@
 ## 1.8.0
 _2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, as well as new language options.
 
-| Added   | Spanish (full) and Korean (partial) translations.                                              |
+| Added   | Spanish (full) and Korean (partial) translations, the ability to bypass teleportation cooldowns and delays, the ability to restrict how many times players can claim kits, commands to toggle invisibility! |
 |---------|--------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                            |
 | Changed | Updated bstats-bukkit to version 3.1.0 - Updated commons-io to version 2.17.0. |
