@@ -11,10 +11,10 @@
 | German               | de-DE | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Hindi                | hi-IN | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Japanese             | ja-JP | ❌ File exists but is not enabled, not translated | 1.6.0 |
-| Korean               | ko-KR | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Korean               | ko-KR | ⚠ Limited support | 1.8.0 |
 | Portuguese           | pt-PT | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Romanian             | ro-RO | ❌ File exists but is not enabled, not translated | 1.7.1 |
-| Spanish              | es-ES | ❌ File exists but is not enabled, not translated | 1.6.0 |
+| Spanish              | es-ES | ✅ Fully | 1.8.0 |
 | Turkish              | tr-TR | ❌ File exists but is not enabled, not translated | 1.6.0 |
 | Vietnamese           | vi-VN | ❌ File exists but is not enabled, not translated | 1.6.0 |
 

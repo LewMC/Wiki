@@ -23,6 +23,9 @@ Snapshot Builds will have a branch bubble that looks similar to this: ![1.6.0-br
 
 [Download Snapshot Builds](https://github.com/LewMC/Essence/actions/workflows/maven.yml)
 
+## Importing Data from Essentials
+It's super easy to import your warps, homes, and spawn from EssentialsX. Simply open your server console and enter `/es import essentials` and we'll do the rest!
+
 <seealso>
     <category ref="opensource">
         <a href="https://github.com/lewmc/essence">GitHub</a>
