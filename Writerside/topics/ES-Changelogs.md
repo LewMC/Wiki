@@ -5,7 +5,7 @@
 </warning>
 
 ## 1.8.0
-_2025-05-16_ - Essence 1.8.0 Essence 1.8.0 adds new permissions and restrictions, new language options, and commands to make you go invisible!
+_2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, new language options, and commands to make you go invisible!
 
 | Added   | Spanish (full) and Korean (partial) translations, the ability to bypass teleportation cooldowns and delays, the ability to restrict how many times players can claim kits, commands to toggle invisibility! |
 |---------|--------------------------------------------------------------------------------|
