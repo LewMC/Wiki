@@ -11,7 +11,7 @@ _2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, new language
 |---------|--------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                            |
 | Changed | Updated FoliaLib to version 0.4.3 - Updated jetbrains:annotations to version 25.0.0 - Updated maven-javadoc-plugin to version 3.10.0 - When importing from Essentials, more information is given as to why a specific operation may have failed. |
-| Fixed   | When importing data from Essentials, the horribly long error message when there are no spawns has been fixed. |
+| Fixed   | The /r command no longer ignores the first word after it - When importing data from Essentials, the horribly long error message when there are no spawns has been fixed. |
 
 ## 1.7.2
 _2024-09-23_ - Essence 1.7.2 updates libraries used by Essence to add greater compatability with Folia.
