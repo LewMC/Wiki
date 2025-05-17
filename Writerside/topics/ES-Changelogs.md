@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.8.1
+_2025-05-17_ - Essence 1.8.1 re-adds support for /tpr on Folia and adds the use of @ selectors in /tp commands - huge thanks to @x1aoren!
+
+| Added   | @ selectors in /tp commands.                                                   |
+|---------|--------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                            |
+| Changed | Nothing was changed in this update.                                            |
+| Fixed   | /tpr now works correctly on Folia-based servers.                               |
+
 ## 1.8.0
 _2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, new language options, and commands to make you go invisible!
 
