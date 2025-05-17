@@ -50,9 +50,9 @@ Wildcard permission: essence.kits.*
 ### General Teleportation
 Wildcard permission: essence.teleport.*
 
-<warning>
-    <strong>/tpr is unavailable on Folia-based servers.</strong> We're working on bringing this feature back. <a href="https://github.com/LewMC/Essence/issues/63">Learn more</a>.
-</warning>
+> Folia-based Servers: /tpr requires version 1.8.1 or higher to work.
+
+Since version 1.8.1 you can now use @p, @a, and @s in /teleport and /tp commands.
 
 | Command                               | Permission Required                                   | Description                                             | Usage               | Console can run? |
 |---------------------------------------|-------------------------------------------------------|---------------------------------------------------------|---------------------|------------------|
