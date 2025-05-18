@@ -15,15 +15,19 @@
                 <toc-element topic="ES-Permissions.md"/>
                 <toc-element topic="ES-Disabling-Commands.md"/>
             </toc-element>
+            <toc-element topic="ES-Features.md">
+                <toc-element topic="ES-Chat.md"/>
+                <toc-element topic="ES-Importing-Data.md"/>
+                <toc-element topic="ES-Kits.md"/>
+                <toc-element topic="ES-MOTD.md"/>
+                <toc-element topic="ES-Placeholders.md"/>
+                <toc-element topic="ES-Teams.md"/>
+                <toc-element topic="ES-Teleportation.md"/>
+            </toc-element>
             <toc-element topic="ES-System-Requirements.md">
                 <toc-element topic="ES-Language-Files.md"/>
             </toc-element>
-            <toc-element topic="ES-Teams.md"/>
-            <toc-element topic="ES-Kits.md"/>
-            <toc-element topic="ES-MOTD.md"/>
             <toc-element topic="ES-Troubleshooting.md"/>
-            <toc-element topic="ES-Message-Tags.md"/>
-            <toc-element topic="ES-Importing-Data.md"/>
         </toc-element>
         <toc-element topic="Kryptonite.md">
             <toc-element topic="KR-Changelogs.md">
@@ -31,13 +35,15 @@
             </toc-element>
             <toc-element topic="KR-Configuration.md"/>
             <toc-element topic="KR-Commands.md"/>
-            <toc-element topic="KR-System-Requirements.md"/>
-            <toc-element topic="KR-Kryptonite-Optimisation-System.md">
-                <toc-element topic="KR-KOS-Guide.md"/>
-                <toc-element topic="KR-Profiles.md"/>
-                <toc-element topic="KR-Treasure-Maps.md"/>
+            <toc-element topic="KR-Features.md">
+                <toc-element topic="KR-Exploit-Database.md"/>
+                <toc-element topic="KR-Kryptonite-Optimisation-System.md">
+                    <toc-element topic="KR-KOS-Guide.md"/>
+                    <toc-element topic="KR-Profiles.md"/>
+                    <toc-element topic="KR-Treasure-Maps.md"/>
+                </toc-element>
             </toc-element>
-            <toc-element topic="KR-Exploit-Database.md"/>
+            <toc-element topic="KR-System-Requirements.md"/>
             <toc-element topic="KR-Troubleshooting.md"/>
             <toc-element topic="KR-Backup.md"/>
         </toc-element>
@@ -63,6 +69,7 @@
         <toc-element topic="PackStats.md"/>
     </toc-element>
     <toc-element topic="Other.md">
+        <toc-element topic="LewMC-Wiki.md"/>
         <toc-element topic="LewMC-Services.md" accepts-web-file-names-ref="2de42906">
             <toc-element topic="Download-Counter-API.md"/>
             <toc-element topic="Version-API.md"/>
