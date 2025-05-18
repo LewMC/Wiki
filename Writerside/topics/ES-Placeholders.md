@@ -21,9 +21,13 @@ You can use Essence placeholders with or without PlaceholderAPI installed.
 | `%essence_team%` `%essence_team_name%` | The player's team's name.                                    | `BlueTeam`            |
 | `%essence_team_leader%`                | The player's team's name.                                    | `LewIsLost`           |
 | `%essence_team_prefix%`                | The player's team's prefix.                                  | `[BlueTeam]`          |
-| `%essence_combined_prefix%`            | The player's combined prefix.                                | `[Admin][BlueTeam]`   |
-| `%essence_player_prefix%`              | The player's prefix.                                         | `[Admin]`             |
+| `%essence_combined_prefix%`            | The player's combined prefix.^1                              | `[Admin][BlueTeam]`   |
+| `%essence_player_prefix%`              | The player's prefix.^2                                       | `[Admin]`             |
 | `%essence_player_suffix%`              | The player's suffix.                                         | `the awesome`         |
+
+^1 This feature will work but may be limited without Vault and a permissions plugin (we recommend LuckPerms).
+
+^2 Requires Vault and a permissions plugin (we recommend LuckPerms).
 
 ## Where can I use placeholders?
 You don't need to install PlaceholderAPI to use placeholders, but if you do have it you can also use any other placeholders supported by that plugin in these places too.
