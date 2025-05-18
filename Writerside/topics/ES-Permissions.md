@@ -4,9 +4,10 @@
 Using plugin reloaders can cause permissions lookups to fail. <a href="ES-Troubleshooting.md">Learn more</a>
 </warning>
 
+> Permissions are listed in the tables on the [commands page](ES-Commands.md). This page explains how they work, introduces wildcards, and has some additional permissions not specific to single commands.
+
 You need to give your players permission to access certain commands. By default, all Essence commands are restricted to players with permissions. You can use a permission system such as LuckPerms (highly recommended) to give players these permissions. Server operators ("ops") can access every Essence command without requiring permissions.
 
-Permissions are listed in the tables on the [commands page](ES-Commands.md).
 
 ## Wildcards vs Granular
 Essence uses Wildcard permissions for some commands. The wildcard permission can be used if you'd like to give users access to all commands in that section, it makes writing permissions a whole lot faster! Wildcard permissions are shows at the top of each section. They look like this:

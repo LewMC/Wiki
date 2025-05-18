@@ -100,11 +100,11 @@ You can limit the number of homes a user can create by using `essence.home.limit
 ### Spawn commands
 Wildcard permission: essence.spawn.*
 
-| Command                             | Permission Required                                        | Description                                     |
-|-------------------------------------|------------------------------------------------------------|-------------------------------------------------|
-| /spawn /world                       | essence.spawn *All players have access to this by default* | Teleport to the current world's spawn           |
-| /spawn &lt;world> /world &lt;world> | essence.spawn.other                                        | Teleport to another world's spawn               |
-| /setspawn                           | essence.spawn.create                                       | Set the world's spawn to your current location. |
+| Command                             | Permission Required                                        | Description                                     | Usage                   | Console can run? |
+|-------------------------------------|------------------------------------------------------------|-------------------------------------------------|-------------------------|------------------|
+| /spawn /world                       | essence.spawn *All players have access to this by default* | Teleport to the current world's spawn           | /spawn                  | No               |
+| /spawn &lt;world> /world &lt;world> | essence.spawn.other                                        | Teleport to another world's spawn               | /spawn world_the_nether | No               |
+| /setspawn                           | essence.spawn.create                                       | Set the world's spawn to your current location. | /setspawn               | No               |
 
 ## Stats Commands
 Wildcard permission: essence.stats.* and essence.stats.other.*
