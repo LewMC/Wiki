@@ -6,16 +6,16 @@ Essence has a huge number of features, and we're always looking to add more!
 > Some features are missing help pages, [why not help us add them?](LewMC-Wiki.md)
 
 - Administration
+- [](ES-Chat.md)
 - Economy
 - Feeding, Healing, and Repairing
 - Gamemode changing
-- [Importing Data](ES-Importing-Data.md)
-- [Kits](ES-Kits.md)
-- Messaging and Broadcasting
+- [](ES-Importing-Data.md)
+- [](ES-Kits.md)
 - [MOTDs](ES-MOTD.md)
 - [Placeholders (Previously Message Tags)](ES-Placeholders.md)
-- [Teams](ES-Teams.md)
-- [Teleportation](ES-Teleportation.md)
+- [](ES-Teams.md)
+- [](ES-Teleportation.md)
 - Workbenches, Tools, and all things Inventory
 
 ## Getting help
