@@ -10,16 +10,20 @@ You can use these tags to set values that may change often such as versions.
 You can use Essence placeholders with or without PlaceholderAPI installed.
 
 ## Placeholder list
-| Placeholder                            | Description                                                  | Example             |
-|----------------------------------------|--------------------------------------------------------------|---------------------|
-| `%essence_version%`                    | Gets the version of Essence the server is running.           | 1.9.0               |
-| `%essence_minecraft_version%`          | Gets the version of Minecraft the server is running.         | 1.21.5              |
-| `%essence_time%`                       | Gets the current time in format HH:MM:SS                     | 12:50:19            |
-| `%essence_date%`                       | Gets the current date in format YYYY-MM-DD                   | 2025-05-18          |
-| `%essence_datetime%`                   | Gets the current date and time in format YYYY-MM-DD HH:MM:SS | 2025-05-18 12:50:19 |
-| `%essence_player%`                     | The player who initiated the message's username              | LewIsLost           |
-| `%essence_team%` `%essence_team_name%` | The player's team's name.                                    | BlueTeam            |
-| `%essence_team_leader%`                | The player's team's name.                                    | LewIsLost           |
+| Placeholder                            | Description                                                  | Example               |
+|----------------------------------------|--------------------------------------------------------------|-----------------------|
+| `%essence_version%`                    | Gets the version of Essence the server is running.           | `1.9.0`               |
+| `%essence_minecraft_version%`          | Gets the version of Minecraft the server is running.         | `1.21.5`              |
+| `%essence_time%`                       | Gets the current time in format HH:MM:SS                     | `12:50:19`            |
+| `%essence_date%`                       | Gets the current date in format YYYY-MM-DD                   | `2025-05-18`          |
+| `%essence_datetime%`                   | Gets the current date and time in format YYYY-MM-DD HH:MM:SS | `2025-05-18 12:50:19` |
+| `%essence_player%`                     | The player who initiated the message's username              | `LewIsLost`           |
+| `%essence_team%` `%essence_team_name%` | The player's team's name.                                    | `BlueTeam`            |
+| `%essence_team_leader%`                | The player's team's name.                                    | `LewIsLost`           |
+| `%essence_team_prefix%`                | The player's team's prefix.                                  | `[BlueTeam]`          |
+| `%essence_combined_prefix%`            | The player's combined prefix.                                | `[Admin][BlueTeam]`   |
+| `%essence_player_prefix%`              | The player's prefix.                                         | `[Admin]`             |
+| `%essence_player_suffix%`              | The player's suffix.                                         | `the awesome`         |
 
 ## Where can I use placeholders?
 You don't need to install PlaceholderAPI to use placeholders, but if you do have it you can also use any other placeholders supported by that plugin in these places too.
