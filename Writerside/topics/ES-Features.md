@@ -11,9 +11,9 @@ Essence has a huge number of features, and we're always looking to add more!
 - Gamemode changing
 - [Importing Data](ES-Importing-Data.md)
 - [Kits](ES-Kits.md)
-- [Message Tags](ES-Message-Tags.md)
 - Messaging and Broadcasting
 - [MOTDs](ES-MOTD.md)
+- [Placeholders (Previously Message Tags)](ES-Placeholders.md)
 - [Teams](ES-Teams.md)
 - [Teleportation](ES-Teleportation.md)
 - Workbenches, Tools, and all things Inventory

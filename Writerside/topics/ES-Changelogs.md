@@ -7,14 +7,16 @@
 ## 1.9.0
 _2025-XX-XX_ - Essence 1.9.0 adds extended teleport toggling,
 
-| Added   | [Extended teleport toggles](https://github.com/LewMC/Essence/issues/145),      |
-|---------|--------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                            |
-| Changed | Nothing was changed in this update.                                            |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                    |
+| Added   | [Extended teleport toggles](https://github.com/LewMC/Essence/issues/145), PlaceholderAPI support.                                                                                                                                                           |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                         |
+| Changed | Placeholders have replaced Message Tags and their values have changed in this update, whilst your old tags will continue to work please consider [updating them to the new values](ES-Placeholders.md) as we will remove the old values in a future update. |
+| Fixed   | /back command is now working correctly.                                                                                                                                                                                                                     |
 
 ## 1.8.1
 _2025-05-17_ - Essence 1.8.1 re-adds support for /tpr on Folia and adds the use of @ selectors in /tp commands - huge thanks to @x1aoren!
+
+_This version has a known issue with the /back command due to a rewrite of the teleportation system. A fix was released in v1.9.0_
 
 | Added   | @ selectors in /tp commands.                                                   |
 |---------|--------------------------------------------------------------------------------|
@@ -24,6 +26,8 @@ _2025-05-17_ - Essence 1.8.1 re-adds support for /tpr on Folia and adds the use 
 
 ## 1.8.0
 _2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, new language options, and commands to make you go invisible!
+
+_This version has a known issue with the /back command due to a rewrite of the teleportation system. A fix was released in v1.9.0_
 
 | Added   | Spanish (full) and Korean (partial) translations, the ability to bypass teleportation cooldowns and delays, the ability to restrict how many times players can claim kits, commands to toggle invisibility!                                      |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

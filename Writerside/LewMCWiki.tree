@@ -18,8 +18,8 @@
             <toc-element topic="ES-Features.md">
                 <toc-element topic="ES-Importing-Data.md"/>
                 <toc-element topic="ES-Kits.md"/>
-                <toc-element topic="ES-Message-Tags.md"/>
                 <toc-element topic="ES-MOTD.md"/>
+                <toc-element topic="ES-Placeholders.md"/>
                 <toc-element topic="ES-Teams.md"/>
                 <toc-element topic="ES-Teleportation.md"/>
             </toc-element>
