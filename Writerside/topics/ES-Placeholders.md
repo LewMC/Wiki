@@ -35,7 +35,7 @@ You can use Essence placeholders with or without PlaceholderAPI installed.
 You don't need to install PlaceholderAPI to use placeholders, but if you do have it you can also use any other placeholders supported by that plugin in these places too.
 
 Without PlaceholderAPI installed, these placeholders work in:
-- Standard chat messages
+- Standard chat messages (if [Essence Chat](ES-Chat.md) has not been disabled)
 - config.yml
   - chat.name-format
   - motd.message
