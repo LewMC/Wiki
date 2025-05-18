@@ -29,11 +29,12 @@ Administrators who require access to _everything_ should be given both these per
 
 Please note you should not give all players these permissions, instead disable the functionality in the configuration if desired.
 
-| Restriction | Bypass Permission | Scope |
-|-------------|-------------------|-------|
-| Teleport cooldown times (please wait X seconds before teleporting again) | `essence.bypass.teleportcooldown` | All teleportation commands |
-| Teleport delay times (teleporting in X seconds) | `essence.bypass.teleportdelay` | All teleportation commands |
-| Maximum kit claims | `essence.bypass.maxkitclaims` | All kit commands |
+| Restriction                                                              | Bypass Permission                       | Scope                      |
+|--------------------------------------------------------------------------|-----------------------------------------|----------------------------|
+| Teleport cooldown times (please wait X seconds before teleporting again) | `essence.bypass.teleportcooldown`       | All teleportation commands |
+| Teleport delay times (teleporting in X seconds)                          | `essence.bypass.teleportdelay`          | All teleportation commands |
+| Bypass extended teleport toggles.                                        | `essence.bypass.extendedteleporttoggle` | All teleportation commands |
+| Maximum kit claims                                                       | `essence.bypass.maxkitclaims`           | All kit commands           |
 
 ## Update Alerts
 `essence.admin.updates` shows update alerts in the chat when first joining.
