@@ -4,6 +4,15 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.9.0
+_2025-XX-XX_ - Essence 1.9.0 adds extended teleport toggling,
+
+| Added   | [Extended teleport toggles](https://github.com/LewMC/Essence/issues/145),      |
+|---------|--------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                            |
+| Changed | Nothing was changed in this update.                                            |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                    |
+
 ## 1.8.1
 _2025-05-17_ - Essence 1.8.1 re-adds support for /tpr on Folia and adds the use of @ selectors in /tp commands - huge thanks to @x1aoren!
 
@@ -16,11 +25,11 @@ _2025-05-17_ - Essence 1.8.1 re-adds support for /tpr on Folia and adds the use 
 ## 1.8.0
 _2025-05-16_ - Essence 1.8.0 adds new permissions and restrictions, new language options, and commands to make you go invisible!
 
-| Added   | Spanish (full) and Korean (partial) translations, the ability to bypass teleportation cooldowns and delays, the ability to restrict how many times players can claim kits, commands to toggle invisibility! |
-|---------|--------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                            |
+| Added   | Spanish (full) and Korean (partial) translations, the ability to bypass teleportation cooldowns and delays, the ability to restrict how many times players can claim kits, commands to toggle invisibility!                                      |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                              |
 | Changed | Updated FoliaLib to version 0.4.3 - Updated jetbrains:annotations to version 25.0.0 - Updated maven-javadoc-plugin to version 3.10.0 - When importing from Essentials, more information is given as to why a specific operation may have failed. |
-| Fixed   | The /r command no longer ignores the first word after it - When importing data from Essentials, the horribly long error message when there are no spawns has been fixed. |
+| Fixed   | The /r command no longer ignores the first word after it - When importing data from Essentials, the horribly long error message when there are no spawns has been fixed.                                                                         |
 
 ## 1.7.2
 _2024-09-23_ - Essence 1.7.2 updates libraries used by Essence to add greater compatability with Folia.
