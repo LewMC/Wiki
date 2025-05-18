@@ -67,3 +67,12 @@ To send a private message use the `/msg` command, for example: `/msg LewIsLost H
 To reply to the last private message that you received, use the `/r` or `/reply` command. For example: `/r Hi, how're you?`
 
 You'll need the `essence.chat.msg` and `essence.chat.reply` permission to use these commands.
+
+## Nicknames
+Players with the `essence.chat.nick.self` permission can change their in-chat name, also known as nickname or displayname.
+
+Simply type `/nick &lt;name>`
+
+Players with the `essence.chat.nick.self` and `essence.chat.nick.other` permission can change their in-chat name, and the in-chat name of other players!
+
+To do that type `/nick &lt;username> &lt;nickname>`
