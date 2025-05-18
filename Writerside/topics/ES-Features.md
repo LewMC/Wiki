@@ -6,7 +6,7 @@ Essence has a huge number of features, and we're always looking to add more!
 > Some features are missing help pages, [why not help us add them?](LewMC-Wiki.md)
 
 - Administration
-- [](ES-Chat.md)
+- [Chat](ES-Chat.md)
 - Economy
 - Feeding
 - Gamemode changing
