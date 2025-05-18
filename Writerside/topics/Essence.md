@@ -1,4 +1,4 @@
-<img src="ES-Banner.png" style="block" alt="Essence" />
+<img src="ES-Banner.png" alt="Essence" />
 
 # Essence
 
@@ -25,6 +25,8 @@ Snapshot Builds will have a branch bubble that looks similar to this: ![1.6.0-br
 
 ## Importing Data from Essentials
 It's super easy to import your warps, homes, and spawn from EssentialsX. Simply open your server console and enter `/es import essentials` and we'll do the rest!
+
+You should always backup your server first! [Learn more about Importing your Essentials data](ES-Importing-Data.md)
 
 <seealso>
     <category ref="opensource">
