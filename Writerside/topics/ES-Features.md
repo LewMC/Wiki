@@ -8,15 +8,20 @@ Essence has a huge number of features, and we're always looking to add more!
 - Administration
 - [](ES-Chat.md)
 - Economy
-- Feeding, Healing, and Repairing
+- Feeding
 - Gamemode changing
-- [](ES-Importing-Data.md)
-- [](ES-Kits.md)
+- Healing
+- [Homes](ES-Teleportation.md)
+- [Importing Data](ES-Importing-Data.md)
+- Inventory Management
+- [Kits](ES-Kits.md)
 - [MOTDs](ES-MOTD.md)
+- [Nicknames](ES-Chat.md)
 - [Placeholders (Previously Message Tags)](ES-Placeholders.md)
-- [](ES-Teams.md)
-- [](ES-Teleportation.md)
-- Workbenches, Tools, and all things Inventory
+- Repairing
+- [Teams](ES-Teams.md)
+- [Teleportation](ES-Teleportation.md)
+- [Warps](ES-Teleportation.md)
 
 ## Getting help
 You can visit one of the above pages or type `/es help` into chat.
