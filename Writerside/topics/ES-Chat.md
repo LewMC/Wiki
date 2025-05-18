@@ -45,9 +45,9 @@ For example: `Hello &lEverybody!` will be converted into <code>Hello <strong>Eve
 ![ES-Chat message formatting.png](ES-Chat message formatting.png)
 
 ## Prefixes and Suffixes
-To add prefixes and suffixes you must have a plugin that provides them which is compatible with Vault installed.
+To add prefixes and suffixes you must have a plugin that provides them which is compatible with Vault installed. We recommend using LuckPerms and Vault.
 
-We recommend using LuckPerms and Vault.
+Team Prefixes (including the combined prefix placeholder) will work without Vault and LuckPerms.
 
 In LuckPerms, create a group and add `prefix.100.MyPrefixName` which will give anyone in the group the prefix "MyPrefixName".
 The number is the "weight" of the prefix, you might need to tweak this. We recommend reading LuckPerm's documentation for help here, Essence just displays what it tells us to!
