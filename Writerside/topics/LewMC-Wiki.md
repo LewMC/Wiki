@@ -32,14 +32,37 @@ Each topic is assigned a two-letter code, branches and pages must have the code 
 See the Style Guide below for more information on page naming.
 
 ## How to edit the Wiki
+> You'll need some basic knowledge of how Git and GitHub work to edit our Wiki.
+
 ### Existing pages
 If you'd like to contribute to existing pages you can edit the files directly on GitHub or in Writerside.
 
 To edit on GitHub [navigate to the repository](https://github.com/LewMC/Wiki) then enter the `/Writerside/topics` directory.
 
-You'll now see a number of files that correspond to Wiki pages,
+You'll now see a number of files that correspond to Wiki pages, simply open them, edit them, and open a pull request to merge them!
+
+Alternatively, you can use Writerside:
+
+1. Download IntelliJ IDEA (Community Edition is free) or another JetBrains IDE.
+2. Start a new project from version control, enter `https://github.com/LewMC/Wiki`.
+3. Click the 'Settings' cog icon in the top right.
+4. Click 'Plugins'
+5. Click 'Marketplace'
+6. Type 'Writerside' into the search bar
+7. Install & Restart your IDE. The Writerside interface should now appear on the left sidebar.
 
 ### New pages and content
+The best way to add new pages and content (e.g.) images is by using Writerside.
+
+Adding new pages and content requires both the page itself to be created and a number of other references to be added. For this reason, we recommend using Writerside to add new pages and content.
+
+1. Download IntelliJ IDEA (Community Edition is free) or another JetBrains IDE.
+2. Start a new project from version control, enter `https://github.com/LewMC/Wiki`.
+3. Click the 'Settings' cog icon in the top right.
+4. Click 'Plugins'
+5. Click 'Marketplace'
+6. Type 'Writerside' into the search bar
+7. Install & Restart your IDE. The Writerside interface should now appear on the left sidebar.
 
 ## Style Guide
 ### Page names and URLs
