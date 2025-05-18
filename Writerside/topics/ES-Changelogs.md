@@ -5,7 +5,7 @@
 </warning>
 
 ## 1.9.0
-_2025-XX-XX_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
+_2025-05-18_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
 
 _Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
 
