@@ -13,7 +13,7 @@ You can use Essence placeholders with or without PlaceholderAPI installed.
 | Placeholder                   | Description                                                  | Example             |
 |-------------------------------|--------------------------------------------------------------|---------------------|
 | `%essence_version%`           | Gets the version of Essence the server is running.           | 1.9.0               |
-| `%essence_minecraft-version%` | Gets the version of Minecraft the server is running.         | 1.21.5              |
+| `%essence_minecraft_version%` | Gets the version of Minecraft the server is running.         | 1.21.5              |
 | `%essence_time%`              | Gets the current time in format HH:MM:SS                     | 12:50:19            |
 | `%essence_date%`              | Gets the current date in format YYYY-MM-DD                   | 2025-05-18          |
 | `%essence_datetime%`          | Gets the current date and time in format YYYY-MM-DD HH:MM:SS | 2025-05-18 12:50:19 |
