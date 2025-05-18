@@ -1,5 +1,7 @@
 # Chat
 
+> Essence Chat is enabled by default.
+
 Since 1.9.0, Essence can modify how chat works by adding prefixes and allowing players to use message formatting.
 
 By default, uncoloured rank and team prefixes will appear, but you can change this if you'd like.
