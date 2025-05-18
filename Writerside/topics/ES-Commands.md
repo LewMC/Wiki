@@ -76,7 +76,7 @@ You can limit the number of warps a user can create by using `essence.warp.limit
 
 | Command            | Permission Required | Description               | Usage            | Console can run? |
 |--------------------|---------------------|---------------------------|------------------|------------------|
-| /warp              | essence.warp.list   | Get a list of warps       | /warp            | No               |
+| /warp              | essence.warp.list   | Get a list of warps       | /warp            | Yes              |
 | /warp &lt;name>    | essence.warp.use    | Teleport to a warp point. | /warp MyHouse    | No               |
 | /setwarp &lt;name> | essence.warp.create | Create a warp point.      | /setwarp MyHouse | No               |
 | /delwarp &lt;name> | essence.warp.delete | Delete a warp point.      | /delwarp MyHouse | No               |
@@ -120,11 +120,13 @@ Wildcard permission: essence.stats.* and essence.stats.other.*
 ## Chat Commands
 Wildcard permission: essence.chat.*
 
-| Command                             | Permission Required    | Description                                            | Usage                                    | Console can run? |
-|-------------------------------------|------------------------|--------------------------------------------------------|------------------------------------------|------------------|
-| /broadcast &lt;message>             | essence.chat.broadcast | Send a message to the entire server.                   | /broadcast This is an example broadcast. | Yes              |
-| /msg &lt;name> &lt;message>         | essence.chat.msg       | Send a message to a specific user.                     | /msg Notch Hello there!                  | Yes              |
-| /reply &lt;message> /r &lt;message> | essence.chat.reply     | Reply to the last user who sent you a private message. | /r Hey back to you!                      | Yes              |
+| Command                             | Permission Required                                 | Description                                            | Usage                                    | Console can run? |
+|-------------------------------------|-----------------------------------------------------|--------------------------------------------------------|------------------------------------------|------------------|
+| /broadcast &lt;message>             | essence.chat.broadcast                              | Send a message to the entire server.                   | /broadcast This is an example broadcast. | Yes              |
+| /msg &lt;name> &lt;message>         | essence.chat.msg                                    | Send a message to a specific user.                     | /msg Notch Hello there!                  | Yes              |
+| /reply &lt;message> /r &lt;message> | essence.chat.reply                                  | Reply to the last user who sent you a private message. | /r Hey back to you!                      | Yes              |
+| /nick &lt;name>                     | essence.chat.nick.self                              | Change your own username.                              | /nick Lew                                | No               |
+| /nick &lt;username> &lt;name>       | essence.chat.nick.other and essence.chat.nick.other | Change yours or someone else's username.               | /nick LewIsFound Lew                     | Yes              |
 
 ## Economy Commands
 Wildcard permission: essence.economy.*
@@ -133,8 +135,8 @@ Wildcard permission: essence.economy.*
 
 | Command                    | Permission Required     | Description         | Usage          | Console can run? |
 |----------------------------|-------------------------|---------------------|----------------|------------------|
-| /pay &lt;user> &lt;amount> | essence.economy.pay     | Pay another player. | /pay Notch 10  | No               |
-| /balance /bal              | essence.economy.balance | View your balance.  | /balance / bal | No               |
+| /pay &lt;user> &lt;amount> | essence.economy.pay     | Pay another player. | /pay Notch 10  | Yes              |
+| /balance /bal              | essence.economy.balance | View your balance.  | /balance / bal | Yes              |
 
 ## Team Commands
 Wildcard permission: essence.team.*

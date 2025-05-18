@@ -7,6 +7,8 @@
 ## 1.9.0
 _2025-XX-XX_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
 
+_Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
+
 | Added   | [Extended teleport toggles](https://github.com/LewMC/Essence/issues/145), PlaceholderAPI support alongside [new placeholders and new places where they can be used](ES-Placeholders.md), Teams prefix and chat formatting.                                                                                                                                                                                                                             |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                                                                                                                                                                    |
