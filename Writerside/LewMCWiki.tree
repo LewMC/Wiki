@@ -57,6 +57,7 @@
             <toc-element topic="FR-Changelogs.md"/>
             <toc-element topic="FR-Configuration.md"/>
             <toc-element topic="FR-Features.md">
+                <toc-element topic="FR-FoundryConfig.md"/>
                 <toc-element topic="FR-Logging.md"/>
                 <toc-element topic="FR-Permissions.md"/>
                 <toc-element topic="FR-Security.md"/>

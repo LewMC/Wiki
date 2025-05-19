@@ -7,8 +7,14 @@ Special characters may pose security risks or bugs in certain scenarios, this si
 
 ```java
 class Example {
+    public ExamplePlugin plugin;
+    
+    public Example(ExamplePlugin plugin) {
+        this.plugin = plugin;
+    }
+    
     public void ExampleFunction() {
-        Security sec = new Security(new FoundryConfig(this));
+        Security sec = new Security(new FoundryConfig(this.plugin));
         
         sec.hasSpecialCharacters("Does this have special?"); // true
         sec.hasSpecialCharacters("Does this have special"); // false

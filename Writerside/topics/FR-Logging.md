@@ -6,8 +6,14 @@ The `Logger` class contains a number of different logs:
 
 ```java
 class Example {
+    public ExamplePlugin plugin;
+
+    public Example(ExamplePlugin plugin) {
+        this.plugin = plugin;
+    }
+    
     public void ExampleFunction() {
-        Logger log = new Logger(new FoundryConfig(this));
+        Logger log = new Logger(new FoundryConfig(this.plugin));
 
         log.info("This is an informational log.");
         log.warn("This is a warning.");
@@ -31,8 +37,14 @@ Certain logs have preset messages;
 
 ```java
 class Example {
+    public ExamplePlugin plugin;
+
+    public Example(ExamplePlugin plugin) {
+        this.plugin = plugin;
+    }
+    
     public void ExampleFunction() {
-        Logger log = new Logger(new FoundryConfig(this));
+        Logger log = new Logger(new FoundryConfig(this.plugin));
 
         log.noConsole(); // This tells the console to go away!
     }
