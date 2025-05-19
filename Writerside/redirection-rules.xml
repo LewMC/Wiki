@@ -38,4 +38,8 @@
         <description>Created after removal of "Editions" from LewMC Wiki</description>
         <accepts>Editions.html</accepts>
     </rule>
+    <rule id="588d0220">
+        <description>Created after removal of "LewMC Repository" from LewMC Wiki</description>
+        <accepts>LewMC-Repository.html</accepts>
+    </rule>
 </rules>

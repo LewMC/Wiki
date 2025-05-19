@@ -84,6 +84,7 @@
     <toc-element topic="Other.md">
         <toc-element topic="LewMC-Wiki.md"/>
         <toc-element topic="LewMC-Services.md" accepts-web-file-names-ref="2de42906">
+            <toc-element topic="Maven-Repository.md"/>
             <toc-element topic="Download-Counter-API.md"/>
             <toc-element topic="Version-API.md"/>
         </toc-element>
