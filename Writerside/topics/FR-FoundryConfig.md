@@ -55,6 +55,38 @@ public class ExamplePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         Security sec = new Security(new FoundryConfig(this));
+        
+        // or
+        
+        FoundryConfig config = new FoundryConfig(this);
+        Security sec = new Security(config);
+    }
+}
+```
+
+## Verbose mode
+By default, Foundry operations in a 'supressed' mode, where only necessary information is outputted.
+Typically, this is the mode you'll want.
+
+However, if you'd like to debug issues, Foundry is able to output more information including [Files](FR-Files.md) actions.
+
+To do this, you'll need to set verbose mode to true when setting up Foundry.
+You must assign FoundryConfig to a variable to do this.
+
+```java
+public class ExamplePlugin extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        FoundryConfig config = new FoundryConfig(this);
+        config.setVerbose(true);
+
+        // Foundry is now verbose
+        // Do more stuff now it's set.
+        Security sec = new Security(config);
+        
+        // Don't want the stuff after to be verbose?
+        // You can change it back!
+        config.setVerbose(false);
     }
 }
 ```
