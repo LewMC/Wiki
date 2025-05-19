@@ -4,6 +4,7 @@ New to Foundry? Read [our starting guide](FR-Getting-Started.md). This section a
 
 If you'd like to see Foundry code in action, you should visit [Essence](https://github.com/lewmc/essence) and [Kryptonite](https://github.com/lewmc/jailhouse) on GitHub.
 
+- [Commands](FR-Commands.md)
 - [Files](FR-Files.md)
 - [FoundryConfig](FR-FoundryConfig.md)
 - [Logging](FR-Logging.md)
