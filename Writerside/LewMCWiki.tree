@@ -8,15 +8,6 @@
 
     <toc-element topic="LewMCWiki.md"/>
     <toc-element topic="Plugins.md">
-        <toc-element topic="Foundry.md">
-            <toc-element topic="FR-Changelogs.md"/>
-            <toc-element topic="FR-Configuration.md"/>
-            <toc-element topic="FR-Features.md">
-                <toc-element topic="FR-Logging.md"/>
-            </toc-element>
-            <toc-element topic="FR-System-Requirements.md"/>
-            <toc-element topic="FR-Getting-Started.md"/>
-        </toc-element>
         <toc-element topic="Essence.md">
             <toc-element topic="ES-Changelogs.md"/>
             <toc-element topic="ES-Configuration.md"/>
@@ -61,6 +52,16 @@
             <toc-element topic="JH-Configuration.md"/>
             <toc-element topic="JH-Commands.md"/>
             <toc-element topic="JH-System-Requirements.md"/>
+        </toc-element>
+        <toc-element topic="Foundry.md">
+            <toc-element topic="FR-Changelogs.md"/>
+            <toc-element topic="FR-Configuration.md"/>
+            <toc-element topic="FR-Features.md">
+                <toc-element topic="FR-Security.md"/>
+                <toc-element topic="FR-Logging.md"/>
+            </toc-element>
+            <toc-element topic="FR-System-Requirements.md"/>
+            <toc-element topic="FR-Getting-Started.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Modpacks.md">

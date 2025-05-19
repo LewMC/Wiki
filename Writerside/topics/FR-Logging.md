@@ -2,12 +2,12 @@
 
 ## Standard logging
 
-The `LogUtil` class contains a number of different logs:
+The `Logger` class contains a number of different logs:
 
 ```java
 class Example {
     public void ExampleFunction() {
-        LogUtil log = new LogUtil(new FoundryConfig(this));
+        Logger log = new Logger(new FoundryConfig(this));
 
         log.info("This is an informational log.");
         log.warn("This is a warning.");
@@ -32,7 +32,7 @@ Certain logs have preset messages;
 ```java
 class Example {
     public void ExampleFunction() {
-        LogUtil log = new LogUtil(new FoundryConfig(this));
+        Logger log = new Logger(new FoundryConfig(this));
 
         log.noConsole(); // This tells the console to go away!
     }
@@ -52,7 +52,7 @@ Using the info log as an example:
 ```java
 class Example {
     public void ExampleFunction() {
-        new LogUtil(new FoundryConfig(this)).info("This is an informational log.");
+        new Logger(new FoundryConfig(this)).info("This is an informational log.");
     }
 }
 ```
