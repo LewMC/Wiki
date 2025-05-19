@@ -66,7 +66,7 @@ public class ExamplePlugin extends JavaPlugin {
     }
 }
 ```
-This is probably the most common way of using this utility.
+This is probably the most common way of using this utility. Each statement returns true/false, you can use this if you want or ignore it.
 
 To register multiple commands with the same executor, the best way is to use this format:
 ```java
@@ -79,6 +79,8 @@ public class ExamplePlugin extends JavaPlugin {
     }
 }
 ```
+The statement returns an array of true/false for each command, you can use this if you want or ignore it.
+
 If your command has aliases, you can use one of the previous methods and just put the main command string in, it'll resolve the aliases automatically.
 
 This is for multiple separate commands that are executed in the same class.
@@ -93,6 +95,7 @@ public class ExamplePlugin extends JavaPlugin {
     }
 }
 ```
+The statement returns true/false, you can use this if you want or ignore it.
 
 ### Bukkit
 The traditional Bukkit method of registering commands also works with Foundry Commands.
