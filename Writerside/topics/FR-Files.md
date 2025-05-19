@@ -231,7 +231,7 @@ class Example {
 }
 ```
 
-## Getting a list of keys
+### Getting a list of keys
 ```java
 class Example {
     public Example() {
@@ -249,7 +249,7 @@ class Example {
 }
 ```
 
-## Removing a key
+### Removing a key
 This removes a key and it's content. It also returns true/false
 
 ```java
