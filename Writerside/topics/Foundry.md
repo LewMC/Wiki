@@ -1,7 +1,6 @@
 <img src="FR-Banner.png" alt="Foundry" />
 
 # Foundry
-
 Foundry is a library used by LewMC and other plugins to help provide common functions.
 
 ## Download Foundry
@@ -26,7 +25,7 @@ Snapshot Builds will have a branch bubble that looks similar to this: ![1.6.0-br
 ## Using Foundry in your plugin
 Foundry is free and open source, you can use it for free in your plugin.
 
-To learn more visit
+To learn more visit [Getting Started](FR-Getting-Started.md).
 
 <seealso>
     <category ref="opensource">
