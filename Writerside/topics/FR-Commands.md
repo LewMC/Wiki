@@ -53,17 +53,7 @@ The Foundry CommandRegistry allows you to register commands quickly, and it hand
 
 To register commands, you should have a command class ready to go. We recommend using one of the Foundry commands.
 
-To register a single command, the best way is to use this format:
-```java
-public class ExamplePlugin extends JavaPlugin {
-    @Override
-    public void onEnable() {
-        new CommandRegistry(new FoundryConfig(this), this).register("example", new ExampleCommand());
-    }
-}
-```
-
-To register multiple commands, the best way is to use this format:
+To register multiple commands with separate executors, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
     @Override
@@ -73,6 +63,33 @@ public class ExamplePlugin extends JavaPlugin {
         commands.register("example", new ExampleCommand());
         commands.register("player", new ExamplePlayerCommand());
         commands.register("console", new ExampleConsoleCommand());
+    }
+}
+```
+This is probably the most common way of using this utility.
+
+To register multiple commands with the same executor, the best way is to use this format:
+```java
+public class ExamplePlugin extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        CommandRegistry commands = new CommandRegistry(new FoundryConfig(this), this);
+        
+        commands.register(new String[] {"gamemode","gm"}, new ExampleCommand());
+    }
+}
+```
+If your command has aliases, you can use one of the previous methods and just put the main command string in, it'll resolve the aliases automatically.
+
+This is for multiple separate commands that are executed in the same class.
+For example: Eseence uses this for its `/gamemode`, `/gmc`, `/gms`, etc. commands which are seperate according to Bukkit to allow us to give them different syntaxes, but on our end are processed by the same system.
+
+To register a single command, the best way is to use this format:
+```java
+public class ExamplePlugin extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        new CommandRegistry(new FoundryConfig(this), this).register("example", new ExampleCommand());
     }
 }
 ```
