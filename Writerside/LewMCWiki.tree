@@ -61,6 +61,7 @@
                 <toc-element topic="FR-Files.md"/>
                 <toc-element topic="FR-FoundryConfig.md"/>
                 <toc-element topic="FR-Logging.md"/>
+                <toc-element topic="FR-Modules.md"/>
                 <toc-element topic="FR-Permissions.md"/>
                 <toc-element topic="FR-Registry.md"/>
                 <toc-element topic="FR-Security.md"/>
