@@ -46,56 +46,14 @@ public class ExampleConsoleCommand extends FoundryConsoleCommand { /* ... */ }
 ```
 
 ## Registering Commands
-FoundryCommands work just like standard Bukkit commands, you can register them using the built-in method or using our CommandRegistry.
+FoundryCommands work just like standard Bukkit commands, you can register them using the built-in method or using our [Registry](FR-Registry.md).
 
-### CommandRegistry
-The Foundry CommandRegistry allows you to register commands quickly, and it handles any potential exceptions or crashes as a result of the registration process.
+### Registry
+> We recommend using the Foundry Registry to register commands.
 
-To register commands, you should have a command class ready to go. We recommend using one of the Foundry commands.
+The Foundry Registry allows you to register commands quickly, and it handles any potential exceptions or crashes as a result of the registration process.
 
-To register multiple commands with separate executors, the best way is to use this format:
-```java
-public class ExamplePlugin extends JavaPlugin {
-    @Override
-    public void onEnable() {
-        CommandRegistry commands = new CommandRegistry(new FoundryConfig(this), this);
-        
-        commands.register("example", new ExampleCommand());
-        commands.register("player", new ExamplePlayerCommand());
-        commands.register("console", new ExampleConsoleCommand());
-    }
-}
-```
-This is probably the most common way of using this utility. Each statement returns true/false, you can use this if you want or ignore it.
-
-To register multiple commands with the same executor, the best way is to use this format:
-```java
-public class ExamplePlugin extends JavaPlugin {
-    @Override
-    public void onEnable() {
-        CommandRegistry commands = new CommandRegistry(new FoundryConfig(this), this);
-        
-        commands.register(new String[] {"gamemode","gm"}, new ExampleCommand());
-    }
-}
-```
-The statement returns an array of true/false for each command, you can use this if you want or ignore it.
-
-If your command has aliases, you can use one of the previous methods and just put the main command string in, it'll resolve the aliases automatically.
-
-This is for multiple separate commands that are executed in the same class.
-For example: Eseence uses this for its `/gamemode`, `/gmc`, `/gms`, etc. commands which are seperate according to Bukkit to allow us to give them different syntaxes, but on our end are processed by the same system.
-
-To register a single command, the best way is to use this format:
-```java
-public class ExamplePlugin extends JavaPlugin {
-    @Override
-    public void onEnable() {
-        new CommandRegistry(new FoundryConfig(this), this).register("example", new ExampleCommand());
-    }
-}
-```
-The statement returns true/false, you can use this if you want or ignore it.
+See [Registry](FR-Registry.md).
 
 ### Bukkit
 The traditional Bukkit method of registering commands also works with Foundry Commands.

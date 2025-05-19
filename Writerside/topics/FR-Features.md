@@ -9,4 +9,5 @@ If you'd like to see Foundry code in action, you should visit [Essence](https://
 - [FoundryConfig](FR-FoundryConfig.md)
 - [Logging](FR-Logging.md)
 - [Permissions](FR-Permissions.md)
+- [Registry](FR-Registry.md)
 - [Security](FR-Security.md)
