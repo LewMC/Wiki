@@ -62,7 +62,9 @@ You should also shade Foundry, so that it doesn't conflict with any other plugin
 Add this to your &lt;plugins> section.
 
 ## Compiling without Foundry
-Compiling
+<warning>
+This currently does not work. Please use the previous method or wait for this method to become available.
+</warning>
 
 Add LewMC as a repository:
 ```xml
