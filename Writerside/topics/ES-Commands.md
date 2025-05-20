@@ -76,7 +76,7 @@ You can limit the number of warps a user can create by using `essence.warp.limit
 
 | Command            | Permission Required | Description               | Usage            | Console can run? |
 |--------------------|---------------------|---------------------------|------------------|------------------|
-| /warp              | essence.warp.list   | Get a list of warps       | /warp            | Yes              |
+| /warps             | essence.warp.list   | Get a list of warps       | /warps           | Yes              |
 | /warp &lt;name>    | essence.warp.use    | Teleport to a warp point. | /warp MyHouse    | No               |
 | /setwarp &lt;name> | essence.warp.create | Create a warp point.      | /setwarp MyHouse | No               |
 | /delwarp &lt;name> | essence.warp.delete | Delete a warp point.      | /delwarp MyHouse | No               |
