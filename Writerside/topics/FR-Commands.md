@@ -37,6 +37,7 @@ public class ExampleCommand extends FoundryCommand {
 ```
 
 To create player-only commands or console-only commands, simply replace `FoundryCommand`.
+Whereas `FoundryCommand` processes a `CommandSender`, `FoundryPlayerCommand` processes a `Player` and `FoundryConsoleCommand` processes a `ConsoleCommandSender` after checking they are the correct type.
 
 ```java
 public class ExamplePlayerCommand extends FoundryPlayerCommand { /* ... */ }

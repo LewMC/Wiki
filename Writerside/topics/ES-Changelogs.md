@@ -4,6 +4,17 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.10.0
+_2025-XX-XX_ - Essence 1.10.0 adds new economy and world management commands, as well as general optimisations for the plugin.
+
+_Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
+
+| Added   | /eco command for economy management, /worlds world management command.                                                                                    |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Unused commons-io dependency (replaced with Foundry), reducing jarfile size by over 300kB.                                                                |
+| Changed | Essence now uses Foundry under the hood to manage many common features it shares with our other plugins. If you experience any issues please let us know. |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                               |
+
 ## 1.9.0
 _2025-05-18_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
 
