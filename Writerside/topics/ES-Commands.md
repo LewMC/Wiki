@@ -167,14 +167,14 @@ Wildcard permission: essence.team.*
 ## Administration Commands
 Wildcard permission: essence.admin.*
 
-| Command                          | Permission Required     | Description                                     | Usage                    | Console can run? |
-|----------------------------------|-------------------------|-------------------------------------------------|--------------------------|------------------|
-| /seen &lt;name>                  | essence.admin.seen      | Displays the player's last login date and time. | /seen Notch              | Yes              |
-| /info &lt;name> /pinfo &lt;name> | essence.admin.info      | Displays information about the player.          | /info Notch /pinfo Notch | Yes              |
-| /es reload                       | essence.admin.reload    | Reloads Essence's configuration.                | /es reload               | Yes              |
-| /invisible                       | essence.admin.invisible | Toggles if you're visible to other players.     | /invisible               | Yes              |
-| /visible                         | essence.admin.invisible | Toggles if you're visible to other players.     | /visible                 | Yes              |
-| /v                               | essence.admin.invisible | Toggles if you're visible to other players.     | /v                       | Yes              |
+| Command                          | Permission Required                                                     | Description                                     | Usage                    | Console can run? |
+|----------------------------------|-------------------------------------------------------------------------|-------------------------------------------------|--------------------------|------------------|
+| /seen &lt;name>                  | essence.admin.seen                                                      | Displays the player's last login date and time. | /seen Notch              | Yes              |
+| /info &lt;name> /pinfo &lt;name> | essence.admin.info (plus essence.admin.info.viewip to see IP addresses) | Displays information about the player.          | /info Notch /pinfo Notch | Yes              |
+| /es reload                       | essence.admin.reload                                                    | Reloads Essence's configuration.                | /es reload               | Yes              |
+| /invisible                       | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /invisible               | Yes              |
+| /visible                         | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /visible                 | Yes              |
+| /v                               | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /v                       | Yes              |
 
 ## Miscellaneous Commands
 Wildcard permission: None
