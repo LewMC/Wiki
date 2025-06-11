@@ -5,9 +5,13 @@
 ## Main Command
 This is the full list of commands included in the most recent version of Essence. Commands [can be disabled](ES-Disabling-Commands.md) by server administrators.
 
-| Command           | Permission Required | Description                                                        | Usage                          | Console can run? |
-|-------------------|---------------------|--------------------------------------------------------------------|--------------------------------|------------------|
-| /essence /ess /es | None                | About essence. Add help onto the end to view help (e.g. /es help). | /es /es help /es help teleport | Yes              |
+| Command           | Permission Required   | Description                                                 | Usage                 | Console can run? |
+|-------------------|-----------------------|-------------------------------------------------------------|-----------------------|------------------|
+| /essence /ess /es | None                  | About essence.                                              | /essence /ess /es     | Yes              |
+| /es help          | None                  | Help with Essence.                                          | /es help              | Yes              |
+| /es import        | essence.admin.import  | Imports data from other plugins.                            | /es import Essentials | Yes              |
+| /es reload        | essence.admin.reload  | Reloads Essence's configuration.                            | /es reload            | Yes              |
+| /es restore       | essence.admin.restore | Restores Essence's files (note: overwrites language files). | /es restore           | Yes              |
 
 ## Gamemode Commands
 Wildcard permission: essence.gamemode.*
