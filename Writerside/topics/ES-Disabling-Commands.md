@@ -70,6 +70,8 @@ Most command codes are what you'd expect, but since we use aliases for our comma
 | /pinfo                     | info                   |
 | /pseen                     | seen                   |
 | /pm                        | msg                    |
+| /ptime                     | ptime                  |
+| /pweather                  | pweather               |
 | /r                         | reply                  |
 | /repair                    | repair                 |
 | /reply                     | reply                  |
@@ -92,6 +94,7 @@ Most command codes are what you'd expect, but since we use aliases for our comma
 | /teamhomes                 | thomes                 |
 | /team                      | team                   |
 | /teleport                  | tp                     |
+| /time                      | time                   |
 | /tp                        | tp                     |
 | /tpa                       | tpa                    |
 | /tpaccept                  | tpaccept               |
@@ -109,6 +112,7 @@ Most command codes are what you'd expect, but since we use aliases for our comma
 | /visible                   | invisible              |
 | /warp                      | warp                   |
 | /warps                     | warps                  |
+| /weather                   | spawn                  |
 | /workbench                 | craft                  |
 | /world                     | spawn                  |
 
