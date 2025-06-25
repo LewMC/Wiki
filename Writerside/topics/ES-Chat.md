@@ -1,6 +1,10 @@
 # Chat
 
-> Essence Chat is enabled by default.
+<warning>
+    <strong>Vault is required for Essence to be able to modify chat messages.</strong>
+    Essence Chat private messages and broadcasts will work without Vault, but any features covering normal chat messages
+    will not be active.
+</warning>
 
 Since 1.9.0, Essence can modify how chat works by adding prefixes and allowing players to use message formatting.
 

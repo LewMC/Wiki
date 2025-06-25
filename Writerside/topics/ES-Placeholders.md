@@ -4,10 +4,10 @@
     <strong>As of version 1.9.0, placeholders replaced Message Tags.</strong>
 </warning>
 
-Placeholders are used to replace text with pre-generated values set by Essence.
-You can use these tags to set values that may change often such as versions.
-
-You can use Essence placeholders with or without PlaceholderAPI installed.
+Placeholders are used to replace text with pre-generated values set by Essence. You can use these placeholders to set
+values that may change often such as versions. Placeholders are handled by Essence and do not require any other plugins
+to work within Essence. However, if you'd like to use other plugin's placeholders in Essence, or Essence's in them -
+you'll need to install PlaceholderAPI.
 
 ## Placeholder list
 | Placeholder                            | Description                                                  | Example               |
@@ -32,10 +32,8 @@ You can use Essence placeholders with or without PlaceholderAPI installed.
 ^2 Requires Vault and a permissions plugin (we recommend LuckPerms).
 
 ## Where can I use placeholders?
-You don't need to install PlaceholderAPI to use placeholders, but if you do have it you can also use any other placeholders supported by that plugin in these places too.
-
-Without PlaceholderAPI installed, these placeholders work in:
-- Standard chat messages (if [Essence Chat](ES-Chat.md) has not been disabled)
+Placeholders work in:
+- Chat messages (if [Essence Chat](ES-Chat.md) has not been disabled and Vault is installed)
 - config.yml
   - chat.name-format
   - motd.message
@@ -49,9 +47,25 @@ Without PlaceholderAPI installed, these placeholders work in:
   - /r
 - Language files (since 1.10.0)
 
-With PlaceholderAPI installed, these placeholders work in all the above areas and anywhere else with PlaceholderAPI
+### PlaceholderAPI
+> PlaceholderAPI is an optional feature. Our placeholders will still work in our systems without it.
+
+PlaceholderAPI is a system that allows for cross-compatability with other plugin's placeholders.
+
+With PlaceholderAPI installed, our placeholders work in all the above areas and anywhere else with PlaceholderAPI
 support, plus you can also use any placeholders from other plugins that also support PlaceholderAPI in these places in
 Essence.
+
+You don't need to install PlaceholderAPI to use placeholders, but if you do have it you can also use any other
+placeholders supported by that plugin in these places too.
+
+**You DO NOT need PlaceholderAPI if:**
+* You are only using Essence's placeholders in Essence commands, files, or systems.
+
+**You DO need PlaceholderAPI if:**
+* You want to use Essence's placeholders in other plugins.
+* You want to use other plugin's placeholders in Essence.
+* You want to use PlaceholderAPI's built-in placeholders in Essence.
 
 ## Language Files
 Language Files support the placeholder list above, and also use their own form of placeholders called arguments.
