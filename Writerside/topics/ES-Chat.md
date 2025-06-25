@@ -1,10 +1,28 @@
 # Chat
 
-> Essence Chat is enabled by default.
+<warning>
+    <strong>Vault is required for Essence to be able to modify chat messages.</strong>
+    Essence Chat private messages and broadcasts will work without Vault, but any features covering normal chat messages
+    will not be active.
+</warning>
 
 Since 1.9.0, Essence can modify how chat works by adding prefixes and allowing players to use message formatting.
 
 By default, uncoloured rank and team prefixes will appear, but you can change this if you'd like.
+
+## Vault
+Vault is a plugin that helps us manage chat messages. Some features may require it to work correctly.
+
+| Feature                 | Vault required |
+|-------------------------|----------------|
+| Prefixes                | ✅              |
+| Suffixes                | ✅              |
+| Name formats            | ✅              |
+| Message formatting      | ✅              |
+| Nicknames               | ✅              |
+| Private messages        | ❌              |
+| Private message replies | ❌              |
+| Broadcasts              | ❌              |
 
 ## Configuration
 ```

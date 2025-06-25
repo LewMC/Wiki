@@ -4,6 +4,19 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.10.0
+> This is an upcoming version of Essence available as a snapshot build. Always backup before using snapshots.
+
+_2025-06-25 (Snapshot Ver.)_ - Essence 1.10.0 adds new economy and world management commands, as well as general optimisations for the plugin.
+
+_Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
+
+| Added   | Added new /es restore command that restores Essence's files. User IP addresses now appear in /info (requires extra permission node and can be toggled in config). Added support for [placeholders](ES-Placeholders.md) in language files. Added new [Environment module](ES-Time-and-Weather.md) which adds time, weather, ptime, and pweather commands. You can now [teleport to offline players](ES-Teleportation.md). |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Unused commons-io dependency (replaced with Foundry), reducing jarfile size by over 300kB.                                                                                                                                                                                                                                                                                                                               |
+| Changed | The "Move to cancel teleport" system can now be toggled in the config. Essence now uses Foundry under the hood to manage many common features it shares with our other plugins. If you experience any issues please let us know.                                                                                                                                                                                         |
+| Fixed   | [Issue #220 Console spam when players join](https://github.com/LewMC/Essence/issues/220) - [Issue #224 /back location is updated even if teleportation is cancelled.](https://github.com/LewMC/Essence/issues/224)                                                                                                                                                                                                       |
+
 ## 1.9.0
 _2025-05-18_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
 

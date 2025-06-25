@@ -6,11 +6,14 @@
 | 1.4.0+          | > 1.20.4           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 17           | No             |
 | 1.0.0 - 1.3.2   | > 1.19.0           | CraftBukkit, Spigot, Paper, or a fork of these (except Folia) | 17           | No             |
 
-If you'd like to use Essence as an economy provider for other plugins you'll need to install Vault.
+If you'd like to use Essence as an economy provider for other plugins you'll need to install Vault. This is optional.
 
-If you'd like to use prefixes or suffixes in chat, you'll need to install Vault and a permissions plugin such as LuckPerms.
+If you'd like to use prefixes or suffixes in chat, you'll need to install Vault and a permissions plugin such as
+LuckPerms. This is optional.
 
-Essence supports PlaceholderAPI, but does not require it. Essence placeholders work in Essence commands with or without it, but if you'd like to use Essence placeholders in other plugins or vice-versa you'll need to install PlaceholderAPI as well.
+Essence supports PlaceholderAPI, but does not require it. Essence placeholders work in Essence commands with or without
+it, but if you'd like to use Essence placeholders in other plugins or vice-versa you'll need to install PlaceholderAPI
+as well. For more information please see [our placeholders page](ES-Placeholders.md#placeholderapi).
 
 ## Version Support
 ### Minecraft Version Support
