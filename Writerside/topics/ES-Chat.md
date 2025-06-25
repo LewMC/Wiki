@@ -10,6 +10,20 @@ Since 1.9.0, Essence can modify how chat works by adding prefixes and allowing p
 
 By default, uncoloured rank and team prefixes will appear, but you can change this if you'd like.
 
+## Vault
+Vault is a plugin that helps us manage chat messages. Some features may require it to work correctly.
+
+| Feature                 | Vault required |
+|-------------------------|----------------|
+| Prefixes                | ✅              |
+| Suffixes                | ✅              |
+| Name formats            | ✅              |
+| Message formatting      | ✅              |
+| Nicknames               | ✅              |
+| Private messages        | ❌              |
+| Private message replies | ❌              |
+| Broadcasts              | ❌              |
+
 ## Configuration
 ```
 chat:
