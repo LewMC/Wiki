@@ -25,9 +25,10 @@ Translate to Crowdin: [https://crowdin.com/project/lewmc-essence](https://crowdi
 
 ## Language Files
 
-Language files are used in Essence to serve messages to players
+Language files are used in Essence to serve messages to players These are automatically updated whenever you update your
+plugin.
 
-These are automatically updated whenever you update your plugin.
+Language files support placeholders and arguments. To learn more [see the placeholders page](ES-Placeholders.md).
 
 ### Creating a new Language File
 > Please consider translating essence to [Crowdin](https://crowdin.com/project/lewmc-essence) so that others can use the language too!

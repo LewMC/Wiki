@@ -47,13 +47,23 @@ Without PlaceholderAPI installed, these placeholders work in:
   - /broadcast
   - /msg
   - /r
+- Language files (since 1.10.0)
 
-With PlaceholderAPI installed, these placeholders work in all the above areas plus anywhere else with PlaceholderAPI support.
+With PlaceholderAPI installed, these placeholders work in all the above areas and anywhere else with PlaceholderAPI
+support, plus you can also use any placeholders from other plugins that also support PlaceholderAPI in these places in
+Essence.
 
 ## Language Files
-Language files use a different system for Placeholders, they appear as `{{1}}`, `{{2}}`, etc.
-These values are set by the function in Essence that causes that message to be sent.
+Language Files support the placeholder list above, and also use their own form of placeholders called arguments.
 
-You should <u>not</u> change these values.
+Arguments appear as a number inside curly braces, for example `{{1}}`, `{{2}}`.
 
-Language files do not parse placeholders.
+**These should not be changed or removed.** These values are set by the function in Essence that causes that message 
+to be sent. For example `Teleported to LewIsLost` appears as `Teleported to {{1}} in the language file.`
+
+If you remove or change arguments, the messages will very likely be malformed. You can change any other part of the
+language strings, add new things such as placeholders, but you should make a [custom language](ES-Language-Files.md#creating-a-new-language-file) as
+it may be overwritten by an update.
+
+If you accidentally break a language file, running `/es restore` will overwrite any changes you've made with our default
+files.
