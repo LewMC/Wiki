@@ -7,6 +7,8 @@ There are a number of different types of teleportation in Essence.
 These include a vanilla-like teleport system and a teleport request system.
 
 ## Standard Teleportation
+> Since 1.10.0 players with the `essence.teleport.offline` permission can now teleport to offline players. This is included in the wildcard.
+
 Essence's teleportation system works very similar to the vanilla system with a few tweaks.
 
 With this command, you can replace &lt;user> with either a player's username or a query selector. These are @a, @s, and @p.
@@ -14,12 +16,13 @@ With this command, you can replace &lt;user> with either a player's username or 
 
 Giving a player the `essence.teleport.*` permission gives them access to every command listed below and every command in the teleport requests section.
 
-| Command                                                 | Permission Required                                    | Description                                             |
-|---------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|
-| /teleport &lt;x> &lt;y> &lt;z> /tp &lt;x> &lt;y> &lt;z> | essence.teleport.coord                                 | Teleport to a coordinate location in the world (x,y,z). |
-| /tp &lt;user> &lt;x> &lt;y> &lt;z>                      | essence.teleport.coord **and** essence.teleport.other  | Teleport another player to set coordinates              |
-| /teleport &lt;user> /tp &lt;user>                       | essence.teleport.player                                | Teleport to another player.                             |
-| /teleport &lt;user> &lt;user> /tp &lt;user> &lt;user>   | essence.teleport.player **and** essence.teleport.other | Teleport a player to another player.                    |
+| Command                                                 | Permission Required                                      | Description                                             |
+|---------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------|
+| /teleport &lt;x> &lt;y> &lt;z> /tp &lt;x> &lt;y> &lt;z> | essence.teleport.coord                                   | Teleport to a coordinate location in the world (x,y,z). |
+| /tp &lt;user> &lt;x> &lt;y> &lt;z>                      | essence.teleport.coord **and** essence.teleport.other    | Teleport another player to set coordinates              |
+| /teleport &lt;user> /tp &lt;user>                       | essence.teleport.player                                  | Teleport to another player.                             |
+| /teleport &lt;user> /tp &lt;user> (User is offline)     | essence.teleport.player **and** essence.teleport.offline | Teleport to an offline player.                          |
+| /teleport &lt;user> &lt;user> /tp &lt;user> &lt;user>   | essence.teleport.player **and** essence.teleport.other   | Teleport a player to another player.                    |
 
 If you're new to server administration and are not sure who to give these permissions to, we recommend giving them to administrators.
 
