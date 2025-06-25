@@ -7,7 +7,7 @@
 ## 1.10.0
 > This is an upcoming version of Essence available as a snapshot build. Always backup before using snapshots.
 
-_2025-06-25 (Snapshot Ver.)_ - Essence 1.10.0 adds new economy and world management commands, as well as general optimisations for the plugin.
+_2025-06-25 (Snapshot Ver.)_ - Essence 1.10.0 adds new commands for managing the environment around you, as well as additional teleportation and placeholder support.
 
 _Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
 
