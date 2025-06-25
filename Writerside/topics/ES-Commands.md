@@ -176,6 +176,20 @@ Wildcard permission: essence.admin.*
 | /visible                         | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /visible                 | Yes              |
 | /v                               | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /v                       | Yes              |
 
+## Environment Commands
+Wildcard permission: essence.environment.*
+
+| Command             | Permission Required              | Description                 | Usage           | Console can run? |
+|---------------------|----------------------------------|-----------------------------|-----------------|------------------|
+| /time               | essence.environment.time         | Checks the server time.     | /time           | Yes              |
+| /time &lt;time>     | essence.environment.time.set     | Sets the server time.       | /time day       | Yes              |
+| /weather            | essence.environment.weather      | Checks the server weather.  | /weather        | Yes              |
+| /weather &lt;time>  | essence.environment.weather.set  | Sets the server weather.    | /weather clear  | Yes              |
+| /ptime              | essence.environment.ptime        | Checks your player time.    | /ptime          | No               |
+| /ptime &lt;time>    | essence.environment.ptime.set    | Sets your player time.      | /ptime day      | No               |
+| /pweather           | essence.environment.pweather     | Checks your player weather. | /pweather       | No               |
+| /pweather &lt;time> | essence.environment.pweather.set | Sets your player weather.   | /pweather clear | No               |
+
 ## Miscellaneous Commands
 Wildcard permission: None
 

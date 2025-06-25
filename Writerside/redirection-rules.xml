@@ -42,4 +42,12 @@
         <description>Created after removal of "LewMC Repository" from LewMC Wiki</description>
         <accepts>LewMC-Repository.html</accepts>
     </rule>
+    <rule id="225b5800">
+        <description>Created after removal of "Environment" from LewMC Wiki</description>
+        <accepts>ES-Environment.html</accepts>
+    </rule>
+    <rule id="2ed3af90">
+        <description>Created after removal of "Modules" from LewMC Wiki</description>
+        <accepts>ES-Modules.html</accepts>
+    </rule>
 </rules>

@@ -23,6 +23,7 @@
                 <toc-element topic="ES-Placeholders.md"/>
                 <toc-element topic="ES-Teams.md"/>
                 <toc-element topic="ES-Teleportation.md"/>
+                <toc-element topic="ES-Time-and-Weather.md"/>
             </toc-element>
             <toc-element topic="ES-System-Requirements.md">
                 <toc-element topic="ES-Language-Files.md"/>
