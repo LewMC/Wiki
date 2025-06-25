@@ -20,8 +20,9 @@ _2025-06-23_ - Foundry 1.1.0 updates the format of the software.
 ## 1.0.0
 _2025-06-01_ - Foundry 1.0.0 provides an initial release of the software.
 
-| Added   | Commands, Files, FoundryConfig, Logging, Modules, Permissions, Registry, Security. |
+| Added   | [Commands](FR-Commands.md), [Files](FR-Files.md), [FoundryConfig](FR-FoundryConfig.md), [Logging](FR-Logging.md), [Modules](FR-Modules.md), [Permissions](FR-Permissions.md), [Registry](FR-Registry.md), and [Security](FR-Security.md). |
 |---------|------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                |
 | Changed | Nothing was changed in this update.                                                |
 | Fixed   | Nothing was fixed in this update, maybe nothing was broken?                        |
+

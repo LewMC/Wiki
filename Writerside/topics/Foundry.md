@@ -7,10 +7,10 @@ Foundry is a library used by LewMC and other plugins to help provide common func
 We recommend using **Modrinth or LewMC** to download our plugins, ads on the website are unintrusive and help us to keep maintaining the project.
 
 * LewMC: [https://lewmc.net/plugin/foundry](https://lewmc.net/plugin/foundry)
-* Modrinth: [https://modrinth.com/plugin/foundry](https://modrinth.com/plugin/foundry)
+* Modrinth: [TBC]()
 * CurseForge: [TBC]()
 * Spigot: [TBC]()
-* Hangar: [https://hangar.papermc.io/LewMC/Essence](https://hangar.papermc.io/LewMC/Essence)
+* Hangar: [TBC]()
 
 ### Snapshot Builds
 Snapshot Builds are unstable, pre-release versions of Foundry built as soon as changes are pushed to our version control software.
