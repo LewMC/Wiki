@@ -5,8 +5,6 @@
 </warning>
 
 ## 1.10.0
-> This is an upcoming version of Essence available as a snapshot build. Always backup before using snapshots.
-
 _2025-08-04_ - Essence 1.10.0 adds new environment commands, modules, and player stat modifiers.
 
 _Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
