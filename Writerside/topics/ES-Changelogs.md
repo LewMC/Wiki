@@ -5,7 +5,7 @@
 </warning>
 
 ## 1.10.0
-_2025-08-04_ - Essence 1.10.0 adds new environment commands, modules, and player stat modifiers.
+_2025-08-04_ - Essence 1.10.0 adds new environment commands, modules, player stat modifiers, and contains a number of bug fixes and tweaks.
 
 _Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
 
