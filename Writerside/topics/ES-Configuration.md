@@ -1,22 +1,30 @@
 # Configuration
+> This Wiki page is for the configuration in version 1.10.0 or later (Config V3). Earlier versions may have a different layout.
 
 ## Configuration Values
 | Key                                    | Description                                                                                                                                                                                                                                                                       | Accepted Values                                                                                                                                                                                  | Default Value                                                        |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| update-check                           | This value defines if Essence should check for updates during startup. If this is enabled, the plugin will query [LewMC Services](LewMC-Services.md) to check for updates. The doesn't collect any data about you or your server.                                                 | true or false                                                                                                                                                                                    | true                                                                 |
-| console-prefix                         | This sets the prefix that console logs appear as, just for a bit of customisation! To change the in-game chat prefix please see Essence [Language Files](ES-Language-Files.md).                                                                                                   | Anything                                                                                                                                                                                         | Essence                                                              |
-| motd.enabled                           | This toggle decides if Essence should display the join message to players in chat when they log in. [More information](ES-MOTD.md).                                                                                                                                               | true or false                                                                                                                                                                                    | true                                                                 |
-| motd.message                           | A message displayed to players in chat when they log in. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                             | Multi-line string.                                                                                                                                                                               | See example below.                                                   |
-| chat.enabled                           | Should Essence process chat messages?                                                                                                                                                                                                                                             | true or false                                                                                                                                                                                    | true                                                                 |
+| admin.enabled                          | Enables the admin module.                                                                                                                                                                                                                                                         | true or false                                                                                                                                                                                    | true                                                                 |
+| chat.enabled                           | Enables the chat module.                                                                                                                                                                                                                                                          | true or false                                                                                                                                                                                    | true                                                                 |
+| chat.manage-chat                       | Can Essence manage the server's chat? Requires vault.                                                                                                                                                                                                                             | true or false                                                                                                                                                                                    | true                                                                 |
 | chat.name-format                       | The format that chat messages should appear in. [Supports Placeholders](ES-Placeholders.md)                                                                                                                                                                                       | String.                                                                                                                                                                                          | "%essence_combined_prefix% %essence_player%%essence_player_suffix%:" |
 | chat.allow-message-formatting          | Should Essence process formatting codes (& codes) in chat messages?                                                                                                                                                                                                               | true or false                                                                                                                                                                                    | false                                                                |
-| broadcasts.first-join                  | The message broadcast in chat when a player joins for the first time. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                | String.                                                                                                                                                                                          | "§a{{player}} joined the server for the first time!"                 |
-| broadcasts.join                        | The message broadcast in chat when a player joins. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                                   | String.                                                                                                                                                                                          | "§e{{player}} joined the server!"                                    |
-| broadcasts.leave                       | The message broadcast in chat when a player leaves. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                                  | String.                                                                                                                                                                                          | "§c{{player}} left the server!"                                      |
-| spawn-kits                             | A list of kits the player should be given when they first join the server. Set to false to disable. Players must have the required permissions to access the kits. [Learn more about kits](ES-Kits.md).                                                                           | Any list of valid kits.                                                                                                                                                                          | See example below.                                                   |
-| economy.mode                           | This is the mode that Essence will run its economy in. Most players should not change this. This config value is useful if you'd like to use another economy provider or to disable Essence's economy altogether.                                                                 | **'VAULT'** default mode - sets up Essence as the server's economy provider.<br><br>**'ESSENCE'** Tells Essence to keep its economy to itself.<br><br>**'OFF'** Disables the econmoy altogether. | 'VAULT'                                                              |
+| chat.broadcasts.first-join             | The message broadcast in chat when a player joins for the first time. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                | String.                                                                                                                                                                                          | "§a{{player}} joined the server for the first time!"                 |
+| chat.broadcasts.join                   | The message broadcast in chat when a player joins. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                                   | String.                                                                                                                                                                                          | "§e{{player}} joined the server!"                                    |
+| chat.broadcasts.leave                  | The message broadcast in chat when a player leaves. [Supports Placeholders](ES-Placeholders.md).                                                                                                                                                                                  | String.                                                                                                                                                                                          | "§c{{player}} left the server!"                                      |
+| chat.motd                              | A message displayed to players in chat when they log in. [Supports Placeholders](ES-Placeholders.md). Set to 'false' to disable.                                                                                                                                                  | Multi-line string.                                                                                                                                                                               | See example below.                                                   |
+| economy.enabled                        | Enables the economy module.                                                                                                                                                                                                                                                       | true or false                                                                                                                                                                                    | true                                                                 |
+| economy.mode                           | This is the mode that Essence will run its economy in. Most players should not change this. This config value is useful if you'd like to use another economy provider or to disable Essence's economy altogether. See [the economy page](ES-Economy.md) for more information.     | **'VAULT'** default mode - sets up Essence as the server's economy provider.<br><br>**'ESSENCE'** Tells Essence to keep its economy to itself.<br><br>**'OFF'** Disables the econmoy altogether. | 'VAULT'                                                              |
 | economy.start-money                    | This is the amount of money players get when they first join the server. It should be a decimal number (e.g. 100.0, 40.99, 0.0)                                                                                                                                                   | Any decimal number                                                                                                                                                                               | 100.0                                                                |
 | economy.symbol                         | This value will be displayed in front of any monetary values shown in chat. Whilst we recommend sticking with standard symbols you can put anything here, such as "Coins" or whatever really.                                                                                     | Anything                                                                                                                                                                                         | $                                                                    |
+| environment.enabled                    | Enables the environment module.                                                                                                                                                                                                                                                   | true or false                                                                                                                                                                                    | true                                                                 |
+| gamemode.enabled                       | Enables the gamemode module.                                                                                                                                                                                                                                                      | true or false                                                                                                                                                                                    | true                                                                 |
+| inventory.enabled                      | Enables the inventory module.                                                                                                                                                                                                                                                     | true or false                                                                                                                                                                                    | true                                                                 |
+| kit.enabled                            | Enables the kit module.                                                                                                                                                                                                                                                           | true or false                                                                                                                                                                                    | true                                                                 |
+| kit.spawn-kits                         | A list of kits the player should be given when they first join the server. Set to false to disable. Players must have the required permissions to access the kits. [Learn more about kits](ES-Kits.md).                                                                           | Any list of valid kits.                                                                                                                                                                          | See example below.                                                   |
+| stats.enabled                          | Enables the stats module.                                                                                                                                                                                                                                                         | true or false                                                                                                                                                                                    | true                                                                 |
+| team.enabled                           | Enables the team module.                                                                                                                                                                                                                                                          | true or false                                                                                                                                                                                    | true                                                                 |
+| teleportation.enabled                  | Enables the teleportation module.                                                                                                                                                                                                                                                 | true or false                                                                                                                                                                                    | true                                                                 |
 | teleportation.home.wait                | The amount of time (in seconds) the player should have to wait for after sending the command before they're teleported. To disable this feature set this value to 0.	                                                                                                             | Integer                                                                                                                                                                                          | 3                                                                    |
 | teleportation.home.cooldown            | The amount of time (in seconds) the player should have to wait for to teleport since they last teleported. To disable this feature set this value to 0.	                                                                                                                          | Integer                                                                                                                                                                                          | 10                                                                   |
 | teleportation.warp.wait                | The amount of time (in seconds) the player should have to wait for after sending the command before they're teleported. To disable this feature set this value to 0.	                                                                                                             | Integer                                                                                                                                                                                          | 3                                                                    |
@@ -31,57 +39,74 @@
 | teleportation.extended-toggle          | Should teleportation toggling also apply to the standard /teleport /tp commands? Not recommended.	                                                                                                                                                                                | true or false                                                                                                                                                                                    | false                                                                |
 | teleportation.move-to-cancel           | Should player movement cancel teleportation? 	                                                                                                                                                                                                                                    | true or false                                                                                                                                                                                    | true                                                                 |
 | language                               | This sets the language file that Essence will use for chat messages. Console log messages are not affected by this and are hard-coded. For more information please see [Language Files](ES-Language-Files.md).                                                                    | Any valid language code with an existing file.                                                                                                                                                   | en-gb                                                                |
-| disabled-commands                      | This disables processing of certain commands in Essence, to add commands to the list you should create a new line and follow the format of the example. Please note: this does have limitations - for more information please see [Disabling Commands](ES-Disabling-Commands.md). | List of commands to disable (or blank).                                                                                                                                                          | See example below.                                                   |
-| disabled-commands-feedback             | If a user runs a disabled command, should they be told it's disabled? If set to false, nothing happens.                                                                                                                                                                           | true or false                                                                                                                                                                                    | true                                                                 |
-| playerdata.store-ip-address            | Decides if Essence should store player IP addresses in data files.                                                                                                                                                                                                                | true or false                                                                                                                                                                                    | true                                                                 |
-| verbose                                | Outputs additional information to the console, including file information. You should only enable this if you're having problems. Warning: Creates a LOT of console spam.                                                                                                         | true or false                                                                                                                                                                                    | false                                                                |
-| config-version                         | Please don't change this! It can mess with Essence's configuration updater, and if we change anything you'll be in for a whole load of red text in your server console.                                                                                                           | 1                                                                                                                                                                                                | 1                                                                    |
+| disabled-commands.list                 | This disables processing of certain commands in Essence, to add commands to the list you should create a new line and follow the format of the example. Please note: this does have limitations - for more information please see [Disabling Commands](ES-Disabling-Commands.md). | List of commands to disable (or blank).                                                                                                                                                          | See example below.                                                   |
+| disabled-commands.feedback-in-chat     | If a user runs a disabled command, should they be told it's disabled? If set to false, nothing happens.                                                                                                                                                                           | true or false                                                                                                                                                                                    | true                                                                 |
+| advanced.playerdata.store-ip-address   | Decides if Essence should store player IP addresses in data files.                                                                                                                                                                                                                | true or false                                                                                                                                                                                    | true                                                                 |
+| advanced.update-check                  | This value defines if Essence should check for updates during startup. If this is enabled, the plugin will query [LewMC Services](LewMC-Services.md) to check for updates. The doesn't collect any data about you or your server.                                                 | true or false                                                                                                                                                                                    | true                                                                 |
+| advanced.verbose                       | Outputs additional information to the console, including file information. You should only enable this if you're having problems. Warning: Creates a LOT of console spam.                                                                                                         | true or false                                                                                                                                                                                    | false                                                                |
+| config-version                         | Please don't change this! It can mess with Essence's configuration updater, and if we change anything you'll be in for a whole load of red text in your server console.                                                                                                           | Do not change this value, it can mess up the config in later versions!                                                                                                                           | 3                                                                    |
 
 ## Example config.yml
 
 ```
-# Generated by Essence 1.10.0-SNAPSHOT
+# Generated by Essence 1.10.0
 # Need help? Visit wiki.lewmc.net
 # Found a bug or want to request a feature? Open an issue at github.com/lewmc/essence
 
-# UPDATE CHECKING - Should Essence query the server to check for updates?
-update-check: true
-
-# PREFIXES
-console-prefix: Essence
-
-# MOTD - This is displayed to users in chat when they join the server.
-# You can use § colour codes here!
-motd:
+# ADMIN MODULE
+admin:
   enabled: true
-  message: |-
+
+# CHAT MODULE
+chat:
+  enabled: true
+  manage-chat: true
+  name-format: "%essence_combined_prefix% %essence_player%%essence_player_suffix%:"
+  allow-message-formatting: false
+  broadcasts:
+    first-join: "§a%essence_player% joined the server for the first time!"
+    join: "§e%essence_player% joined the server!"
+    leave: "§c%essence_player% left the server!"
+  motd: |-
     §2§lWelcome to the server!
     §aYou can change this message in Essence's config.yml
 
-# BROADCASTS - These are some predefined broadcasts that fire at specific times.
-broadcasts:
-  first-join: §a%essence_player% joined the server for the first time!
-  join: §e%essence_player% joined the server!
-  leave: §c%essence_player% left the server!
-
-# CHAT - You can use § colour codes here!
-chat:
-  enabled: true
-  name-format: '%essence_combined_prefix% %essence_player%%essence_player_suffix%:'
-  allow-message-formatting: false
-
-# SPAWN KITS - Players are given these kits when they first join the server.
-# Set to "false" to disable this feature.
-spawn-kits:
-- wooden-tools
-
-# ECONOMY
+# ECONOMY MODULE
 economy:
+  enabled: true
+  mode: VAULT
   start-money: 100.0
   symbol: $
 
-# TELEPORTATION
+# ENVIRONMENT MODULE
+environment:
+  enabled: true
+
+# GAMEMODE MODULE
+gamemode:
+  enabled: true
+
+# INVENTORY MODULE
+inventory:
+  enabled: true
+
+# KIT MODULE
+kit:
+  enabled: true
+  spawn-kits:
+    - wooden-tools
+
+# STATS MODULE
+stats:
+  enabled: true
+
+# TEAM MODULE
+team:
+  enabled: true
+
+# TELEPORTATION MODULE
 teleportation:
+  enabled: true
   home:
     wait: 3
     cooldown: 10
@@ -105,23 +130,21 @@ teleportation:
 # Please ensure the file exists in the 'language' sub-folder before changing this value.
 language: en-GB
 
-# DISABLED COMMANDS - See https://wiki.lewmc.net/es-disabling-commands.html for help.
-# PLEASE NOTE: This does not currently remove the command from /es help
+# DISABLED COMMANDS
+# Allows you to disable specific commands. Doesn't fully remove them from the server.
 disabled-commands:
-- example
+  list:
+    - example
+  feedback-in-chat: true
 
-# Should disabled commands tell users they're disabled when they're executed?
-disabled-commands-feedback: true
-
-# PLAYERDATA - What types of player data to store
-# This does not change what is already stored
-playerdata:
-  store-ip-address: true
-
-# VERBOSE - Outputs more information to the console. If you're having issues, enable this. Creates a lot of console spam.
-verbose: false
+# ADVANCED SETTINGS
+# These settings should typically be left alone. Only change them if you know what you're doing.
+advanced:
+  playerdata:
+    store-ip-address: true
+  update-check: true
+  verbose: false
 
 # Do not change this!
-config-version: 2
-
+config-version: 3
 ```

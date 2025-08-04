@@ -1,10 +1,25 @@
-# Time and Weather
+# Environment
+The environment allows you to manage the environment your players play in. To give a player access to all environment
+module features you can give them the `essence.environment.*` wildcard permission.
 
-## Commands
-Time and Weather commands consist of /time, /weather, /ptime, and /pweather.
+## Global Environment
+Time and Weather commands consist of /time and /weather.
 They all work in the same way - send it without arguments to check, with to set.
 
-For example: `/time` will check the time, and `/time day` or `/time 1000` will set the time.
+For example: `/time` will check the time, and `/time day` or `/time 1000` will set the time. You can also use
+`/time set <time>` if you'd prefer.
+
+These commands change the time/weather for all players on the server.
+
+## Player Environment
+Time and Weather commands consist of /ptime and /pweather.
+They all work in the same way - send it without arguments to check, with to set.
+
+For example: `/ptime` will check the time, and `/ptime day` or `/ptime 1000` will set the time.
+
+To reset the player time/weather back to the server time/weather, use `/ptime reset` or `/pweather reset`
+
+These commands only change the time/weather for you.
 
 ## Time Values
 

@@ -1,6 +1,7 @@
 # Kits
 
-Kits are sets of items that can be given to players via commands. The command to access Kits is /kit.
+Kits are sets of items that can be given to players via commands. The command to access Kits is /kit. To give players
+access to all kits commands give them the `essence.kits.*` command.
 
 ## kits.yml
 Kits are stored in the kits.yml file which can be found in Essence's data folder (/plugins/essence/data).
@@ -20,12 +21,12 @@ kits:
 These example kits come pre-installed with Essence. If you've accidentally deleted them and would like to get them back, you can delete the kits.yml file and restart your server. The file will be re-generated.
 
 ### Parameters
-| Parameter             | Description                                                                                                                                                                                          | Required? | Example                                                          |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|
-| Kit name (root-level) | The name of your Kit - can be any string                                                                                                                                                             | Yes       | wooden-tools                                                     |
-| items                 | List of items you'd like the player to receive from this kit - must be a list of strings (Each string must be a valid [Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)) | Yes       | `["WOODEN_AXE","WOODEN_PICKAXE","WOODEN_SHOVEL","WOODEN_SWORD"]` |
-| maxclaims            | The maximum number of times the kit can be claimed. To disable set to -1. Can be bypassed with permissions, see below. Kit claims are always being counted even if this restriction is not present, if you'd like to restart all user's counters either rename the kit of remove the counter from their player data file.  | Yes        | 3                                                 |
-| permission            | <strong>Optional</strong> - See the "Permissions" section below.                                                                                                                                     | No        | essence.kits.god                                                 |
+| Parameter             | Description                                                                                                                                                                                                                                                                                                               | Required? | Example                                                          |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|
+| Kit name (root-level) | The name of your Kit - can be any string                                                                                                                                                                                                                                                                                  | Yes       | wooden-tools                                                     |
+| items                 | List of items you'd like the player to receive from this kit - must be a list of strings (Each string must be a valid [Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html))                                                                                                                      | Yes       | `["WOODEN_AXE","WOODEN_PICKAXE","WOODEN_SHOVEL","WOODEN_SWORD"]` |
+| maxclaims             | The maximum number of times the kit can be claimed. To disable set to -1. Can be bypassed with permissions, see below. Kit claims are always being counted even if this restriction is not present, if you'd like to restart all user's counters either rename the kit of remove the counter from their player data file. | Yes       | 3                                                                |
+| permission            | <strong>Optional</strong> - See the "Permissions" section below.                                                                                                                                                                                                                                                          | No        | essence.kits.god                                                 |
 
 ## Permissions
 Kits require users to have a set of permissions to access them.

@@ -8,6 +8,7 @@ Welcome to the new LewMC Wiki, please click one of the links below or in the sid
 - [Essence](Essence.md)
 - [Kryptonite](Kryptonite.md)
 - [Jailhouse](Jailhouse.md)
+- [Foundry](Foundry.md)
 
 ## Modpacks
 - [Galactica](Galactica.md)

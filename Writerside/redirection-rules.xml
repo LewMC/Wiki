@@ -50,4 +50,8 @@
         <description>Created after removal of "Modules" from LewMC Wiki</description>
         <accepts>ES-Modules.html</accepts>
     </rule>
+    <rule id="54445bc5">
+        <description>Created after removal of "MOTD" from LewMC Wiki</description>
+        <accepts>ES-MOTD.html</accepts>
+    </rule>
 </rules>
