@@ -7,7 +7,7 @@
 
 ## 1.2.0
 
-_2025-08-11_ - Foundry 1.1.0 updates the format of the software.
+_2025-08-11_ - Foundry 1.2.0 adds runtime registration of commands.
 
 | Added   | Commands can now be registered at runtime using the new runtimeCommand method. [Learn more](FR-Registry-Commands.md) |
 |---------|----------------------------------------------------------------------------------------------------------------------|
