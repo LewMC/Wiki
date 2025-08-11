@@ -54,10 +54,15 @@ FoundryCommands work just like standard Bukkit commands, you can register them u
 
 The Foundry Registry allows you to register commands quickly, and it handles any potential exceptions or crashes as a result of the registration process.
 
-See [Registry](FR-Registry.md).
+Commands registered this way will work if they are in your plugin.yml file and also if they are not.
+If you need to dynamically enable commands at runtime use the registry.
+
+See [the Registry page](FR-Registry.md) for more information.
 
 ### Bukkit
 The traditional Bukkit method of registering commands also works with Foundry Commands.
+
+Commands registered this way must also be in your plugin.yml file as standard.
 
 ```java
 public class ExamplePlugin extends JavaPlugin {

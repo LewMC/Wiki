@@ -54,4 +54,8 @@
         <description>Created after removal of "MOTD" from LewMC Wiki</description>
         <accepts>ES-MOTD.html</accepts>
     </rule>
+    <rule id="138b0ceb">
+        <description>Created after removal of "Commands" from LewMC Wiki</description>
+        <accepts>FR-Registry-Commands.html</accepts>
+    </rule>
 </rules>

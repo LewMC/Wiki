@@ -73,6 +73,10 @@ However, if you'd like to debug issues, Foundry is able to output more informati
 To do this, you'll need to set verbose mode to true when setting up Foundry.
 You must assign FoundryConfig to a variable to do this.
 
+Note that this only sets the verbose value for this instance of FoundryConfig, not all. If you'd like this to be global
+we recommend saving the instance in your main class then referencing it in all other instances.
+
+
 ```java
 public class ExamplePlugin extends JavaPlugin {
     @Override
@@ -87,6 +91,24 @@ public class ExamplePlugin extends JavaPlugin {
         // Don't want the stuff after to be verbose?
         // You can change it back!
         config.setVerbose(false);
+    }
+}
+```
+
+## Plugin IDs
+Foundry automatically gives your plugin an ID, it's usually your plugin's name.
+
+If you wish, you can overwrite this ID by using the setPluginID function.
+
+Note that this only overwrites the plugin ID for this instance of FoundryConfig, not all. If you'd like this to be global
+we recommend saving the instance in your main class then referencing it in all other instances.
+
+```java
+public class ExamplePlugin extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        FoundryConfig config = new FoundryConfig(this);
+        config.setPluginId("my-custom-id");
     }
 }
 ```
