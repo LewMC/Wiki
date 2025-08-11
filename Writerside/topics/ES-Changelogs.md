@@ -4,10 +4,20 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.10.1-SNAPSHOT
+> This is a prerelease build and is not recommended for production environments.
+
+_2025-08-11_ - Essence 1.10.1 improves data importing and command disabling.
+
+| Added   | Nothing was added in this update.                                                                                                                                                                                                                                                                   |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                 |
+| Changed | Importing data from Essentials should now be more robust and more likely to be successful. We've moved our commands to Foundry's new runtimeCommand feature, which means that disabling commands (or modules) will now *fully* disable them, no feedback at all, it's like they never even existed! |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                                                                                                                         |
+
+
 ## 1.10.0
 _2025-08-04_ - Essence 1.10.0 adds new environment commands, modules, player stat modifiers, and contains a number of bug fixes and tweaks.
-
-_Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
 
 | Added   | Added new /es restore command that restores Essence's files. User IP addresses now appear in /info (requires extra permission node and can be toggled in config). Added support for [placeholders](ES-Placeholders.md) in language files. Added new [Environment module](ES-Time-and-Weather.md) which adds time, weather, ptime, and pweather commands. You can now [teleport to offline players](ES-Teleportation.md). Added /fly and /speed to the [stats module](ES-Stats.md). Added modules which can be [disabled](ES-Disabling-Commands.md). |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -17,8 +27,6 @@ _Massive sections of the plugin's code were modified in this release. If you not
 
 ## 1.9.0
 _2025-05-18_ - Essence 1.9.0 adds extended teleport toggling, PlaceholderAPI support, and a whole host of new features for chat.
-
-_Massive sections of the plugin's code were modified in this release. If you notice any issues, please let us know._
 
 | Added   | [Extended teleport toggles](https://github.com/LewMC/Essence/issues/145), PlaceholderAPI support alongside [new placeholders and new places where they can be used](ES-Placeholders.md), Teams prefix and chat formatting, and display name (nickname) changing.                                                                                                                                                                                       |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
