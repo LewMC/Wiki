@@ -2,7 +2,8 @@
 
 | Foundry Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
 |-----------------|--------------------|---------------------------------------------------------------|--------------|----------------|
-| 1.0.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
+| 1.2.0+          | > 1.21.5           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
+| 1.0.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | No             |
 
 ## Version Support
 ### Minecraft Version Support

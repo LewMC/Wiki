@@ -12,7 +12,7 @@ _2025-08-11_ - Foundry 1.1.0 updates the format of the software.
 | Added   | Commands can now be registered at runtime using the new runtimeCommand method. [Learn more](FR-Registry-Commands.md) |
 |---------|----------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                  |
-| Changed | Nothing was changed in this update.                                                                                  |
+| Changed | Foundry now requires Minecraft 1.21.5 or later.                                                                      |
 | Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                          |
 
 ## 1.1.0
