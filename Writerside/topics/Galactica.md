@@ -6,3 +6,4 @@ Welcome to the Galactica and Galactica: Jurassic Edition Wiki!
 ## About the pack
 * [What's the difference between editions?](GA-Editions.md)
 * [How to play multiplayer.](GA-Playing-with-Friends.md)
+* [](GA-Mod-List.md)
