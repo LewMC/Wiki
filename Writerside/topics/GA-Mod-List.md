@@ -73,7 +73,6 @@
 	<li><a href="https://www.curseforge.com/projects/236226">Iron Tank</a> [1.12.2-2.1.0-beta.18] by Indemnity83</li>
 	<li><a href="https://www.curseforge.com/projects/237226">Item Blacklist</a> [1.4.3] by DoubleDoorDev, Claycorp, Dries007</li>
 	<li><a href="https://www.curseforge.com/projects/309674">Item Filters</a> [1.0.4.2] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/247070">JEI Hider</a> [2633243]</li>
 	<li><a href="https://www.curseforge.com/projects/265917">JEI Integration</a> [1.6.0] by SnowShock35</li>
 	<li><a href="https://www.curseforge.com/projects/283013">Jeivillagers</a> [1.12-1.0.2] by Buuz135</li>
 	<li><a href="https://www.curseforge.com/projects/238222">Just Enough Items</a> [4.16.1.1013] by mezz</li>
@@ -231,7 +230,6 @@
 	<li><a href="https://www.curseforge.com/projects/236226">Iron Tank</a> [1.12.2-2.1.0-beta.18] by Indemnity83</li>
 	<li><a href="https://www.curseforge.com/projects/237226">Item Blacklist</a> [1.4.3] by DoubleDoorDev, Claycorp, Dries007</li>
 	<li><a href="https://www.curseforge.com/projects/309674">Item Filters</a> [1.0.4.2] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/247070">JEI Hider</a> [2633243]</li>
 	<li><a href="https://www.curseforge.com/projects/265917">JEI Integration</a> [1.6.0] by SnowShock35</li>
 	<li><a href="https://www.curseforge.com/projects/283013">Jeivillagers</a> [1.12-1.0.2] by Buuz135</li>
 	<li><a href="https://www.curseforge.com/projects/359537">Jurassic Reborn</a> [1.3.36] by vitiate</li>
