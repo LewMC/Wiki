@@ -15,8 +15,18 @@ Issues caused can range from permissions lookups failing, memory leaks, zip file
 We **highly** recommend restarting your server instead of reloading it.
 
 ## Kryptonite broke my server, help!
-We're sorry to hear our software caused you issues, unfortunately there's not much we can do except advise you to use
-one of your backups.
+We're sorry to hear our software caused you issues.
 
-Please send us a copy of your logs and config files via [GitHub](https://github.com/lewmc/kryptonite)
-and we'll look into what caused the issue.
+If you took a backup of your server before using Kryponite, you could roll back your changes.
+
+If you didn't take a backup have a look at your server logs, they should say which configuration file is causing issues.
+Once you've identified the file, delete it and restart your server.
+Your server will automatically re-generate the default version of the file.
+
+If you can't figure out which file went wrong, you can delete all your configuration files, or contact us and we'll
+help you find the issue.
+
+The configuration files we handle [can be found on the KOS page](KR-Kryptonite-Optimisation-System.md) under "Supported patches﻿".
+
+Please send us a copy of your logs and config files via [GitHub](https://github.com/lewmc/kryptonite) or
+[Discord](https://lewmc.net/discord) and we'll look into what caused the issue.
