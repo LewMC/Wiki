@@ -27,4 +27,5 @@ To change this, set economy.mode to the following:
 | VAULT              | **Default, Recommended** Allows Essence to give other plugins access to it's economy via the Vault plugin. If Vault isn't installed this mode will behave like ESSENCE mode. |
 | ESSENCE            | Essence keeps it's economy to itself - our economy commands will still work but other plugin's access to Essence's economy is prohibited.                                    |
 
-Previously, Essence had an 'OFF' mode. This was removed in 1.10.1, instead you should set `economy.enabled` to false. Your configuration will automatically update itself on next startup after updating to Essence 1.10.1 or higher.
+Previously, Essence had an 'OFF' mode. This was removed in 1.10.1, instead you should set `economy.enabled` to false. 
+Your configuration will automatically update itself on next startup after updating to Essence 1.10.1 or higher.
