@@ -1,8 +1,12 @@
 # Disabling Features
 <warning>
-    <strong>This feature is not recommended in versions of Essence below 1.6.1 due to console spam.</strong>
+    <strong>This feature is not recommended in versions of Essence below 1.10.0 due to heavy limitations.</strong>
     Please consider alternatives such as permissions.
 </warning>
+
+Disabling features makes it appear as though the features (commands or modules) do not exist at all. If you'd like to
+disallow some users to use the features, or have an error message display instead of nothing happening at all, you
+should use [permissions](ES-Permissions.md).
 
 ## Disabling Commands
 To disable commands in Essence, you can add them to a list in the configuration file.
@@ -10,20 +14,8 @@ To disable commands in Essence, you can add them to a list in the configuration 
 1. Open Essence's config.yml
 2. Scroll to disabled-commands.
 3. Add any commands you'd like to disable. Most codes are what you'd expect, but since some commands have aliases we've
-4. included the full list below.
-4. Restart your server or run `/es reload`.
-
-Commands will not execute or appear in /es help, but may still appear in /help, /?, and autocomplete menus.
-
-## Command Feedback
-By default, when a user executes a disabled command they will receive a message informing them that a command is
-disabled.
-
-If you'd like nothing to happen, no message or feedback, you should set `disabled-commands-feedback` to `false` in
-config.yml
-
-If you'd like the default error message to appear instead, you can enable `verbose` in `config.yml`, but this may create
-additional console spam due to extensive logging whist this mode is enabled.
+4. Included the full list below.
+4. Restart your server.
 
 ## Command List
 Most command codes are what you'd expect, but since we use aliases for our commands, some codes may be different that
@@ -133,25 +125,21 @@ This will disable all commands and features that fall under this module.
 The 'core' module cannot be disabled.
 
 ## Limitations and Drawbacks
-If you're looking to disable a command or module because you prefer another plugin's (or vanilla's) alternative, this
-system likely won't work for you. Spigot requires Essence to register commands in the plugin.yml file, because of this
-the server still expects the command to work.
+In Essence 1.10.1 and above, both of the below issues were fixed and there are currently no known limitations or 
+drawbacks.
 
-In **Essence 1.6.0 and below**, Essence will refuse to process the command, causing the default error message to appear
-in chat.
+### Essence 1.10.0 and below
+Disabling a command or module because you prefer another plugin's (or vanilla's)
+alternative did not work. Spigot required Essence to register commands in the plugin.yml file, because of this the 
+server still expected the command to work. This was fixed in Essence 1.10.1, and command disabling will now allow other
+plugins commands to work instead of Essence's.
+
+### Essence 1.6.0 and below
+Essence will refuse to process the command, causing the default error message to appear in chat.
 
 Here's an example with the `/tp` command disabled:
 
 ![es-disabling-commands.png](es-disabling-commands.png)
-
-In **Essence 1.6.1 and above**, this will only happen if `verbose` is set to `true` in Essence's config.yml, otherwise
-by default the user will receive an error message. [Learn more](#command-feedback).
-
-If you want to use a vanilla command, you can append minecraft: to it. For example: /minecraft:teleport
-
-## Alternatives
-Permissions! Essence has a robust permissions system - simply disallow players from using the commands. This gives them
-an error message instead of it appearing as though the command doesn't work at all.
 
 <seealso>
     <category ref="es-commands">
