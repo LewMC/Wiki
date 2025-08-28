@@ -1,9 +1,9 @@
 # System Requirements
 
-| Foundry Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
-|-----------------|--------------------|---------------------------------------------------------------|--------------|----------------|
-| 1.2.0+          | > 1.21.5           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
-| 1.0.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | No             |
+| Foundry Version | Minecraft Versions | Supported Software                                    | Java Version | Active Support |
+|-----------------|--------------------|-------------------------------------------------------|--------------|----------------|
+| 1.2.0+          | > 1.21.5           | CraftBukkit, Spigot, Paper, Folia, or a fork of these | 21           | Yes            |
+| 1.0.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these | 21           | No             |
 
 ## Version Support
 ### Minecraft Version Support
@@ -24,3 +24,9 @@ If the version is no longer in Active Support we may not fix the issue.
 
 If you're unusure if we'll fix something, ask! [Open an issue on our GitHub](https://github.com/lewmc/Foundry/issues) and we'll advise there.
 You're welcome to fork Foundry to fix bugs on older versions yourself if you wish to do so.
+
+## Folia Support
+Foundry supports Folia-based Minecraft Server Software.
+
+## Geyser Support
+Foundry supports Geyser-enabled servers.

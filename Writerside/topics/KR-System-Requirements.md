@@ -33,3 +33,6 @@ You're welcome to fork Kryptonite to fix bugs on older versions yourself if you 
 
 ## Folia Support
 Kryptonite supports Folia-based Minecraft Server Software in versions 1.3.0 and greater.
+
+## Geyser Support
+Kryptonite supports Geyser-enabled servers.

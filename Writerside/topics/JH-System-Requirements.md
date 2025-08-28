@@ -2,7 +2,7 @@
 
 | Jailhouse Version  | Minecraft Versions | Supported Software                                            | Java Version |
 |--------------------|--------------------|---------------------------------------------------------------|--------------|
-| 1.0.0+             | > 1.20.6           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           |
+| 1.0.0+             | > 1.21.0           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           |
 
 ## Version Support
 ### Minecraft Version Support
@@ -26,3 +26,6 @@ You're welcome to fork Jailhouse to fix bugs on older versions yourself if you w
 
 ## Folia Support
 Jailhouse supports Folia-based Minecraft Server Software.
+
+## Geyser Support
+Jailhouse supports Geyser-enabled servers.

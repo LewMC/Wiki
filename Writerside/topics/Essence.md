@@ -25,6 +25,12 @@ It's super easy to import your warps, homes, and spawn from EssentialsX. Simply 
 
 You should always backup your server first! [Learn more about Importing your Essentials data](ES-Importing-Data.md)
 
+## Folia Support
+Kryptonite supports Folia-based Minecraft Server Software.
+
+## Geyser Support
+Essence supports Geyser-enabled servers.
+
 <seealso>
     <category ref="opensource">
         <a href="https://github.com/lewmc/essence">GitHub</a>
