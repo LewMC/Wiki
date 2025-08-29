@@ -4,8 +4,22 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+
+
+## 1.10.2
+_2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous version.
+
+| Added   | Nothing was added in this update.                                                                                                                                                          |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                        |
+| Changed | Nothing was changed in this update.                                                                                                                                                        |
+| Fixed   | [#257](https://github.com/LewMC/Essence/issues/257) Essence 1.10.1-SNAPSHOT encounters an error when generating a fresh config [not fixed for servers where the config does not yet exist] |
+
 ## 1.10.1
 _2025-08-29_ - Essence 1.10.1 improves data importing & command disabling, and fixes a number of bugs.
+
+_This version has been recalled due to a breaking bug or other serious issue. Please update to the next available version. We apologise for any inconvenience caused.
+If your server was affected and you need assistance, please contact us at lewmc.net/help_
 
 | Added   | Nothing was added in this update.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
