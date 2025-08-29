@@ -4,10 +4,8 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
-## 1.10.1-SNAPSHOT
-> This is a prerelease build and is not recommended for production environments.
-
-_2025-08-11_ - Essence 1.10.1 improves data importing and command disabling. Items in 'fixed' section only available on Repo.
+## 1.10.1
+_2025-08-29_ - Essence 1.10.1 improves data importing and command disabling. Items in 'fixed' section only available on Repo.
 
 | Added   | Nothing was added in this update.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
