@@ -58,4 +58,8 @@
         <description>Created after removal of "Commands" from LewMC Wiki</description>
         <accepts>FR-Registry-Commands.html</accepts>
     </rule>
+    <rule id="4d84ada8">
+        <description>Created after removal of "Galactica Community Server Rules" from LewMC Wiki</description>
+        <accepts>GCS-Rules.html</accepts>
+    </rule>
 </rules>

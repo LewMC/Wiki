@@ -87,6 +87,7 @@
     </toc-element>
     <toc-element topic="Modpacks.md">
         <toc-element topic="Galactica.md">
+            <toc-element topic="GA-Rules.md" accepts-web-file-names-ref="4d84ada8"/>
             <toc-element topic="GA-Playing-with-Friends.md">
                 <toc-element topic="GA-Server-Pack.md"/>
                 <toc-element topic="GA-Essential-World-Hosting.md"/>
