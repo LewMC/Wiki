@@ -24,6 +24,7 @@ If you'd like your friends to be able to connect, you'll need to port forward yo
 First, unzip the server pack, then follow the instructions in the relevant section for you below.
 
 ### Windows
+> We package the server pack with a binary for Windows. Simply rename start.txt to start.bat and you're good to go!
 1. Create a new file titled 'start.bat'
 2. In the file, enter this for Galactica:
     <code-block>
@@ -81,3 +82,14 @@ First, unzip the server pack, then follow the instructions in the relevant secti
 4. Run the file using `./start.sh`, the server should generate the required files but not start.
 5. Open EULA.txt and accept it.
 6. Run the file again using `./start.sh`, the server should now start.
+
+## Troubleshooting
+### java.lang.reflection.InvocationTargetException
+Your computer is trying to run the server pack on a version of Java that is too new, both packs require Java 8.
+
+To check if this is the issue and fix it:
+1. Open a command prompt. Type `java -version` - if anything other than Java 8 appears keep going, if it says Java 8 send us a message for help!
+2. Run `where java` and copy the full path for Java 8.
+3. Open your `start.txt`/`start.bat` file.
+4. Replace 'java' at the start of the command with the full path you copied from step 2. If the path has spaces you'll need to wrap it in quotation marks. For example: `"C:\Program Files (x86)\Common Files\Oracle\Java\java8path\java.exe"`
+5. Save the file, (if it's start.txt rename to start.bat) and run the server. If you're still having issues message us for help!
