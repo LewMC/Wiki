@@ -89,7 +89,7 @@ Your computer is trying to run the server pack on a version of Java that is too 
 
 To check if this is the issue and fix it:
 1. Open a command prompt. Type `java -version` - if anything other than Java 8 appears keep going, if it says Java 8 send us a message for help!
-2. Run `where java` and copy the full path for Java 8.
+2. Run `where java` and copy the full path for Java 8. If you don't see Java 8 - [install it from Oracle](https://www.java.com/en/download/manual.jsp) and run the command again.
 3. Open your `start.txt`/`start.bat` file.
 4. Replace 'java' at the start of the command with the full path you copied from step 2. If the path has spaces you'll need to wrap it in quotation marks. For example: `"C:\Program Files (x86)\Common Files\Oracle\Java\java8path\java.exe"`
 5. Save the file, (if it's start.txt rename to start.bat) and run the server. If you're still having issues message us for help!
