@@ -1,5 +1,7 @@
 # Mod List
 
+> Last updated: 27/10/2025 (Modpack version 1.13.0)
+
 ## Galactica
 <list>
 	<li><a href="https://modrinth.com/mod/DSVgwcji">AI-Improvements</a> [1.12-0.0.1b3] by DarkCow</li>
