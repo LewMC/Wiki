@@ -11,7 +11,6 @@
 	<li><a href="https://www.curseforge.com/projects/223794">Applied Energistics 2</a> [rv6-stable-7] by AlgorithmX2</li>
 	<li><a href="https://www.curseforge.com/projects/293507">Atomic Science</a> [2747294] by DarkCow aka DarkGuardsman</li>
 	<li><a href="https://www.curseforge.com/projects/250363">AutoRegLib</a> [1.3-32] by Vazkii</li>
-	<li><a href="https://www.curseforge.com/projects/585546">BHMenu</a> [2.4.5] by BisectHosting</li>
 	<li><a href="https://www.curseforge.com/projects/227083">Baubles</a> [1.12-1.5.2] by Azanor</li>
 	<li><a href="https://www.curseforge.com/projects/229876">BetterFps</a> [2483393]</li>
 	<li><a href="https://www.curseforge.com/projects/228027">BiblioCraft</a> [2.4.6] by Joseph 'Nuchaz' Sinclair</li>
@@ -30,10 +29,8 @@
 	<li><a href="https://www.curseforge.com/projects/271384">CoFH World</a> [1.4.0.1] by Team CoFH</li>
 	<li><a href="https://www.curseforge.com/projects/242818">CodeChicken Lib</a> [3.2.3.358] by ChickenBones, covers1624</li>
 	<li><a href="https://modrinth.com/mod/xv94TkTM">Controlling</a> [3.0.12.2] by Jaredlll08</li>
-	<li><a href="https://www.curseforge.com/projects/316582">Corpse</a> [1.12.2-1.0.8] by Max Henkel</li>
-	<li><a href="https://www.curseforge.com/projects/239197">CraftTweaker2</a> [1.12-4.1.20.707] by StanHebben, Jaredlll08</li>
+	<li><a href="https://www.curseforge.com/projects/239197">CraftTweaker2</a> [1.12-4.1.20.709] by StanHebben, Jaredlll08</li>
 	<li><a href="https://www.curseforge.com/projects/79616">Decocraft</a> [2.6.3.7_1.12.2] by RazzleberryFox</li>
-	<li><a href="https://www.curseforge.com/projects/296803">Discord Rich Presence</a> [1.2.19] by ItsDizzy</li>
 	<li><a href="https://www.curseforge.com/projects/227874">Dynamic Lights</a> [2563244] by AtomicStryker</li>
 	<li><a href="https://www.curseforge.com/projects/250832">Elevator Mod</a> [1.12.2-1.3.14] by VsnGamer</li>
 	<li><a href="https://www.curseforge.com/projects/64578">Ender IO</a> [5.3.72] by CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</li>
@@ -41,17 +38,13 @@
 	<li><a href="https://www.curseforge.com/projects/245174">EnderStorage</a> [2.4.6.137] by ChickenBones, covers1624</li>
 	<li><a href="https://www.curseforge.com/projects/254818">Energy Converters</a> [1.3.7.30] by xalcon</li>
 	<li><a href="https://modrinth.com/mod/NNAgCjsB">EntityCulling</a> [1.6.3] by tr7zw</li>
-	<li><a href="https://www.curseforge.com/projects/546670">Essential Mod</a> [6828676]</li>
+	<li><a href="https://www.curseforge.com/projects/546670">Essential Mod</a> [1.3.9.3]</li>
 	<li><a href="https://www.curseforge.com/projects/270558">External Tweaker</a> [0.3] by Bartz24</li>
 	<li><a href="https://www.curseforge.com/projects/241291">Extra Planets</a> [1.12.2-0.8.0] by MJRLegends</li>
 	<li><a href="https://www.curseforge.com/projects/250277">Extreme Reactors</a> [1.12.2-0.4.5.68] by ErogenousBeef, ZeroNoRyouki, ABookFreak</li>
-	<li><a href="https://www.curseforge.com/projects/237167">FTB Library</a> [5.4.7.2] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/289412">FTB Quests</a> [1202.9.0.15] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/237102">FTB Utilities</a> [5.4.1.131] by LatvianModder</li>
 	<li><a href="https://www.curseforge.com/projects/233342">Fairy Lights</a> [2.2.0] by pau101</li>
 	<li><a href="https://www.curseforge.com/projects/349559">Falling Tree</a> [2.4.0] by RakSrinaNa</li>
 	<li><a href="https://www.curseforge.com/projects/367706">FancyMenu</a> [2.14.9] by Keksuccino</li>
-	<li><a href="https://www.curseforge.com/projects/230976">Fast Leaf Decay</a> [v14] by Olafski</li>
 	<li><a href="https://www.curseforge.com/projects/299540">FastFurnace</a> [1.12.2-1.3.1] by Shadows_of_Fire</li>
 	<li><a href="https://www.curseforge.com/projects/288885">FastWorkbench</a> [1.12.2-1.7.4] by Shadows_of_Fire</li>
 	<li><a href="https://www.curseforge.com/projects/306187">Featured Servers</a> [1.12-1.0.6] by Jake_Evans</li>
@@ -62,7 +55,6 @@
 	<li><a href="https://www.curseforge.com/projects/258426">Forge Multipart CBE</a> [2.6.2.83] by ChickenBones</li>
 	<li><a href="https://www.curseforge.com/projects/564236">Galacticraft</a> [4.0.7] by micdoodle8, radfast, EzerArch, fishtaco, SpaceViking, SteveKunG, ROMVoid95</li>
 	<li><a href="https://www.curseforge.com/projects/296686">Gauges and Switches</a> [1.2.8] by wile</li>
-	<li><a href="https://www.curseforge.com/projects/238551">Gravestone Mod</a> [1.12.7] by Max Henkel</li>
 	<li><a href="https://www.curseforge.com/projects/228832">Guide-API</a> [1.12-2.1.8-63] by Tombenpotter, TehNut</li>
 	<li><a href="https://www.curseforge.com/projects/311846">IC2 Tweaker</a> [0.2.1+build.4] by 3TUSK</li>
 	<li><a href="https://www.curseforge.com/projects/244451">ICBM Classic</a> [6.5.4] by DarkCow, Calclavia</li>
@@ -93,7 +85,7 @@
 	<li><a href="https://www.curseforge.com/projects/438116">Macaw's Paintings</a> [1.0.5] by Sketch Macaw &amp; Peachy Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/629153">Macaw's Paths &amp; Pavings</a> [1.0.2] by Sketch Macaw &amp; Peachy Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/352039">Macaw's Roofs</a> [1.0.2] by Sketch Macaw</li>
-	<li><a href="https://www.curseforge.com/projects/400933">Macaw's Trapdoors</a> [1.0.3] by Sketch Macaw</li>
+	<li><a href="https://www.curseforge.com/projects/400933">Macaw's Trapdoors</a> [1.0.4] by Sketch Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/363569">Macaw's Windows</a> [1.0.0] by Sketch Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/74924">Mantle</a> [1.3.3.55] by boni, progWML6, Alexbegt</li>
 	<li><a href="https://www.curseforge.com/projects/268560">Mekanism</a> [1.12.2-9.8.3.390] by aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</li>
@@ -130,7 +122,7 @@
 	<li><a href="https://www.curseforge.com/projects/243076">Refined Storage</a> [1.6.16] by Refined Storage contributors</li>
 	<li><a href="https://www.curseforge.com/projects/624967">RenderLib</a> [1.4.5] by Meldexun</li>
 	<li><a href="https://www.curseforge.com/projects/64760">SecurityCraft</a> [v1.10] by Geforce, bl4ckscor3, Redstone_Dubstep</li>
-	<li><a href="https://www.curseforge.com/projects/416089">Simple Voice Chat</a> [1.12.2-2.5.36] by Max Henkel</li>
+	<li><a href="https://www.curseforge.com/projects/416089">Simple Voice Chat</a> [1.12.2-2.6.6] by Max Henkel</li>
 	<li><a href="https://www.curseforge.com/projects/285742">Smooth Font</a> [mc1.12.2-2.1.4] by bre2el</li>
 	<li><a href="https://www.curseforge.com/projects/253172">Statues mod</a> [0.8.11] by ShyNieke, Mrbysco</li>
 	<li><a href="https://www.curseforge.com/projects/223852">Storage Drawers</a> [5.5.3] by jaquadro</li>
@@ -154,7 +146,7 @@
 	<li><a href="https://www.curseforge.com/projects/263420">Xaero's Minimap</a> [25.2.10] by Xaero96</li>
 	<li><a href="https://www.curseforge.com/projects/317780">Xaero's World Map</a> [1.39.12] by Xaero96</li>
 	<li><a href="https://www.curseforge.com/projects/247921">Zero CORE</a> [1.12.2-0.1.2.9] by ZeroNoRyouki</li>
-	<li><a href="https://www.curseforge.com/projects/927564">Zume</a> [1.1.4] by Nolij (@xdMatthewbx#1337)</li>
+	<li><a href="https://www.curseforge.com/projects/927564">Zume</a> [1.2.0] by Nolij (@xdMatthewbx#1337)</li>
 </list>
 
 ## Galactica: Jurassic Edition
@@ -168,7 +160,6 @@
 	<li><a href="https://www.curseforge.com/projects/223794">Applied Energistics 2</a> [rv6-stable-7] by AlgorithmX2</li>
 	<li><a href="https://www.curseforge.com/projects/293507">Atomic Science</a> [2747294] by DarkCow aka DarkGuardsman</li>
 	<li><a href="https://www.curseforge.com/projects/250363">AutoRegLib</a> [1.3-32] by Vazkii</li>
-	<li><a href="https://www.curseforge.com/projects/585546">BHMenu</a> [2.4.5] by BisectHosting</li>
 	<li><a href="https://www.curseforge.com/projects/227083">Baubles</a> [1.12-1.5.2] by Azanor</li>
 	<li><a href="https://www.curseforge.com/projects/229876">BetterFps</a> [2483393]</li>
 	<li><a href="https://www.curseforge.com/projects/228027">BiblioCraft</a> [2.4.6] by Joseph 'Nuchaz' Sinclair</li>
@@ -187,10 +178,8 @@
 	<li><a href="https://www.curseforge.com/projects/271384">CoFH World</a> [1.4.0.1] by Team CoFH</li>
 	<li><a href="https://www.curseforge.com/projects/242818">CodeChicken Lib</a> [3.2.3.358] by ChickenBones, covers1624</li>
 	<li><a href="https://modrinth.com/mod/xv94TkTM">Controlling</a> [3.0.12.2] by Jaredlll08</li>
-	<li><a href="https://www.curseforge.com/projects/316582">Corpse</a> [1.12.2-1.0.8] by Max Henkel</li>
-	<li><a href="https://www.curseforge.com/projects/239197">CraftTweaker2</a> [1.12-4.1.20.707] by StanHebben, Jaredlll08</li>
+	<li><a href="https://www.curseforge.com/projects/239197">CraftTweaker2</a> [1.12-4.1.20.709] by StanHebben, Jaredlll08</li>
 	<li><a href="https://www.curseforge.com/projects/79616">Decocraft</a> [2.6.3.7_1.12.2] by RazzleberryFox</li>
-	<li><a href="https://www.curseforge.com/projects/296803">Discord Rich Presence</a> [1.2.19] by ItsDizzy</li>
 	<li><a href="https://www.curseforge.com/projects/227874">Dynamic Lights</a> [2563244] by AtomicStryker</li>
 	<li><a href="https://www.curseforge.com/projects/250832">Elevator Mod</a> [1.12.2-1.3.14] by VsnGamer</li>
 	<li><a href="https://www.curseforge.com/projects/64578">Ender IO</a> [5.3.72] by CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</li>
@@ -198,17 +187,13 @@
 	<li><a href="https://www.curseforge.com/projects/245174">EnderStorage</a> [2.4.6.137] by ChickenBones, covers1624</li>
 	<li><a href="https://www.curseforge.com/projects/254818">Energy Converters</a> [1.3.7.30] by xalcon</li>
 	<li><a href="https://modrinth.com/mod/NNAgCjsB">EntityCulling</a> [1.6.3] by tr7zw</li>
-	<li><a href="https://www.curseforge.com/projects/546670">Essential Mod</a> [6828676]</li>
+	<li><a href="https://www.curseforge.com/projects/546670">Essential Mod</a> [1.3.9.3]</li>
 	<li><a href="https://www.curseforge.com/projects/270558">External Tweaker</a> [0.3] by Bartz24</li>
 	<li><a href="https://www.curseforge.com/projects/241291">Extra Planets</a> [1.12.2-0.8.0] by MJRLegends</li>
 	<li><a href="https://www.curseforge.com/projects/250277">Extreme Reactors</a> [1.12.2-0.4.5.68] by ErogenousBeef, ZeroNoRyouki, ABookFreak</li>
-	<li><a href="https://www.curseforge.com/projects/237167">FTB Library</a> [5.4.7.2] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/289412">FTB Quests</a> [1202.9.0.15] by LatvianModder</li>
-	<li><a href="https://www.curseforge.com/projects/237102">FTB Utilities</a> [5.4.1.131] by LatvianModder</li>
 	<li><a href="https://www.curseforge.com/projects/233342">Fairy Lights</a> [2.2.0] by pau101</li>
 	<li><a href="https://www.curseforge.com/projects/349559">Falling Tree</a> [2.4.0] by RakSrinaNa</li>
 	<li><a href="https://www.curseforge.com/projects/367706">FancyMenu</a> [2.14.9] by Keksuccino</li>
-	<li><a href="https://www.curseforge.com/projects/230976">Fast Leaf Decay</a> [v14] by Olafski</li>
 	<li><a href="https://www.curseforge.com/projects/299540">FastFurnace</a> [1.12.2-1.3.1] by Shadows_of_Fire</li>
 	<li><a href="https://www.curseforge.com/projects/288885">FastWorkbench</a> [1.12.2-1.7.4] by Shadows_of_Fire</li>
 	<li><a href="https://www.curseforge.com/projects/306187">Featured Servers</a> [1.12-1.0.6] by Jake_Evans</li>
@@ -219,7 +204,6 @@
 	<li><a href="https://www.curseforge.com/projects/258426">Forge Multipart CBE</a> [2.6.2.83] by ChickenBones</li>
 	<li><a href="https://www.curseforge.com/projects/564236">Galacticraft</a> [4.0.7] by micdoodle8, radfast, EzerArch, fishtaco, SpaceViking, SteveKunG, ROMVoid95</li>
 	<li><a href="https://www.curseforge.com/projects/296686">Gauges and Switches</a> [1.2.8] by wile</li>
-	<li><a href="https://www.curseforge.com/projects/238551">Gravestone Mod</a> [1.12.7] by Max Henkel</li>
 	<li><a href="https://www.curseforge.com/projects/228832">Guide-API</a> [1.12-2.1.8-63] by Tombenpotter, TehNut</li>
 	<li><a href="https://www.curseforge.com/projects/311846">IC2 Tweaker</a> [0.2.1+build.4] by 3TUSK</li>
 	<li><a href="https://www.curseforge.com/projects/244451">ICBM Classic</a> [6.5.4] by DarkCow, Calclavia</li>
@@ -251,7 +235,7 @@
 	<li><a href="https://www.curseforge.com/projects/438116">Macaw's Paintings</a> [1.0.5] by Sketch Macaw &amp; Peachy Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/629153">Macaw's Paths &amp; Pavings</a> [1.0.2] by Sketch Macaw &amp; Peachy Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/352039">Macaw's Roofs</a> [1.0.2] by Sketch Macaw</li>
-	<li><a href="https://www.curseforge.com/projects/400933">Macaw's Trapdoors</a> [1.0.3] by Sketch Macaw</li>
+	<li><a href="https://www.curseforge.com/projects/400933">Macaw's Trapdoors</a> [1.0.4] by Sketch Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/363569">Macaw's Windows</a> [1.0.0] by Sketch Macaw</li>
 	<li><a href="https://www.curseforge.com/projects/74924">Mantle</a> [1.3.3.55] by boni, progWML6, Alexbegt</li>
 	<li><a href="https://www.curseforge.com/projects/268560">Mekanism</a> [1.12.2-9.8.3.390] by aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</li>
@@ -288,7 +272,7 @@
 	<li><a href="https://www.curseforge.com/projects/243076">Refined Storage</a> [1.6.16] by Refined Storage contributors</li>
 	<li><a href="https://www.curseforge.com/projects/624967">RenderLib</a> [1.4.5] by Meldexun</li>
 	<li><a href="https://www.curseforge.com/projects/64760">SecurityCraft</a> [v1.10] by Geforce, bl4ckscor3, Redstone_Dubstep</li>
-	<li><a href="https://www.curseforge.com/projects/416089">Simple Voice Chat</a> [1.12.2-2.5.36] by Max Henkel</li>
+	<li><a href="https://www.curseforge.com/projects/416089">Simple Voice Chat</a> [1.12.2-2.6.6] by Max Henkel</li>
 	<li><a href="https://www.curseforge.com/projects/285742">Smooth Font</a> [mc1.12.2-2.1.4] by bre2el</li>
 	<li><a href="https://www.curseforge.com/projects/253172">Statues mod</a> [0.8.11] by ShyNieke, Mrbysco</li>
 	<li><a href="https://www.curseforge.com/projects/223852">Storage Drawers</a> [5.5.3] by jaquadro</li>
@@ -312,5 +296,5 @@
 	<li><a href="https://www.curseforge.com/projects/263420">Xaero's Minimap</a> [25.2.10] by Xaero96</li>
 	<li><a href="https://www.curseforge.com/projects/317780">Xaero's World Map</a> [1.39.12] by Xaero96</li>
 	<li><a href="https://www.curseforge.com/projects/247921">Zero CORE</a> [1.12.2-0.1.2.9] by ZeroNoRyouki</li>
-	<li><a href="https://www.curseforge.com/projects/927564">Zume</a> [1.1.4] by Nolij (@xdMatthewbx#1337)</li>
+	<li><a href="https://www.curseforge.com/projects/927564">Zume</a> [1.2.0] by Nolij (@xdMatthewbx#1337)</li>
 </list>
