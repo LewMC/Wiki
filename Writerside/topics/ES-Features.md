@@ -13,7 +13,7 @@ Essence has a huge number of features, and we're always looking to add more!
 - [Healing](ES-Stats.md)
 - [Homes](ES-Teleportation.md)
 - [](ES-Importing-Data.md)
-- Inventory Management
+- [Inventory Management](ES-Inventory.md)
 - [](ES-Kits.md)
 - [MOTDs](ES-Chat.md)
 - [Nicknames](ES-Chat.md)

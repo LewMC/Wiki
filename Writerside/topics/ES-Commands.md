@@ -30,17 +30,19 @@ Wildcard permission: essence.gamemode.*
 ## Inventory Commands
 Wildcard permission: essence.inventory.*
 
-| Command                   | Permission Required           | Description               | Usage                     | Console can run? |
-|---------------------------|-------------------------------|---------------------------|---------------------------|------------------|
-| /anvil                    | essence.inventory.anvil       | Open an anvil.            | /anvil                    | No               |
-| /cartography              | essence.inventory.cartography | Open a cartography table. | /cartography              | No               |
-| /craft /workbench         | essence.inventory.craft       | Open a crafting table.    | /craft /workbench         | No               |
-| /enderchest /echest       | essence.inventory.enderchest  | Open an ender chest.      | /enderchest /echest       | No               |
-| /grindstone               | essence.inventory.grindstone  | Open a grindstone.        | /grindstone               | No               |
-| /loom                     | essence.inventory.loom        | Open a loom.              | /loom                     | No               |
-| /smithing                 | essence.inventory.smithing    | Open a smithing table.    | /smithing                 | No               |
-| /stonecutter              | essence.inventory.stonecutter | Open a stonecutter.       | /stonecutter              | No               |
-| /trash /disposal /garbage | essence.inventory.trash       | Open the disposal menu.   | /trash /disposal /garbage | No               |
+| Command                   | Permission Required                                         | Description               | Usage                                | Console can run? |
+|---------------------------|-------------------------------------------------------------|---------------------------|--------------------------------------|------------------|
+| /anvil                    | essence.inventory.anvil                                     | Open an anvil.            | /anvil                               | No               |
+| /cartography              | essence.inventory.cartography                               | Open a cartography table. | /cartography                         | No               |
+| /craft /workbench         | essence.inventory.craft                                     | Open a crafting table.    | /craft /workbench                    | No               |
+| /enderchest /echest       | essence.inventory.enderchest                                | Open an ender chest.      | /enderchest /echest                  | No               |
+| /grindstone               | essence.inventory.grindstone                                | Open a grindstone.        | /grindstone                          | No               |
+| /loom                     | essence.inventory.loom                                      | Open a loom.              | /loom                                | No               |
+| /smithing                 | essence.inventory.smithing                                  | Open a smithing table.    | /smithing                            | No               |
+| /stonecutter              | essence.inventory.stonecutter                               | Open a stonecutter.       | /stonecutter                         | No               |
+| /trash /disposal /garbage | essence.inventory.trash                                     | Open the disposal menu.   | /trash /disposal /garbage            | No               |
+| /give /item /i            | essence.inventory.give                                      | Open the disposal menu.   | See [/give command](ES-Inventory.md) | No               |
+| /give /item /i            | essence.inventory.give.other **and** essence.inventory.give | Open the disposal menu.   | See [/give command](ES-Inventory.md) | No               |
 
 ## Kit Commands
 Wildcard permission: essence.kits.*

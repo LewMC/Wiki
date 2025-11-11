@@ -4,7 +4,14 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+## 1.11.0
+_2025-XX-XX_ - Essence 1.11.0 X.
 
+| Added   | /top, /bottom, /sudo, /give commands.                       |
+|---------|-------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                         |
+| Changed | Nothing was changed in this update.                         |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken? |
 
 ## 1.10.2
 _2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous version.
