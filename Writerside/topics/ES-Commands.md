@@ -58,20 +58,24 @@ Wildcard permission: essence.teleport.*
 
 Since version 1.8.1 you can now use @p, @a, and @s in /teleport and /tp commands.
 
-| Command                                                 | Permission Required                                    | Description                                             | Usage               | Console can run? |
-|---------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|---------------------|------------------|
-| /teleport &lt;x> &lt;y> &lt;z> /tp &lt;x> &lt;y> &lt;z> | essence.teleport.coord                                 | Teleport to a coordinate location in the world (x,y,z). | /tp 0 64 0          | No               |
-| /tp &lt;user> &lt;x> &lt;y> &lt;z>                      | essence.teleport.coord **and** essence.teleport.other  | Teleport another player to set coordinates              | /tp Notch 0 64 0    | Yes              |
-| /teleport &lt;user> /tp &lt;user>                       | essence.teleport.player                                | Teleport to another player.                             | /tp Notch           | No               |
-| /teleport &lt;user> &lt;user> /tp &lt;user> &lt;user>   | essence.teleport.player **and** essence.teleport.other | Teleport a player to another player.                    | /tp LewIsLost Notch | No               |
-| /tpa &lt;user>                                          | essence.teleport.request.send                          | Sends a teleportation request to a user.                | /tpa Notch          | No               |
-| /tpahere &lt;user>                                      | essence.teleport.request.here                          | Request a user to teleport to you.                      | /tpahere Notch      | No               |
-| /tpaccept                                               | essence.teleport.request.accept                        | Accept a teleport request.                              | /tpaccept           | No               |
-| /tpdeny                                                 | essence.teleport.request.deny                          | Deny a teleport request.                                | /tpdeny             | No               |
-| /tpcancel                                               | essence.teleport.request.cancel                        | Cancel a teleport request that you've sent.             | /tpcancel           | No               |
-| /tptoggle                                               | essence.teleport.request.toggle                        | Toggle if players can send you teleportation requests.  | /tptoggle           | No               |
-| /tpr /rtp /tprandom                                     | essence.teleport.random                                | Teleport to a random location in the world.             | /tpr /rtp /tprandom | No               |
-| /back                                                   | essence.teleport.back                                  | Go back to your last location before teleporting.       | /back               | No               |
+| Command                                                 | Permission Required                                    | Description                                                    | Usage               | Console can run? |
+|---------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------|---------------------|------------------|
+| /teleport &lt;x> &lt;y> &lt;z> /tp &lt;x> &lt;y> &lt;z> | essence.teleport.coord                                 | Teleport to a coordinate location in the world (x,y,z).        | /tp 0 64 0          | No               |
+| /tp &lt;user> &lt;x> &lt;y> &lt;z>                      | essence.teleport.coord **and** essence.teleport.other  | Teleport another player to set coordinates                     | /tp Notch 0 64 0    | Yes              |
+| /teleport &lt;user> /tp &lt;user>                       | essence.teleport.player                                | Teleport to another player.                                    | /tp Notch           | No               |
+| /teleport &lt;user> &lt;user> /tp &lt;user> &lt;user>   | essence.teleport.player **and** essence.teleport.other | Teleport a player to another player.                           | /tp LewIsLost Notch | No               |
+| /tpa &lt;user>                                          | essence.teleport.request.send                          | Sends a teleportation request to a user.                       | /tpa Notch          | No               |
+| /tpahere &lt;user>                                      | essence.teleport.request.here                          | Request a user to teleport to you.                             | /tpahere Notch      | No               |
+| /tpaccept                                               | essence.teleport.request.accept                        | Accept a teleport request.                                     | /tpaccept           | No               |
+| /tpdeny                                                 | essence.teleport.request.deny                          | Deny a teleport request.                                       | /tpdeny             | No               |
+| /tpcancel                                               | essence.teleport.request.cancel                        | Cancel a teleport request that you've sent.                    | /tpcancel           | No               |
+| /tptoggle                                               | essence.teleport.request.toggle                        | Toggle if players can send you teleportation requests.         | /tptoggle           | No               |
+| /tpr /rtp /tprandom                                     | essence.teleport.random                                | Teleport to a random location in the world.                    | /tpr /rtp /tprandom | No               |
+| /back                                                   | essence.teleport.back                                  | Go back to your last location before teleporting.              | /back               | No               |
+| /top                                                    | essence.teleport.top                                   | Teleports you to the highest available block at your position. | /top                | Yes              |
+| /top &lt;username>                                      | essence.teleport.top **and** essence.teleport.other    | Teleports you to the highest available block at your position. | /top                | Yes              |
+| /bottom                                                 | essence.teleport.bottom                                | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
+| /bottom &lt;username>                                   | essence.teleport.bottom **and** essence.teleport.other | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
 
 ### Warp Commands
 Wildcard permission: essence.warp.*
@@ -147,49 +151,50 @@ Wildcard permission: essence.team.*
 
 > To use /team requests, accept, decline, kick, rule, and changeleader the player must have the permission to do so AND be the team leader.
 
-| Command                                        | Permission Required        | Description                                     | Usage                              | Console can run? |
-|------------------------------------------------|----------------------------|-------------------------------------------------|------------------------------------|------------------|
-| /team /group                                   | essence.team.list          | Get a list of teams.                            | /team /group                       | No               |
-| /team &lt;name> /group &lt;name>               | essence.team.list          | Get information of a specific team.             | /team Red /group Red               | No               |
-| /team create &lt;name> /group create &lt;name> | essence.team.create        | Create a team.                                  | /team create Red /group create Red | No               |
-| /team join &lt;name> /group join &lt;name>     | essence.team.join          | Join a team.                                    | /team join Red /group join Red     | No               |
-| /team leave &lt;name> /group leave &lt;name>   | essence.team.join          | Leave a team.                                   | /team leave Red /group leave Red   | No               |
-| /team requests                                 | essence.team.manage        | View pending membership requests for your team. | /team requests                     | No               |
-| /team accept &lt;name>                         | essence.team.manage        | Accept a player's membership request.           | /team accept Notch                 | No               |
-| /team decline &lt;name>                        | essence.team.manage        | Decline a player's membership request.          | /team decline Notch                | No               |
-| /team kick &lt;name>                           | essence.team.manage        | Kick (remove) a player from your team.          | /team kick Notch                   | No               |
-| /team changeleader &lt;name>                   | essence.team.manage        | Transfer leadership to another member.          | /team changeleader Notch           | No               |
-| /team disband                                  | essence.team.manage        | Disband your team (delete it).                  | /team disband                      | No               |
-| /team rule &lt;rule>                           | essence.team.manage        | View the value of a team rule.                  | /team rule                         | No               |
-| /team rule &lt;rule> &lt;value>                | essence.team.manage        | Set the value of a team rule.                   |                                    | No               |
-| Team home commands                             | See home commands section. |                                                 |                                    |                  |
+| Command                                        | Permission Required        | Description                                     | Usage                               | Console can run? |
+|------------------------------------------------|----------------------------|-------------------------------------------------|-------------------------------------|------------------|
+| /team /group                                   | essence.team.list          | Get a list of teams.                            | /team /group                        | No               |
+| /team &lt;name> /group &lt;name>               | essence.team.list          | Get information of a specific team.             | /team Red /group Red                | No               |
+| /team create &lt;name> /group create &lt;name> | essence.team.create        | Create a team.                                  | /team create Red /group create Red  | No               |
+| /team join &lt;name> /group join &lt;name>     | essence.team.join          | Join a team.                                    | /team join Red /group join Red      | No               |
+| /team leave &lt;name> /group leave &lt;name>   | essence.team.join          | Leave a team.                                   | /team leave Red /group leave Red    | No               |
+| /team requests                                 | essence.team.manage        | View pending membership requests for your team. | /team requests                      | No               |
+| /team accept &lt;name>                         | essence.team.manage        | Accept a player's membership request.           | /team accept Notch                  | No               |
+| /team decline &lt;name>                        | essence.team.manage        | Decline a player's membership request.          | /team decline Notch                 | No               |
+| /team kick &lt;name>                           | essence.team.manage        | Kick (remove) a player from your team.          | /team kick Notch                    | No               |
+| /team changeleader &lt;name>                   | essence.team.manage        | Transfer leadership to another member.          | /team changeleader Notch            | No               |
+| /team disband                                  | essence.team.manage        | Disband your team (delete it).                  | /team disband                       | No               |
+| /team rule &lt;rule>                           | essence.team.manage        | View the value of a team rule.                  | /team rule                          | No               |
+| /team rule &lt;rule> &lt;value>                | essence.team.manage        | Set the value of a team rule.                   | /team rule allow-friendly-fire true | No               |
+| Team home commands                             | See home commands section. |                                                 |                                     |                  |
 
 ## Administration Commands
 Wildcard permission: essence.admin.*
 
-| Command                          | Permission Required                                                     | Description                                     | Usage                    | Console can run? |
-|----------------------------------|-------------------------------------------------------------------------|-------------------------------------------------|--------------------------|------------------|
-| /seen &lt;name>                  | essence.admin.seen                                                      | Displays the player's last login date and time. | /seen Notch              | Yes              |
-| /info &lt;name> /pinfo &lt;name> | essence.admin.info (plus essence.admin.info.viewip to see IP addresses) | Displays information about the player.          | /info Notch /pinfo Notch | Yes              |
-| /es reload                       | essence.admin.reload                                                    | Reloads Essence's configuration.                | /es reload               | Yes              |
-| /invisible                       | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /invisible               | Yes              |
-| /visible                         | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /visible                 | Yes              |
-| /v                               | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /v                       | Yes              |
+| Command                          | Permission Required                                                     | Description                                     | Usage                     | Console can run? |
+|----------------------------------|-------------------------------------------------------------------------|-------------------------------------------------|---------------------------|------------------|
+| /seen &lt;name>                  | essence.admin.seen                                                      | Displays the player's last login date and time. | /seen Notch               | Yes              |
+| /info &lt;name> /pinfo &lt;name> | essence.admin.info (plus essence.admin.info.viewip to see IP addresses) | Displays information about the player.          | /info Notch /pinfo Notch  | Yes              |
+| /es reload                       | essence.admin.reload                                                    | Reloads Essence's configuration.                | /es reload                | Yes              |
+| /invisible                       | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /invisible                | Yes              |
+| /visible                         | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /visible                  | Yes              |
+| /v                               | essence.admin.invisible                                                 | Toggles if you're visible to other players.     | /v                        | Yes              |
+| /sudo &lt;username> &lt;command> | essence.admin.sudo                                                      | Runs a command as another player.               | /sudo Notch weather clear | Yes              |
 
 ## Environment Commands
 Wildcard permission: essence.environment.*
 
 > See [this page](ES-Time-and-Weather.md) for more information. Console usage for these commands may be different.
 
-| Command                      | Permission Required             | Description                 | Usage           | Console can run? |
-|------------------------------|---------------------------------|-----------------------------|-----------------|------------------|
-| /time                        | essence.environment.time        | Checks the server time.     | /time           | Yes              |
-| /time &lt;time>              | essence.environment.time.set    | Sets the server time.       | /time day       | Yes              |
-| /weather                     | essence.environment.weather     | Checks the server weather.  | /weather        | Yes              |
-| /weather &lt;weather>        | essence.environment.weather.set | Sets the server weather.    | /weather clear  | Yes              |
-| /ptime                       | essence.environment.ptime       | Checks your player time.    | /ptime          | No               |
-| /ptime &lt;time/reset>       | essence.environment.ptime.set   | Sets your player time.      | /ptime day      | No               |
-| /pweather                    | essence.environment.pweather    | Checks your player weather. | /pweather       | No               |
+| Command                      | Permission Required              | Description                 | Usage           | Console can run? |
+|------------------------------|----------------------------------|-----------------------------|-----------------|------------------|
+| /time                        | essence.environment.time         | Checks the server time.     | /time           | Yes              |
+| /time &lt;time>              | essence.environment.time.set     | Sets the server time.       | /time day       | Yes              |
+| /weather                     | essence.environment.weather      | Checks the server weather.  | /weather        | Yes              |
+| /weather &lt;weather>        | essence.environment.weather.set  | Sets the server weather.    | /weather clear  | Yes              |
+| /ptime                       | essence.environment.ptime        | Checks your player time.    | /ptime          | No               |
+| /ptime &lt;time/reset>       | essence.environment.ptime.set    | Sets your player time.      | /ptime day      | No               |
+| /pweather                    | essence.environment.pweather     | Checks your player weather. | /pweather       | No               |
 | /pweather &lt;weather/reset> | essence.environment.pweather.set | Sets your player weather.   | /pweather clear | No               |
 
 ## Miscellaneous Commands
