@@ -7,11 +7,11 @@
 ## 1.11.0
 _2025-XX-XX_ - Essence 1.11.0 X.
 
-| Added   | /top, /bottom, /sudo, /give commands.                       |
-|---------|-------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                         |
-| Changed | Nothing was changed in this update.                         |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken? |
+| Added   | /top, /bottom, /sudo, /give, /skull, /burn, /extinguish, /god commands. Adds alias /eat to /feed                                                                                                                                        |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                     |
+| Changed | /feed now fills saturation and exhaustion as well as food and no longer requires a username input. The disabled-commands.list config value was moved to disabled-commands, your server will update the config automatically on startup. |
+| Fixed   | [#286](https://github.com/LewMC/Essence/issues/286) /time set appears incorrectly.                                                                                                                                                      |
 
 ## 1.10.2
 _2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous version.
@@ -20,7 +20,7 @@ _2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous vers
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                        |
 | Changed | Nothing was changed in this update.                                                                                                                                                        |
-| Fixed   | [#257](https://github.com/LewMC/Essence/issues/257) Essence 1.10.1-SNAPSHOT encounters an error when generating a fresh config [not fixed for servers where the config does not yet exist] |
+| Fixed   | [#257](https://github.com/LewMC/Essence/issues/257) Essence 1.10.1-SNAPSHOT encounters an error when generating a fresh config (not fixed for servers where the config does not yet exist) |
 
 ## 1.10.1
 _2025-08-29_ - Essence 1.10.1 improves data importing & command disabling, and fixes a number of bugs.

@@ -57,6 +57,7 @@ what you're used to.
 | /grindstone                | grindstone             |
 | /grouphome                 | thome                  |
 | /grouphomes                | thomes                 |
+| /head                      | skull                  |
 | /heal                      | heal                   |
 | /home                      | home                   |
 | /homes                     | homes                  |
@@ -87,6 +88,7 @@ what you're used to.
 | /setthome                  | setthome               |
 | /setteamhome               | setthome               |
 | /setwarp                   | setwarp                |
+| /skull                     | skull                  |
 | /smithing                  | smithing               |
 | /spawn                     | spawn                  |
 | /stonecutter               | stonecutter            |

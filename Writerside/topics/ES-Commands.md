@@ -30,19 +30,20 @@ Wildcard permission: essence.gamemode.*
 ## Inventory Commands
 Wildcard permission: essence.inventory.*
 
-| Command                   | Permission Required                                         | Description               | Usage                                | Console can run? |
-|---------------------------|-------------------------------------------------------------|---------------------------|--------------------------------------|------------------|
-| /anvil                    | essence.inventory.anvil                                     | Open an anvil.            | /anvil                               | No               |
-| /cartography              | essence.inventory.cartography                               | Open a cartography table. | /cartography                         | No               |
-| /craft /workbench         | essence.inventory.craft                                     | Open a crafting table.    | /craft /workbench                    | No               |
-| /enderchest /echest       | essence.inventory.enderchest                                | Open an ender chest.      | /enderchest /echest                  | No               |
-| /grindstone               | essence.inventory.grindstone                                | Open a grindstone.        | /grindstone                          | No               |
-| /loom                     | essence.inventory.loom                                      | Open a loom.              | /loom                                | No               |
-| /smithing                 | essence.inventory.smithing                                  | Open a smithing table.    | /smithing                            | No               |
-| /stonecutter              | essence.inventory.stonecutter                               | Open a stonecutter.       | /stonecutter                         | No               |
-| /trash /disposal /garbage | essence.inventory.trash                                     | Open the disposal menu.   | /trash /disposal /garbage            | No               |
-| /give /item /i            | essence.inventory.give                                      | Open the disposal menu.   | See [/give command](ES-Inventory.md) | No               |
-| /give /item /i            | essence.inventory.give.other **and** essence.inventory.give | Open the disposal menu.   | See [/give command](ES-Inventory.md) | No               |
+| Command                   | Permission Required                                         | Description                      | Usage                                 | Console can run? |
+|---------------------------|-------------------------------------------------------------|----------------------------------|---------------------------------------|------------------|
+| /anvil                    | essence.inventory.anvil                                     | Open an anvil.                   | /anvil                                | No               |
+| /cartography              | essence.inventory.cartography                               | Open a cartography table.        | /cartography                          | No               |
+| /craft /workbench         | essence.inventory.craft                                     | Open a crafting table.           | /craft /workbench                     | No               |
+| /enderchest /echest       | essence.inventory.enderchest                                | Open an ender chest.             | /enderchest /echest                   | No               |
+| /grindstone               | essence.inventory.grindstone                                | Open a grindstone.               | /grindstone                           | No               |
+| /loom                     | essence.inventory.loom                                      | Open a loom.                     | /loom                                 | No               |
+| /smithing                 | essence.inventory.smithing                                  | Open a smithing table.           | /smithing                             | No               |
+| /stonecutter              | essence.inventory.stonecutter                               | Open a stonecutter.              | /stonecutter                          | No               |
+| /trash /disposal /garbage | essence.inventory.trash                                     | Open the disposal menu.          | /trash /disposal /garbage             | No               |
+| /give /item /i            | essence.inventory.give                                      | Gives you an item(s).            | See [/give command](ES-Inventory.md)  | No               |
+| /give /item /i            | essence.inventory.give.other **and** essence.inventory.give | Gives another player an item(s). | See [/give command](ES-Inventory.md)  | Yes              |
+| /skull &ltplayer>         | essence.inventory.skull                                     | Gives you a player's skull.      | /skull Notch                          | No               |
 
 ## Kit Commands
 Wildcard permission: essence.kits.*
@@ -119,13 +120,17 @@ Wildcard permission: essence.spawn.*
 ## Stats Commands
 Wildcard permission: essence.stats.* and essence.stats.other.*
 
-| Command           | Permission Required      | Description                  | Usage       | Console can run? |
-|-------------------|--------------------------|------------------------------|-------------|------------------|
-| /heal             | essence.stats.heal       | Heal yourself.               | /heal       | No               |
-| /heal &lt;player> | essence.stats.heal.other | Heal another player.         | /heal Notch | Yes              |
-| /feed             | essence.stats.feed       | Feed yourself.               | /feed       | No               |
-| /feed &lt;player> | essence.stats.feed.other | Feed another player.         | /feed Notch | Yes              |
-| /repair           | essence.stats.repair     | Repair the item in your hand | /repair     | No               |
+| Command                            | Permission Required                               | Description                        | Usage             | Console can run? |
+|------------------------------------|---------------------------------------------------|------------------------------------|-------------------|------------------|
+| /heal                              | essence.stats.heal                                | Heal yourself.                     | /heal             | No               |
+| /heal &lt;player>                  | essence.stats.heal.other                          | Heal another player.               | /heal Notch       | Yes              |
+| /feed /eat                         | essence.stats.feed                                | Feed yourself.                     | /feed             | No               |
+| /feed &lt;player> /eat &lt;player> | essence.stats.feed.other                          | Feed another player.               | /eat Notch        | Yes              |
+| /repair                            | essence.stats.repair                              | Repair the item in your hand       | /repair           | No               |
+| /burn                              | essence.stats.burn                                | Burns someone!                     | /burn Notch       | Yes              |
+| /extinguish                        | essence.stats.extinguish                          | Stops burning someone              | /extinguish Notch | Yes              |
+| /god                               | essence.stats.god                                 | Enables god mode.                  | /god              | No               |
+| /god &lt;player>                   | essence.stats.god **and** essence.stats.god.other | Enables god mode for someone else. | /god Notch        | Yes              |
 
 ## Chat Commands
 Wildcard permission: essence.chat.*
