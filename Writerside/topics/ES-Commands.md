@@ -30,20 +30,21 @@ Wildcard permission: essence.gamemode.*
 ## Inventory Commands
 Wildcard permission: essence.inventory.*
 
-| Command                   | Permission Required                                         | Description                      | Usage                                 | Console can run? |
-|---------------------------|-------------------------------------------------------------|----------------------------------|---------------------------------------|------------------|
-| /anvil                    | essence.inventory.anvil                                     | Open an anvil.                   | /anvil                                | No               |
-| /cartography              | essence.inventory.cartography                               | Open a cartography table.        | /cartography                          | No               |
-| /craft /workbench         | essence.inventory.craft                                     | Open a crafting table.           | /craft /workbench                     | No               |
-| /enderchest /echest       | essence.inventory.enderchest                                | Open an ender chest.             | /enderchest /echest                   | No               |
-| /grindstone               | essence.inventory.grindstone                                | Open a grindstone.               | /grindstone                           | No               |
-| /loom                     | essence.inventory.loom                                      | Open a loom.                     | /loom                                 | No               |
-| /smithing                 | essence.inventory.smithing                                  | Open a smithing table.           | /smithing                             | No               |
-| /stonecutter              | essence.inventory.stonecutter                               | Open a stonecutter.              | /stonecutter                          | No               |
-| /trash /disposal /garbage | essence.inventory.trash                                     | Open the disposal menu.          | /trash /disposal /garbage             | No               |
-| /give /item /i            | essence.inventory.give                                      | Gives you an item(s).            | See [/give command](ES-Inventory.md)  | No               |
-| /give /item /i            | essence.inventory.give.other **and** essence.inventory.give | Gives another player an item(s). | See [/give command](ES-Inventory.md)  | Yes              |
-| /skull &ltplayer>         | essence.inventory.skull                                     | Gives you a player's skull.      | /skull Notch                          | No               |
+| Command                   | Permission Required                                         | Description                      | Usage                                | Console can run? |
+|---------------------------|-------------------------------------------------------------|----------------------------------|--------------------------------------|------------------|
+| /anvil                    | essence.inventory.anvil                                     | Open an anvil.                   | /anvil                               | No               |
+| /cartography              | essence.inventory.cartography                               | Open a cartography table.        | /cartography                         | No               |
+| /craft /workbench         | essence.inventory.craft                                     | Open a crafting table.           | /craft /workbench                    | No               |
+| /enderchest /echest       | essence.inventory.enderchest                                | Open an ender chest.             | /enderchest /echest                  | No               |
+| /grindstone               | essence.inventory.grindstone                                | Open a grindstone.               | /grindstone                          | No               |
+| /loom                     | essence.inventory.loom                                      | Open a loom.                     | /loom                                | No               |
+| /smithing                 | essence.inventory.smithing                                  | Open a smithing table.           | /smithing                            | No               |
+| /stonecutter              | essence.inventory.stonecutter                               | Open a stonecutter.              | /stonecutter                         | No               |
+| /trash /disposal /garbage | essence.inventory.trash                                     | Open the disposal menu.          | /trash /disposal /garbage            | No               |
+| /give /item /i            | essence.inventory.give                                      | Gives you an item(s).            | See [/give command](ES-Inventory.md) | No               |
+| /give /item /i            | essence.inventory.give.other **and** essence.inventory.give | Gives another player an item(s). | See [/give command](ES-Inventory.md) | Yes              |
+| /skull &ltplayer>         | essence.inventory.skull                                     | Gives you a player's skull.      | /skull Notch                         | No               |
+| /invsee &ltplayer>        | essence.invsee (not included in inventory wildcard)         | See another player's inventory.  | /invsee Notch                        | No               |
 
 ## Kit Commands
 Wildcard permission: essence.kits.*
