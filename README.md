@@ -8,7 +8,7 @@ Using Writerside (recommended):
 3. In Plugins, download Writerside.
 4. Click the Writerside (<img width="15" alt="image" src="https://github.com/user-attachments/assets/11b23542-a56d-4994-8e6a-88783717b7cc" />) icon.
 
-Using another editor (not recommended):
+Using another text editor or edit online via GitHub (not recommended):
 1. Clone the repository.
 2. Edit the markdown files.
 The LewMCWiki.tree file lets you edit the sidebar menu, Writerside does this automatically.
