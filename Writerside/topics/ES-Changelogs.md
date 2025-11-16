@@ -7,7 +7,7 @@
 ## 1.11.0
 _2025-XX-XX_ - Essence 1.11.0 X.
 
-| Added   | /top, /bottom, /sudo, /give, /skull, /burn, /extinguish, /god, /invsee commands. Adds alias /eat to /feed                                                                                                                               |
+| Added   | /eco, /top, /bottom, /sudo, /give, /skull, /burn, /extinguish, /god, /invsee commands. Adds alias /eat to /feed                                                                                                                         |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                                                                     |
 | Changed | /feed now fills saturation and exhaustion as well as food and no longer requires a username input. The disabled-commands.list config value was moved to disabled-commands, your server will update the config automatically on startup. |
