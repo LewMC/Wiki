@@ -51,5 +51,8 @@ need the `essence.stats.burn` and `essence.stats.extinguish` permissions respect
 ## God
 God mode can be enabled with `/god`, or for someone else using `/god <player>`.
 
+## Enchant
+You can enchant an item using `/enchant <enchantment> <level>`.
+
 To god yourself you'll need the `essence.stats.god` permission, and to god someone else you'll need that plus
 `essence.stats.god.other`

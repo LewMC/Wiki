@@ -143,6 +143,7 @@ Wildcard permission: essence.chat.*
 | /reply &lt;message> /r &lt;message> | essence.chat.reply                                  | Reply to the last user who sent you a private message. | /r Hey back to you!                      | Yes              |
 | /nick &lt;name>                     | essence.chat.nick.self                              | Change your own username.                              | /nick Lew                                | No               |
 | /nick &lt;username> &lt;name>       | essence.chat.nick.other and essence.chat.nick.other | Change yours or someone else's username.               | /nick LewIsFound Lew                     | Yes              |
+| /list                               | essence.chat.list                                   | See who else is online. [More info here](ES-Chat.md).  | /list                                    | Yes              |
 
 ## Economy Commands
 Wildcard permission: essence.economy.*

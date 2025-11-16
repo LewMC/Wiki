@@ -37,8 +37,11 @@ what you're used to.
 | /delthome                  | delthome               |
 | /delteamhome               | delthome               |
 | /delwarp                   | delwarp                |
+| /direction                 | direction              |
 | /disposal                  | trash                  |
 | /echest                    | enderchest             |
+| /eco                       | eco                    |
+| /enchant                   | enchant                |
 | /enderchest                | enderchest             |
 | /es                        | essence                |
 | /ess                       | essence                |
@@ -66,9 +69,11 @@ what you're used to.
 | /invisible                 | invisible              |
 | /item                      | give                   |
 | /kit                       | kit                    |
+| /list                      | list                   |
 | /loom                      | loom                   |
 | /msg                       | msg                    |
 | /message                   | msg                    |
+| /online                    | list                   |
 | /pay                       | pay                    |
 | /pinfo                     | info                   |
 | /pseen                     | seen                   |

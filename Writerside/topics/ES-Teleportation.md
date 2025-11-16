@@ -98,6 +98,9 @@ Giving a player the `essence.warp.*` permission gives them access to every comma
 | /setwarp &lt;name> | essence.warp.create | Create a warp point.      |
 | /delwarp &lt;name> | essence.warp.delete | Delete a warp point.      |
 
+You can delete warps you've made with `essence.warp.delete`, to delete warps created by other players you will also need
+`essence.warp.delete.other`
+
 
 ## Spawns
 Spawns are the start place of your world. When players join, this is where they'll be placed. When they die without a bed, this is where they'll go.
