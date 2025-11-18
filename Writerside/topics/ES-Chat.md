@@ -63,9 +63,14 @@ Vault is a plugin that helps us manage chat messages. Some features may require 
 | Name formats            | ✅              |
 | Message formatting      | ✅              |
 | Nicknames               | ✅              |
+| Ignore                  | ❌              |
 | Private messages        | ❌              |
 | Private message replies | ❌              |
 | Broadcasts              | ❌              |
+
+### Ignoring Players
+You can ignore players using the /ignore command. Ignoring players in the main chat requires Essence to be the main chat
+provider, having another chat provider may break it. Ignored players cannot message you in chat or via private messages.
 
 ### Configuration
 Please see [the config wiki page](ES-Configuration.md) for other configuration keys.
