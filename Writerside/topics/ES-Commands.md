@@ -144,6 +144,8 @@ Wildcard permission: essence.chat.*
 | /nick &lt;name>                     | essence.chat.nick.self                              | Change your own username.                              | /nick Lew                                | No               |
 | /nick &lt;username> &lt;name>       | essence.chat.nick.other and essence.chat.nick.other | Change yours or someone else's username.               | /nick LewIsFound Lew                     | Yes              |
 | /list                               | essence.chat.list                                   | See who else is online. [More info here](ES-Chat.md).  | /list                                    | Yes              |
+| /ignore                             | essence.chat.ignore                                 | See who you are ignoring.                              | /ignore                                  | No               |
+| /ignore &lt;player>                 | essence.chat.ignore                                 | Toggle ignore a player.                                | /ignore LewIsLost                        | No               |
 
 ## Economy Commands
 Wildcard permission: essence.economy.*
