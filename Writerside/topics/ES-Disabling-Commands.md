@@ -30,6 +30,11 @@ what you're used to.
 | /broadcast                 | broadcast              |
 | /canceltp                  | tpcancel               |
 | /cartography               | cartography            |
+| /ci                        | clear                  |
+| /cclear                    | confirmclear           |
+| /clear                     | clear                  |
+| /clearinventory            | clear                  |
+| /confirmclear              | confirmclear           |
 | /craft                     | craft                  |
 | /delghome                  | delthome               |
 | /delgrouphome              | delthome               |
