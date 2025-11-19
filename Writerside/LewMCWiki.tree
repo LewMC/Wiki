@@ -22,6 +22,7 @@
                 </toc-element>
                 <toc-element topic="ES-Economy.md"/>
                 <toc-element topic="ES-Time-and-Weather.md"/>
+                <toc-element topic="ES-Inventory.md"/>
                 <toc-element topic="ES-Kits.md"/>
                 <toc-element topic="ES-Stats.md"/>
                 <toc-element topic="ES-Teams.md"/>

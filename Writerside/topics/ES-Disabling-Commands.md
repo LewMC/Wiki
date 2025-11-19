@@ -13,8 +13,7 @@ To disable commands in Essence, you can add them to a list in the configuration 
 
 1. Open Essence's config.yml
 2. Scroll to disabled-commands.
-3. Add any commands you'd like to disable. Most codes are what you'd expect, but since some commands have aliases we've
-4. Included the full list below.
+3. Add any commands you'd like to disable. Most codes are what you'd expect, but since some commands have aliases we've included the full list below.
 4. Restart your server.
 
 ## Command List
@@ -27,9 +26,15 @@ what you're used to.
 | /back                      | back                   |
 | /bal                       | balance                |
 | /balance                   | balance                |
+| /bottom                    | bottom                 |
 | /broadcast                 | broadcast              |
 | /canceltp                  | tpcancel               |
 | /cartography               | cartography            |
+| /ci                        | clear                  |
+| /cclear                    | confirmclear           |
+| /clear                     | clear                  |
+| /clearinventory            | clear                  |
+| /confirmclear              | confirmclear           |
 | /craft                     | craft                  |
 | /delghome                  | delthome               |
 | /delgrouphome              | delthome               |
@@ -37,8 +42,11 @@ what you're used to.
 | /delthome                  | delthome               |
 | /delteamhome               | delthome               |
 | /delwarp                   | delwarp                |
+| /direction                 | direction              |
 | /disposal                  | trash                  |
 | /echest                    | enderchest             |
+| /eco                       | eco                    |
+| /enchant                   | enchant                |
 | /enderchest                | enderchest             |
 | /es                        | essence                |
 | /ess                       | essence                |
@@ -49,6 +57,7 @@ what you're used to.
 | /garbage                   | trash                  |
 | /ghome                     | thome                  |
 | /ghomes                    | thomes                 |
+| /give                      | give                   |
 | /gma                       | gma                    |
 | /gmc                       | gmc                    |
 | /gms                       | gms                    |
@@ -56,15 +65,20 @@ what you're used to.
 | /grindstone                | grindstone             |
 | /grouphome                 | thome                  |
 | /grouphomes                | thomes                 |
+| /head                      | skull                  |
 | /heal                      | heal                   |
 | /home                      | home                   |
 | /homes                     | homes                  |
+| /i                         | give                   |
 | /info                      | info                   |
 | /invisible                 | invisible              |
+| /item                      | give                   |
 | /kit                       | kit                    |
+| /list                      | list                   |
 | /loom                      | loom                   |
 | /msg                       | msg                    |
 | /message                   | msg                    |
+| /online                    | list                   |
 | /pay                       | pay                    |
 | /pinfo                     | info                   |
 | /pseen                     | seen                   |
@@ -84,9 +98,11 @@ what you're used to.
 | /setthome                  | setthome               |
 | /setteamhome               | setthome               |
 | /setwarp                   | setwarp                |
+| /skull                     | skull                  |
 | /smithing                  | smithing               |
 | /spawn                     | spawn                  |
 | /stonecutter               | stonecutter            |
+| /sudo                      | sudo                   |
 | /thome                     | thome                  |
 | /teamhome                  | thome                  |
 | /thomes                    | thomes                 |
@@ -94,6 +110,7 @@ what you're used to.
 | /team                      | team                   |
 | /teleport                  | tp                     |
 | /time                      | time                   |
+| /top                       | top                    |
 | /tp                        | tp                     |
 | /tpa                       | tpa                    |
 | /tpaccept                  | tpaccept               |

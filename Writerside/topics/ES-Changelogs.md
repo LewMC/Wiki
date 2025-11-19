@@ -4,7 +4,18 @@
 <strong>You should always run the latest version of all software!</strong> That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message - update!
 </warning>
 
+<chapter collapsible="true" title="Snapshot Versions">
+## 1.11.0-SNAPSHOT
 
+_2025-11-19_ - Essence 1.11.0 adds over 10 new commands and changes how player data is handled for a faster, smoother experience on larger servers.
+Huge thanks to KadTheHunter on GitHub for their extensive contributions to this update!
+
+| Added   | /eco, /top, /bottom, /ascend, /descend, /direction, /burn, /extinguish, /god, /skull, /give, /sudo, /near, /invsee, /ignore, /list commands. Adds alias /eat to /feed                                                                                                                                                                                                                                                                                                  |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Changed | Essence should now be more stable and reliable with concurrent user interactions (Folia), /tp now supports relative coordinates (for example ~5), /delwarp now has an other permission to delete other player's created warps, /feed now fills saturation and exhaustion as well as food and no longer requires a username input. The disabled-commands.list config value was moved to disabled-commands, your server will update the config automatically on startup. |
+| Fixed   | [#286](https://github.com/LewMC/Essence/issues/286) /time set appears incorrectly.                                                                                                                                                                                                                                                                                                                                                                                     |
+</chapter>
 
 ## 1.10.2
 _2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous version.
@@ -13,7 +24,7 @@ _2025-08-29_ - Essence 1.10.2 fixes a config-breaking bug from the previous vers
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                        |
 | Changed | Nothing was changed in this update.                                                                                                                                                        |
-| Fixed   | [#257](https://github.com/LewMC/Essence/issues/257) Essence 1.10.1-SNAPSHOT encounters an error when generating a fresh config [not fixed for servers where the config does not yet exist] |
+| Fixed   | [#257](https://github.com/LewMC/Essence/issues/257) Essence 1.10.1-SNAPSHOT encounters an error when generating a fresh config (not fixed for servers where the config does not yet exist) |
 
 ## 1.10.1
 _2025-08-29_ - Essence 1.10.1 improves data importing & command disabling, and fixes a number of bugs.

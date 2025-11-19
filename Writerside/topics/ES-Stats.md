@@ -43,3 +43,16 @@ Set your walking and flying speed using `/speed`. The speed value must be betwee
 | /speed reset            | Resets your speed to the default. | `essence.stats.speed`                                 |
 | /speed <value> <player> | Sets another player's speed       | `essence.stats.speed` and `essence.stats.speed.other` |
 | /speed reset <player>   | Resets another player's speed     | `essence.stats.speed` and `essence.stats.speed.other` |
+
+## Burn & Extinguish
+You can burn yourself or another player using `/burn`, and extinguish (stop burning them) using `/extinguish`. You'll
+need the `essence.stats.burn` and `essence.stats.extinguish` permissions respectively.
+
+## God
+God mode can be enabled with `/god`, or for someone else using `/god <player>`.
+
+## Enchant
+You can enchant an item using `/enchant <enchantment> <level>`.
+
+To god yourself you'll need the `essence.stats.god` permission, and to god someone else you'll need that plus
+`essence.stats.god.other`

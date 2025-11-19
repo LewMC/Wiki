@@ -11,12 +11,18 @@ Use `/bal` to check your balance. It requires the `essence.economy.balance` perm
 ## Paying another player
 Use `/pay <player>` to pay another player. It requires the `essence.economy.pay` permission.
 
-## Other Plugins
+## Economy Management
+### Management Commands
+The `/eco` command is used to manage Essence's economy. You can use `/eco give`, `/eco set`, and `/eco take` to handle
+player balances. When giving and taking money from another player this will not modify your own balance, but will
+instead "print" or "destroy" the currency.
+
+### Other Plugins
 Provided the configuration (see below) is set to VAULT, other plugins can also interact with your Essence balance. This
 includes any plugins that have Vault support. For example you can use your Essence balance to buy items in shops, and
 receive money from sales this way too.
 
-## Configuration
+### Configuration
 The economy may work slightly differently depending on how you configure it. If Vault is installed Essence will act as
 the economy provider for other plugins on your server, and Essence's balance and pay commands will be the main ones.
 

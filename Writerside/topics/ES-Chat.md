@@ -30,6 +30,10 @@ the in-chat name of other players!
 
 To do that type `/nick <username> <nickname>`
 
+## List
+To view a list of online players use `/list`, by default invisible players are excluded. You'll need the permission node
+`essence.chat.list.invisible` (not included in the wildcard) to see them.
+
 ## MOTD
 The MOTD ("Message of the Day") is a message that appears when a player logs into your server. It can be toggled and
 managed in the [configuration](ES-Configuration.md).
@@ -59,9 +63,14 @@ Vault is a plugin that helps us manage chat messages. Some features may require 
 | Name formats            | ✅              |
 | Message formatting      | ✅              |
 | Nicknames               | ✅              |
+| Ignore                  | ❌              |
 | Private messages        | ❌              |
 | Private message replies | ❌              |
 | Broadcasts              | ❌              |
+
+### Ignoring Players
+You can ignore players using the /ignore command. Ignoring players in the main chat requires Essence to be the main chat
+provider, having another chat provider may break it. Ignored players cannot message you in chat or via private messages.
 
 ### Configuration
 Please see [the config wiki page](ES-Configuration.md) for other configuration keys.
