@@ -8,11 +8,11 @@
 ## 2.1.0
 _2025-xx-xx_ - Kryptonite 2.1.0 .
 
-| Added   | Added support for Leaf server software. Added WildStacker, FarmLimiter, ChunkSpawnerLimiter, AntiLagX, WildTools, AutoClear to the "bad plugins" list. |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                    |
-| Changed | Nothing was changed in this update.                                                                                                                    |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                            |
+| Added   | Added support for Leaf server software. Added a new suggestions algorithm to Manual KOS, some configuration keys will now calculate the most appropriate value based on other config values and your server's environment instead of guessing based on certain guides. |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                    |
+| Changed | Expanded the "bad plugins" list to include WildStacker, FarmLimiter, ChunkSpawnerLimiter, AntiLagX, WildTools, and AutoClear.                                                                                                                                          |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                                                                                            |
 
 ## 2.0.1
 _2025-01-19_ - Kryptonite 2.0.1 fixes a bug that can cause some servers to crash if using the "FarmFriendly" profile. If you've been affected by this bug please delete your paper-world-defaults.yml file and /world/paper-world.yml files.
