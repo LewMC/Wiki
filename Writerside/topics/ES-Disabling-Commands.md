@@ -130,8 +130,6 @@ what you're used to.
 | /warps                     | warps                  |
 | /weather                   | spawn                  |
 | /workbench                 | craft                  |
-| /wcreate                   | wcreate                |
-| /wdelete                   | wdelete                |
 | /world                     | world                  |
 | /wtp                       | spawn                  |
 
