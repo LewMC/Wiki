@@ -14,7 +14,7 @@ class Example {
     }
     
     public void ExampleFunction() {
-        Security sec = new Security(new FoundryConfig(this.plugin));
+        Security sec = new Security(this.plugin.foundryConfig);
         
         sec.hasSpecialCharacters("Does this have special?"); // true
         sec.hasSpecialCharacters("Does this have special"); // false
@@ -34,9 +34,13 @@ You should only start watchdog in the onEnable() function or a function that per
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+
+    // This fires when the plugin first loads
     @Override
     public void onEnable() {
-        new Security(new FoundryConfig(this)).startWatchdog();
+        this.foundryConfig = new FoundryConfig(this);
+        new Security(this.foundryConfig).startWatchdog();
     }
 }
 ```
@@ -49,10 +53,12 @@ For example, if your plugin reloads itself you might not want Watchdog to catch 
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
     
     // This fires when the plugin first loads or is reloaded using /reload
     @Override
     public void onEnable() {
+        this.foundryConfig = new FoundryConfig(this);
         this.loadSelf();
     }
 
@@ -61,13 +67,13 @@ public class ExamplePlugin extends JavaPlugin {
     // Therefore, we wish to suspend Watchdog so it can be restarted later.
     // This prevents the warning from appearing.
     public void reloadSelf() {
-        new Security(new FoundryConfig(this)).stopWatchdog();
+        new Security(this.foundryConfig).stopWatchdog();
         this.loadSelf();
     }
     
     // This is fired both times, starting Watchdog.
     public void loadSelf() {
-        new Security(new FoundryConfig(this)).startWatchdog();
+        new Security(this.foundryConfig).startWatchdog();
     }
 }
 ```

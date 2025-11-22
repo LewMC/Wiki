@@ -5,6 +5,16 @@
     That includes Foundry! Updating keeps your server free from bugs, exploits, and other potential issues.
 </warning>
 
+## 1.3.0
+
+_2025-11-xx_ - Foundry 1.3.0 adds new validation and version classes, and expands permissions usage.
+
+| Added   | New [](FR-Validation.md) class that can check if a given variable is numeric, added a [](FR-Version.md) class that can check and compare Minecraft versions, added a .isOp() function in Permissions. |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                   |
+| Changed | Nothing was changed in this update.                                                                                                                                                                   |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                           |
+
 ## 1.2.0
 
 _2025-08-11_ - Foundry 1.2.0 adds runtime registration of commands.

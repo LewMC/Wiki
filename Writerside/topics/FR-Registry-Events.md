@@ -3,9 +3,12 @@
 To register multiple events, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.event(new ExampleEvent());
         registry.event(new PlayerEvent());
@@ -18,9 +21,12 @@ This is probably the most common way of using this utility. Each statement retur
 To register a single event, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        new Registry(new FoundryConfig(this), this).event(new ExampleEvent());
+        this.foundryConfig = new FoundryConfig(this);
+        new Registry(this.foundryConfig, this).event(new ExampleEvent());
     }
 }
 ```

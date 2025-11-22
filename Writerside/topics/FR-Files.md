@@ -14,10 +14,10 @@ Files will persist across functions if the variable is declared globally.
 class Example {
     public Files f;
     
-    public Example() {
-        Files this.f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files this.f = new Files(plugin.foundryConfig, plugin);
         
-        Files anotherfile = new Files(new FoundryConfig(plugin), plugin);
+        Files anotherfile = new Files(plugin.foundryConfig, plugin);
     }
 }
 ```
@@ -29,8 +29,8 @@ When creating a file the function will return true or false, you can use that to
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         if (f.create("example.yml")) {
             // File was created!
@@ -46,8 +46,8 @@ When using the function it will return true or false, you can use that to displa
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         if (f.exists("example.yml")) {
             // File was created!
@@ -67,8 +67,8 @@ The file name is also parsed and checked using this function.
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("config.yml"); // You don't need to assign this anything.
     }
@@ -84,8 +84,8 @@ You should probably avoid using it where possible.
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.loadNoReformat(new File("config.yml")); // You don't need to assign this anything.
     }
@@ -97,8 +97,8 @@ When using the function it will return true or false, you can use that to displa
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         if (f.delete("example.yml")) {
             // File was created!
@@ -118,8 +118,8 @@ The `f.save()` function saves the current open file.
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         if (f.save()) {
             // File was created!
@@ -136,8 +136,8 @@ Note that File does not parse or check the passed file. It works from the server
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         if (f.save(new File("newFile.yml"))) {
             // File was created! Maybe delete the old one?
@@ -155,8 +155,8 @@ Make sure to use `f.save()` if you've made changes.
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         // If you've made changes.
         f.save();
@@ -172,8 +172,8 @@ You can check if a file is open using `f.isOpen();`
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("example.yml");
         
@@ -197,8 +197,8 @@ When using the function it will return true or false, you can use that to displa
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("example.yml");
         
@@ -216,8 +216,8 @@ When using the function it will return various things, you should use the releva
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("example.yml");
         
@@ -234,8 +234,8 @@ class Example {
 ### Getting a list of keys
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("example.yml");
         
@@ -254,8 +254,8 @@ This removes a key and it's content. It also returns true/false
 
 ```java
 class Example {
-    public Example() {
-        Files f = new Files(new FoundryConfig(plugin), plugin);
+    public Example(YourPlugin plugin) {
+        Files f = new Files(plugin.foundryConfig, plugin);
         
         f.load("example.yml");
         
@@ -287,9 +287,9 @@ plugins
 ### Accessing preset files
 ```java
 class Example {
-    public ExampleCommand(CommandSender cs) {
+    public ExampleCommand(YourPlugin plugin, CommandSender cs) {
         if (CommandSender instanceof Player p) {
-            Files f = new Files(new FoundryConfig(plugin), plugin);
+            Files f = new Files(plugin.foundryConfig, plugin);
 
             // If you have an instance of Player use this.
             f.load(f.playerDataFile(p));

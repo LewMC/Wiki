@@ -13,7 +13,7 @@ class Example {
     }
     
     public void ExampleFunction() {
-        Logger log = new Logger(new FoundryConfig(this.plugin));
+        Logger log = new Logger(this.plugin.foundryConfig);
 
         log.info("This is an informational log.");
         log.warn("This is a warning.");
@@ -44,7 +44,7 @@ class Example {
     }
     
     public void ExampleFunction() {
-        Logger log = new Logger(new FoundryConfig(this.plugin));
+        Logger log = new Logger(this.plugin.foundryConfig);
 
         log.noConsole(); // This tells the console to go away!
     }
@@ -63,8 +63,14 @@ Using the info log as an example:
 
 ```java
 class Example {
+    public ExamplePlugin plugin;
+
+    public Example(ExamplePlugin plugin) {
+        this.plugin = plugin;
+    }
+    
     public void ExampleFunction() {
-        new Logger(new FoundryConfig(this)).info("This is an informational log.");
+        new Logger(this.plugin.foundryConfig).info("This is an informational log.");
     }
 }
 ```

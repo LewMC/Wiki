@@ -9,14 +9,18 @@ You can access Bukkit's command map using Foundry.
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        IBukkit ib = new IBukkit(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        
+        IBukkit ib = new IBukkit(foundryConfig, this);
         CommandMap cm = ib.getCommandMap();
         
         // or
         
-        CommandMap cm = new IBukkit(new FoundryConfig(this), this).getCommandMap();
+        CommandMap cm = new IBukkit(foundryConfig, this).getCommandMap();
     }
 }
 ```
@@ -28,12 +32,14 @@ You can access Bukkit's plugin manager using Foundry.
 public class ExamplePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        IBukkit ib = new IBukkit(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        
+        IBukkit ib = new IBukkit(foundryConfig, this);
         PluginManager pm = ib.getPluginManager();
         
         // or
 
-        PluginManager pm = new IBukkit(new FoundryConfig(this), this).getPluginManager();
+        PluginManager pm = new IBukkit(foundryConfig, this).getPluginManager();
     }
 }
 ```
@@ -47,12 +53,14 @@ This does not register the command. To register commands use [the registry](FR-R
 public class ExamplePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        IBukkit ib = new IBukkit(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        
+        IBukkit ib = new IBukkit(foundryConfig, this);
         PluginCommand runtimeCommand = ib.constructRuntimeCommand("example");
 
         // or
 
-        PluginCommand runtimeCommand = new IBukkit(new FoundryConfig(this), this).constructRuntimeCommand("example");
+        PluginCommand runtimeCommand = new IBukkit(foundryConfig, this).constructRuntimeCommand("example");
     }
 }
 ```

@@ -3,9 +3,12 @@
 To register multiple tab completers, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.tabCompleter("example", new ExampleTabCompleter());
         registry.tabCompleter("player", new PlayerTabCompleter());
@@ -18,9 +21,12 @@ This is probably the most common way of using this utility. Each statement retur
 To register multiple commands with the same executor, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.tabCompleter(new String[] {"exampleOne","exampleTwo"}, new ExampleTabCompleter());
     }
@@ -31,9 +37,12 @@ The statement returns an array of true/false for each command, you can use this 
 To register a single tab completer, the best way is to use this format:
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        new Registry(new FoundryConfig(this), this).tabCompleter("example", new ExampleTabCompleter());
+        this.foundryConfig = new FoundryConfig(this);
+        new Registry(this.foundryConfig, this).tabCompleter("example", new ExampleTabCompleter());
     }
 }
 ```

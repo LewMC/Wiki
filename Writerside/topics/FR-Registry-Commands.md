@@ -22,9 +22,12 @@ _As of Foundry 1.2.0, command is now an alias of ymlCommand._
 **Register a single command:** - It returns true/false, you can use this if you want or ignore it.
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        new Registry(new FoundryConfig(this), this).command("example", new ExampleCommand());
+        this.foundryConfig = new FoundryConfig(this);
+        new Registry(this.foundryConfig, this).command("example", new ExampleCommand());
     }
 }
 ```
@@ -32,9 +35,12 @@ public class ExamplePlugin extends JavaPlugin {
 **Register multiple commands with different executors** - RECOMMENDED METHOD - this is probably the most common way of using this utility. Each call returns true/false, you can use this if you want or ignore it.
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.command("example", new ExampleCommand());
         registry.command("player", new ExamplePlayerCommand());
@@ -46,9 +52,12 @@ public class ExamplePlugin extends JavaPlugin {
 **Register multiple commands with the same different executors** - Each call returns true/false, you can use this if you want or ignore it.
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.command(new String[] {"gamemode","gm"}, new ExampleCommand());
         registry.command(new String[] {"teleport","goto"}, new ExamplePlayerCommand());
@@ -70,9 +79,12 @@ If your command has aliases in the plugin.yml, you should pass them in as well.
 **Register a single command:** - It returns true/false, you can use this if you want or ignore it.
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        new Registry(new FoundryConfig(this), this).runtimeCommand("example", new ExampleCommand());
+        this.foundryConfig = new FoundryConfig(this);
+        new Registry(this.foundryConfig, this).runtimeCommand("example", new ExampleCommand());
     }
 }
 ```
@@ -81,9 +93,12 @@ public class ExamplePlugin extends JavaPlugin {
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.runtimeCommand("example", new ExampleCommand());
         registry.runtimeCommand("player", new ExamplePlayerCommand(), "p", "play");
@@ -95,9 +110,12 @@ public class ExamplePlugin extends JavaPlugin {
 **Register multiple commands with the same different executors** - Each call returns true/false, you can use this if you want or ignore it.
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        this.foundryConfig = new FoundryConfig(this);
+        Registry registry = new Registry(this.foundryConfig, this);
 
         registry.runtimeCommand(new String[] {"gamemode","gm"}, new ExampleCommand());
         registry.runtimeCommand(new String[] {"teleport","goto"}, new ExamplePlayerCommand());
@@ -114,17 +132,17 @@ All three of the above methods support aliases.
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+    public FoundryConfig foundryConfig;
+    
     @Override
     public void onEnable() {
+        this.foundryConfig = new FoundryConfig(this);
+        
         // Method 1:
-        new Registry(new FoundryConfig(this), this).runtimeCommand("example", new ExampleCommand(), "alias1", "alias2", "etc");
+        new Registry(this.foundryConfig, this).runtimeCommand("example", new ExampleCommand(), "alias1", "alias2", "etc");
         
         // Method 2:
-        Registry registry = new Registry(new FoundryConfig(this), this);
-        registry.runtimeCommand(new String[] {"gamemode","gm"}, new ExampleCommand(), "alias1", "alias2", "etc");
-        
-        // Method 3:
-        Registry registry = new Registry(new FoundryConfig(this), this);
+        Registry registry = new Registry(this.foundryConfig, this);
         registry.runtimeCommand(new String[] {"gamemode","gm"}, new ExampleCommand(), "alias1", "alias2", "etc");
     }
 }
