@@ -124,17 +124,21 @@ Wildcard permission: essence.spawn.*
 ## Stats Commands
 Wildcard permission: essence.stats.* and essence.stats.other.*
 
-| Command                            | Permission Required                               | Description                        | Usage             | Console can run? |
-|------------------------------------|---------------------------------------------------|------------------------------------|-------------------|------------------|
-| /heal                              | essence.stats.heal                                | Heal yourself.                     | /heal             | No               |
-| /heal &lt;player>                  | essence.stats.heal.other                          | Heal another player.               | /heal Notch       | Yes              |
-| /feed /eat                         | essence.stats.feed                                | Feed yourself.                     | /feed             | No               |
-| /feed &lt;player> /eat &lt;player> | essence.stats.feed.other                          | Feed another player.               | /eat Notch        | Yes              |
-| /repair                            | essence.stats.repair                              | Repair the item in your hand       | /repair           | No               |
-| /burn                              | essence.stats.burn                                | Burns someone!                     | /burn Notch       | Yes              |
-| /extinguish                        | essence.stats.extinguish                          | Stops burning someone              | /extinguish Notch | Yes              |
-| /god                               | essence.stats.god                                 | Enables god mode.                  | /god              | No               |
-| /god &lt;player>                   | essence.stats.god **and** essence.stats.god.other | Enables god mode for someone else. | /god Notch        | Yes              |
+| Command                            | Permission Required                                   | Description                        | Usage              | Console can run? |
+|------------------------------------|-------------------------------------------------------|------------------------------------|--------------------|------------------|
+| /heal                              | essence.stats.heal                                    | Heal yourself.                     | /heal              | No               |
+| /heal &lt;player>                  | essence.stats.heal.other                              | Heal another player.               | /heal Notch        | Yes              |
+| /feed /eat                         | essence.stats.feed                                    | Feed yourself.                     | /feed              | No               |
+| /feed &lt;player> /eat &lt;player> | essence.stats.feed.other                              | Feed another player.               | /eat Notch         | Yes              |
+| /repair                            | essence.stats.repair                                  | Repair the item in your hand       | /repair            | No               |
+| /burn                              | essence.stats.burn                                    | Burns someone!                     | /burn Notch        | Yes              |
+| /extinguish                        | essence.stats.extinguish                              | Stops burning someone              | /extinguish Notch  | Yes              |
+| /god                               | essence.stats.god                                     | Enables god mode.                  | /god               | No               |
+| /god &lt;player>                   | essence.stats.god **and** essence.stats.god.other     | Enables god mode for someone else. | /god Notch         | Yes              |
+| /speed                             | essence.stats.speed                                   | Sets your speed.                   | /speed 2           | No               |
+| /speed &lt;player>                 | essence.stats.speed **and** essence.stats.speed.other | Sets another player's speed.       | /speed LewIsLost 2 | Yes              |
+| /fly                               | essence.stats.fly                                     | Toggles if you can fly.            | /fly               | No               |
+| /fly &lt;player>                   | essence.stats.fly **and** essence.stats.fly.other     | Toggles if another player can fly. | /fly LewIsLost     | Yes              |
 
 ## Chat Commands
 Wildcard permission: essence.chat.*
