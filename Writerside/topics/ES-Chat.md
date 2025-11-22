@@ -41,6 +41,13 @@ managed in the [configuration](ES-Configuration.md).
 MOTDs also support placeholders. These are used to replace text with pre-generated values set by Essence. You can use
 these tags to set values that may change often such as versions. [Learn more](ES-Placeholders.md)
 
+To disable the MOTD, set it to `false` in the configuration.
+
+## Custom Join/leave messages
+Essence supports custom join and leave messages. It can be toggled and managed in the [configuration](ES-Configuration.md).
+
+To disable join/leave messages altogether, set them to `false` in the configuration.
+
 
 ## Chat Management
 <warning>
