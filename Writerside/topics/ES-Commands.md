@@ -28,7 +28,7 @@ Wildcard permission: essence.gamemode.*
 | /gm spectator &lt;player> /gamemode spectator &lt;player> /gmsp &lt;player> | essence.gamemode.spectator **and** essence.gamemode.other | Change another player to spectator mode | /gm spectator Notch /gamemode spectator Notch /gmsp Notch | Yes              |
 
 ## Inventory Commands
-Wildcard permission: essence.inventory.*
+Wildcard permission: essence.inventory.* and essence.inventory.other.*
 
 | Command                   | Permission Required                                           | Description                                                                                             | Usage                                | Console can run? |
 |---------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------|------------------|
@@ -47,7 +47,9 @@ Wildcard permission: essence.inventory.*
 | /clear                    | essence.inventory.clear                                       | Clear your inventory.                                                                                   | /clear                               | No               |
 | /clear &lt;player>        | essence.inventory.clear **and** essence.inventory.clear.other | Clear another player's inventory.                                                                       | /clear LewIsLost                     | Yes              |
 | /confirmclear             | essence.inventory.clear                                       | Toggle if you need to confirm before your inventory is cleared (default: yes, see [](ES-Inventory.md)). | /clearconfirm                        | No               |
-| /invsee &lt;player>       | essence.invsee (not included in inventory wildcard)           | See another player's inventory.                                                                         | /invsee Notch                        | No               |
+| /invsee &lt;player>       | essence.inventory.invsee (in other.* wildcard)                | See another player's inventory.                                                                         | /invsee Notch                        | No               |
+| /recipe                   | essence.inventory.recipe                                      | See how to make the item in your hand.                                                                  | /recipe                              | No               |
+| /recipe &lt;item>         | essence.inventory.recipe                                      | See how to make a specific item.                                                                        | /recipe wooden_sword                 | No               |
 
 ## Kit Commands
 Wildcard permission: essence.kits.*

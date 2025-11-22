@@ -1,5 +1,8 @@
 # Inventory
 
+Inventory has two wildcard permissions: `essence.inventory.*` and `essence.inventory.other.*`, other is not included in
+the main wildcard, both must be given for access to all commands. This is for security reasons.
+
 ## /give command
 The /give command overwrites the vanilla version. Essence's command allows you to give items to yourself and others.
 
@@ -32,6 +35,6 @@ By default, you'll need to confirm before your inventory will be cleared. To tog
 
 ### Clearing someone else's inventory
 To clear someone else's inventory, use `/clear &lt;name>`. You'll need the `essence.inventory.clear.other` permission
-as well as the standard `essence.inventory.clear` permission, or the `essence.inventory.*` wildcard permission.
+as well as the standard `essence.inventory.clear` permission.
 
 By default, you'll need to confirm before their inventory will be cleared. To toggle this, use `/clearconfirm`.
