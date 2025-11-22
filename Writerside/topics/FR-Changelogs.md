@@ -7,13 +7,13 @@
 
 ## 1.3.0
 
-_2025-11-xx_ - Foundry 1.3.0 adds new validation and version classes, and expands permissions usage.
+_2025-11-xx_ - Foundry 1.3.0 adds new parser and version classes, and expands permissions usage.
 
-| Added   | New [](FR-Validation.md) class that can check if a given variable is numeric, added a [](FR-Version.md) class that can check and compare Minecraft versions, added a .isOp() function in Permissions. |
-|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                                                                   |
-| Changed | Nothing was changed in this update.                                                                                                                                                                   |
-| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                           |
+| Added   | New [](FR-Parser.md) class that can grab CLI-style flags and check if a given variable is numeric, added a [](FR-Version.md) class that can check and compare Minecraft versions, added a .isOp() function in Permissions. |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                        |
+| Changed | Nothing was changed in this update.                                                                                                                                                                                        |
+| Fixed   | Nothing was fixed in this update, maybe nothing was broken?                                                                                                                                                                |
 
 ## 1.2.0
 

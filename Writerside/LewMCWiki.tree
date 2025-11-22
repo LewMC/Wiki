@@ -81,7 +81,7 @@
                     <toc-element topic="FR-Registry-Tab-Completers.md"/>
                 </toc-element>
                 <toc-element topic="FR-Security.md"/>
-                <toc-element topic="FR-Validation.md"/>
+                <toc-element topic="FR-Parser.md"/>
                 <toc-element topic="FR-Version.md"/>
             </toc-element>
             <toc-element topic="FR-System-Requirements.md"/>
