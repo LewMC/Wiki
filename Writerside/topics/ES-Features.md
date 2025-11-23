@@ -22,6 +22,7 @@ Essence has a huge number of features, and we're always looking to add more!
 - [](ES-Teams.md)
 - [](ES-Teleportation.md)
 - [Warps](ES-Teleportation.md)
+- [](ES-Worlds.md)
 
 ## Getting help
 You can visit one of the above pages or type `/es help` into chat.
