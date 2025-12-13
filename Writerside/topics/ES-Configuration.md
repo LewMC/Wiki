@@ -1,5 +1,9 @@
 # Configuration
-> This Wiki page is for the configuration in version 1.10.0 or later (Config V3). Earlier versions may have a different layout.
+<warning>
+  We are currently updating this page, some information may be outdated, if something isn't right please contact us via lewmc.net/help
+</warning>
+
+> This Wiki page is for the configuration in version 1.11.0-SNAPSHOT or later (Config V4). Earlier versions may have a different layout.
 
 ## Configuration Values
 | Key                                    | Description                                                                                                                                                                                                                                                                       | Accepted Values                                                                                                                                                                                 | Default Value                                                        |
