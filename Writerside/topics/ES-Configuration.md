@@ -171,4 +171,3 @@ advanced:
 
 # Do not change this!
 config-version: 4
-```
