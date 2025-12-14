@@ -7,16 +7,8 @@ Command: `/world tp <world name>` or `/spawn <world name>`
 
 Using `/spawn` on it's own will teleport you to the spawn of the world you're currently in, unless a lobby world is set.
 
-### Lobby World
-To use a world as a "Global Spawn" or "Lobby" you can set `always-spawn` to `true` in Essence's config, then set the
-spawn world to the world you'd like to use. This will make `/spawn` teleport to that world instead of the current world's
-spawn.
-
-If `always-spawn` is set, `/spawn` will teleport to the lobby world, to teleport to the world's spawn you must use
-`/spawn <name>`.
-
-This is useful if you always want players to spawn in the overworld, or a world you're using as a hub. Respawning and
-joining also adheres to lobby worlds.
+### Global Spawn / Lobby World and Forced Spawns
+See [Teleportation](ES-Teleportation.md#spawns).
 
 ## Load or Unload a World
 Command: `/world load <world name>` or `/world unload <world name>`

@@ -113,8 +113,30 @@ Giving a player the `essence.spawn.*` permission gives them access to every comm
 | /spawn &lt;world> /world &lt;world> | essence.spawn.other                                        | Teleport to another world's spawn               |
 | /setspawn                           | essence.spawn.create                                       | Set the world's spawn to your current location. |
 
-To make players always join the server at your main world's spawn, set `main-world-spawn` in the [configuration](ES-Configuration.md) to the name of your main world
-and set `always-spawn` to `true`.
+### Global Spawn / Lobby World
+To use a world as a "Global Spawn" or "Lobby" you can configure `global-spawn` in Essence's config, then set the spawn
+world to the world you'd like to use. This will make `/spawn` teleport to that world instead of the current world's
+spawn.
+
+If enabled, `/hub` and `/lobby` will become aliases of `/spawn` and can be used instead if preferred (requires restart).
+
+```yaml
+    global-spawn:
+      enabled: true
+      world: world
+```
+
+This is useful if you always want players to spawn in the overworld, or a world you're using as a hub. Respawning and
+joining also adheres to lobby worlds if `force-spawn` is configured.
+
+### Force Spawn
+You can force players to join and respawn at the world's spawnpoint instead of their last locations/beds.
+
+```yaml
+    force-spawn:
+      on-join: true
+      on-death: true
+```
 
 ## Cooldowns and Delays
 Teleporting has its setbacks, you've gotta wait!
