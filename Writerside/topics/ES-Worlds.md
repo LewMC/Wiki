@@ -23,3 +23,4 @@ For example, `/world create new_end -e END -s TRUE`
 | `-n`  | **Generate Structures** - If the world should generate structures.                                                      | `TRUE` or `FALSE`                                         | `TRUE`            |
 | `-s`  | **Seed** - The world's seed.                                                                                            | Any number                                                | Random            |
 | `-t`  | **World Type** - The Minecraft world type.                                                                              | `NORMAL`,<br/>`FLAT`,<br/>`AMPLIFIED`,<br/>`LARGE_BIOMES` | `NORMAL`          |
+| `-a`  | **Autoload** - Should the world be loaded on server startup?                                                            | `TRUE` or `FALSE`                                         | `TRUE`            |
