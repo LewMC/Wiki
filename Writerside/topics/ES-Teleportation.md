@@ -113,6 +113,9 @@ Giving a player the `essence.spawn.*` permission gives them access to every comm
 | /spawn &lt;world> /world &lt;world> | essence.spawn.other                                        | Teleport to another world's spawn               |
 | /setspawn                           | essence.spawn.create                                       | Set the world's spawn to your current location. |
 
+To make players always join the server at your main world's spawn, set `main-world-spawn` in the [configuration](ES-Configuration.md) to the name of your main world
+and set `always-spawn` to `true`.
+
 ## Cooldowns and Delays
 Teleporting has its setbacks, you've gotta wait!
 

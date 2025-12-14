@@ -130,7 +130,8 @@ what you're used to.
 | /warps                     | warps                  |
 | /weather                   | spawn                  |
 | /workbench                 | craft                  |
-| /world                     | spawn                  |
+| /world                     | world                  |
+| /wtp                       | spawn                  |
 
 ## Disabling Modules
 > Requires Essence 1.10.0 or newer.
