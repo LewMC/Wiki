@@ -15,6 +15,9 @@ spawn.
 If `always-spawn` is set, `/spawn` will teleport to the lobby world, to teleport to the world's spawn you must use
 `/spawn <name>`.
 
+This is useful if you always want players to spawn in the overworld, or a world you're using as a hub. Respawning and
+joining also adheres to lobby worlds.
+
 ## Load or Unload a World
 Command: `/world load <world name>` or `/world unload <world name>`
 
