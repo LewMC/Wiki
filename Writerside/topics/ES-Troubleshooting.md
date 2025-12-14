@@ -31,3 +31,8 @@ Issues caused can range from permissions lookups failing, memory leaks, zip file
 We **highly** recommend restarting your server instead of reloading it.
 
 For more information on the issue please read [https://madelinemiller.dev/blog/problem-with-reload](https://madelinemiller.dev/blog/problem-with-reload)
+
+## World Management
+### Essence is not detecting a world.
+Try to load it using `/world load <name>`. This can sometimes happen if the world was created before Essence was
+installed, or by a different world management plugin such as Multiverse.
