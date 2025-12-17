@@ -31,7 +31,10 @@ plugin.
 Language files support placeholders and arguments. To learn more [see the placeholders page](ES-Placeholders.md).
 
 ### Creating a new Language File
-> Please consider translating essence to [Crowdin](https://crowdin.com/project/lewmc-essence) so that others can use the language too!
+<warning>
+  Custom language files do not update themselves when you get a new version of Essence. You'll need to manually add any new strings that come with any updates.
+</warning>
+Please consider translating essence to [Crowdin](https://crowdin.com/project/lewmc-essence) so that others can use the language too!
 1. Create a new .yml file in the /plugins/essence/languages folder. You should give it a unique name such as custom.yml
 2. Copy the contents of ![en-gb.yml](en-gb.yml.png) to this file.
 3. Customise any messages you wish to.
