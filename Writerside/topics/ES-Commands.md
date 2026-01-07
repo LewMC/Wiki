@@ -127,6 +127,14 @@ Wildcard permission: essence.spawn.*
 | /spawn &lt;world>   | essence.spawn.other                                        | Teleport to another world's spawn               | /spawn world_the_nether | No               |
 | /setspawn           | essence.spawn.create                                       | Set the world's spawn to your current location. | /setspawn               | No               |
 
+### Orientation commands
+Wildcard permission: essence.orientation.*
+
+| Command    | Permission Required           | Description                           | Usage      | Console can run? |
+|------------|-------------------------------|---------------------------------------|------------|------------------|
+| /direction | essence.orientation.direction | Determine the direction you're facing | /direction | No               |
+| /near      | essence.orientation.near      | Locate the nearest players            | /near      | No               |
+
 ## Stats Commands
 Wildcard permission: essence.stats.* and essence.stats.other.*
 
