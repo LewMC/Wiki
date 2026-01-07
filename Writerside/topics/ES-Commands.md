@@ -118,7 +118,7 @@ You can limit the number of homes a user can create by using `essence.home.limit
 | /setthome &lt;name> | essence.home.team.create | Create a team home.      | /setthome Base   | No               |
 | /delthome &lt;name> | essence.home.team.delete | Delete a team home.      | /delthome Base   | No               |
 
-### Spawn commands
+### Spawn Commands
 Wildcard permission: essence.spawn.*
 
 | Command             | Permission Required                                        | Description                                     | Usage                   | Console can run? |
@@ -127,7 +127,7 @@ Wildcard permission: essence.spawn.*
 | /spawn &lt;world>   | essence.spawn.other                                        | Teleport to another world's spawn               | /spawn world_the_nether | No               |
 | /setspawn           | essence.spawn.create                                       | Set the world's spawn to your current location. | /setspawn               | No               |
 
-### Orientation commands
+### Orientation Commands
 Wildcard permission: essence.orientation.*
 
 | Command    | Permission Required           | Description                           | Usage      | Console can run? |
