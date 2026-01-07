@@ -85,6 +85,8 @@ Since version 1.8.1 you can now use @p, @a, and @s in /teleport and /tp commands
 | /top &lt;username>                                      | essence.teleport.top **and** essence.teleport.other    | Teleports you to the highest available block at your position. | /top                | Yes              |
 | /bottom                                                 | essence.teleport.bottom                                | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
 | /bottom &lt;username>                                   | essence.teleport.bottom **and** essence.teleport.other | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
+| /ascend                                                 | essence.teleport.ascend                                | Teleports you to the next available block above your position. | /ascend             | No               |
+| /descend                                                | essence.teleport.descend                               | Teleports you to the next available block below your position  | /descend            | No               |
 
 ### Warp Commands
 Wildcard permission: essence.warp.*
