@@ -93,6 +93,8 @@ Wildcard permission: essence.warp.*
 
 You can limit the number of warps a user can create by using `essence.warp.limit.X` - [Learn more](ES-Permissions.md#warp-and-home-creation-limits).
 
+You will need `essence.warp.delete.other` to delete warps created by other players.
+
 | Command            | Permission Required | Description               | Usage            | Console can run? |
 |--------------------|---------------------|---------------------------|------------------|------------------|
 | /warps             | essence.warp.list   | Get a list of warps       | /warps           | Yes              |
