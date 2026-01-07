@@ -31,10 +31,10 @@ but you should check that the names of items are correct. For example `WOODEN_SW
 To clear your inventory, use `/clear`. You'll need the `essence.inventory.clear` permission or the `essence.inventory.*`
 wildcard permission.
 
-By default, you'll need to confirm before your inventory will be cleared. To toggle this, use `/clearconfirm`.
+By default, you'll need to confirm before your inventory will be cleared. To toggle this, use `/confirmclear`.
 
 ### Clearing someone else's inventory
 To clear someone else's inventory, use `/clear &lt;name>`. You'll need the `essence.inventory.clear.other` permission
 as well as the standard `essence.inventory.clear` permission.
 
-By default, you'll need to confirm before their inventory will be cleared. To toggle this, use `/clearconfirm`.
+By default, you'll need to confirm before their inventory will be cleared. To toggle this, use `/confirmclear`.
