@@ -46,7 +46,7 @@ Wildcard permission: essence.inventory.* and essence.inventory.other.*
 | /skull &lt;player>        | essence.inventory.skull                                       | Gives you a player's skull.                                                                             | /skull Notch                         | No               |
 | /clear                    | essence.inventory.clear                                       | Clear your inventory.                                                                                   | /clear                               | No               |
 | /clear &lt;player>        | essence.inventory.clear **and** essence.inventory.clear.other | Clear another player's inventory.                                                                       | /clear LewIsLost                     | Yes              |
-| /confirmclear             | essence.inventory.clear                                       | Toggle if you need to confirm before your inventory is cleared (default: yes, see [](ES-Inventory.md)). | /clearconfirm                        | No               |
+| /confirmclear             | essence.inventory.clear                                       | Toggle if you need to confirm before your inventory is cleared (default: yes, see [](ES-Inventory.md)). | /confirmclear                        | No               |
 | /invsee &lt;player>       | essence.inventory.invsee (in other.* wildcard)                | See another player's inventory.                                                                         | /invsee Notch                        | No               |
 | /recipe                   | essence.inventory.recipe                                      | See how to make the item in your hand.                                                                  | /recipe                              | No               |
 | /recipe &lt;item>         | essence.inventory.recipe                                      | See how to make a specific item.                                                                        | /recipe wooden_sword                 | No               |
@@ -85,11 +85,15 @@ Since version 1.8.1 you can now use @p, @a, and @s in /teleport and /tp commands
 | /top &lt;username>                                      | essence.teleport.top **and** essence.teleport.other    | Teleports you to the highest available block at your position. | /top                | Yes              |
 | /bottom                                                 | essence.teleport.bottom                                | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
 | /bottom &lt;username>                                   | essence.teleport.bottom **and** essence.teleport.other | Teleports you to the lowest available block at your position.  | /bottom             | Yes              |
+| /ascend                                                 | essence.teleport.ascend                                | Teleports you to the next available block above your position. | /ascend             | No               |
+| /descend                                                | essence.teleport.descend                               | Teleports you to the next available block below your position  | /descend            | No               |
 
 ### Warp Commands
 Wildcard permission: essence.warp.*
 
 You can limit the number of warps a user can create by using `essence.warp.limit.X` - [Learn more](ES-Permissions.md#warp-and-home-creation-limits).
+
+You will need `essence.warp.delete.other` to delete warps created by other players.
 
 | Command            | Permission Required | Description               | Usage            | Console can run? |
 |--------------------|---------------------|---------------------------|------------------|------------------|
@@ -114,7 +118,7 @@ You can limit the number of homes a user can create by using `essence.home.limit
 | /setthome &lt;name> | essence.home.team.create | Create a team home.      | /setthome Base   | No               |
 | /delthome &lt;name> | essence.home.team.delete | Delete a team home.      | /delthome Base   | No               |
 
-### Spawn commands
+### Spawn Commands
 Wildcard permission: essence.spawn.*
 
 | Command             | Permission Required                                        | Description                                     | Usage                   | Console can run? |
@@ -122,6 +126,14 @@ Wildcard permission: essence.spawn.*
 | /spawn              | essence.spawn *All players have access to this by default* | Teleport to the current world's spawn           | /spawn                  | No               |
 | /spawn &lt;world>   | essence.spawn.other                                        | Teleport to another world's spawn               | /spawn world_the_nether | No               |
 | /setspawn           | essence.spawn.create                                       | Set the world's spawn to your current location. | /setspawn               | No               |
+
+### Orientation Commands
+Wildcard permission: essence.orientation.*
+
+| Command    | Permission Required           | Description                           | Usage      | Console can run? |
+|------------|-------------------------------|---------------------------------------|------------|------------------|
+| /direction | essence.orientation.direction | Determine the direction you're facing | /direction | No               |
+| /near      | essence.orientation.near      | Locate the nearest players            | /near      | No               |
 
 ## Stats Commands
 Wildcard permission: essence.stats.* and essence.stats.other.*
