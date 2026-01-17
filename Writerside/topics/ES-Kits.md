@@ -1,6 +1,7 @@
 # Kits
 
-> The kit file changed in Essence 1.12.0, your kits will be migrated automatically.
+> **The kit file changed in Essence 1.12.0**
+> Your kits will be automatically migrated to the new format when you first run the new update.
 
 Kits are sets of items that can be given to players via commands. The command to access Kits is /kit. To give players
 access to all kits commands give them the `essence.kits.*` command.
