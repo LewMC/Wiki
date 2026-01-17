@@ -2,6 +2,7 @@
 
 | Essence Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
 |-----------------|--------------------|---------------------------------------------------------------|--------------|----------------|
+| 1.12.0+         | > 1.21.1           | Paper, Folia, or a fork of these                              | 21           | Yes            |
 | 1.8.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
 | 1.4.0+          | > 1.20.4           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 17           | No             |
 | 1.0.0 - 1.3.2   | > 1.19.0           | CraftBukkit, Spigot, Paper, or a fork of these (except Folia) | 17           | No             |

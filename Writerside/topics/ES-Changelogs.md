@@ -5,6 +5,19 @@
     That includes Essence! Updating keeps your server free from bugs, exploits, and other potential issues. When you see the message – update!
 </warning>
 
+## 1.12.0
+
+_2026-01-XX_ – Essence 1.12.1 fixes a bug with the auto complete causing console spam for world/spawn teleportation.
+
+**As of 1.12.0, Essence no longer supports CraftBukkit
+or Spigot servers.**
+
+| Added   | You can now add enchantments and multiple of the same item to kits.                                                                                                                                                                                       |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Nothing was removed in this update.                                                                                                                                                                                                                       |
+| Changed | Essence no longer supports CraftBukkit or Spigot. [More information](ES-System-Requirements.md). The kits file now works differently, it will be migrated automatically. See [](ES-Kits.md) for more information.                                         |
+| Fixed   | [#349](https://github.com/LewMC/Essence/issues/349) Pre 1.11.0 player data is not being migrated properly/at all, [#350](https://github.com/LewMC/Essence/issues/350) IP is not stored in Essence player data despite Advanced Player Data being enabled, |
+
 ## 1.11.1
 
 _2025-12-15_ – Essence 1.11.1 fixes a bug with the auto complete causing console spam for world/spawn teleportation.

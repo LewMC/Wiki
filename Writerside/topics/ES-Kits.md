@@ -1,5 +1,7 @@
 # Kits
 
+> The kit file changed in Essence 1.12.0, your kits will be migrated automatically.
+
 Kits are sets of items that can be given to players via commands. The command to access Kits is /kit. To give players
 access to all kits commands give them the `essence.kits.*` command.
 
@@ -7,26 +9,53 @@ access to all kits commands give them the `essence.kits.*` command.
 Kits are stored in the kits.yml file which can be found in Essence's data folder (/plugins/essence/data).
 
 ### Example
-The default example kits are as follows:
+The below example is the defualt kits.yml file:
 ```
 kits:
   wooden-tools:
-    items: ["WOODEN_AXE","WOODEN_PICKAXE","WOODEN_SHOVEL","WOODEN_SWORD"]
-    maxclaims: 1
+    name: Wooden Tools
+    description: Some basic wooden tools.
+    items:
+      WOODEN_AXE:
+        amount: 1
+      WOODEN_PICKAXE:
+        amount: 1
+      WOODEN_SHOVEL:
+        amount: 1
+      WOODEN_SWORD:
+        amount: 1
   god-tools:
-    items: ["DIAMOND_AXE","DIAMOND_PICKAXE","DIAMOND_SHOVEL","DIAMOND_SWORD"]
-    maxclaims: 1
+    name: God Tools
+    description: Some amazing tools! Can only claim once!
     permission: "essence.kits.god"
+    maxclaims: 1
+    items:
+      DIAMOND_AXE:
+        amount: 1
+      DIAMOND_PICKAXE:
+        amount: 1
+        enchantments:
+          - EFFICIENCY:2
+          - UNBREAKING:2
+      DIAMOND_SHOVEL:
+        amount: 1
+      DIAMOND_SWORD:
+        amount: 1
 ```
-These example kits come pre-installed with Essence. If you've accidentally deleted them and would like to get them back, you can delete the kits.yml file and restart your server. The file will be re-generated.
 
 ### Parameters
-| Parameter             | Description                                                                                                                                                                                                                                                                                                               | Required? | Example                                                          |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|
-| Kit name (root-level) | The name of your Kit - can be any string                                                                                                                                                                                                                                                                                  | Yes       | wooden-tools                                                     |
-| items                 | List of items you'd like the player to receive from this kit - must be a list of strings (Each string must be a valid [Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html))                                                                                                                      | Yes       | `["WOODEN_AXE","WOODEN_PICKAXE","WOODEN_SHOVEL","WOODEN_SWORD"]` |
-| maxclaims             | The maximum number of times the kit can be claimed. To disable set to -1. Can be bypassed with permissions, see below. Kit claims are always being counted even if this restriction is not present, if you'd like to restart all user's counters either rename the kit of remove the counter from their player data file. | Yes       | 3                                                                |
-| permission            | <strong>Optional</strong> - See the "Permissions" section below.                                                                                                                                                                                                                                                          | No        | essence.kits.god                                                 |
+Please see above for an example of these parameters in use.
+
+| Parameter                 | Description                                                                                                                                                                                                                                                                                                               | Required? | Example                            |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------|
+| Kit ID (root-level_       | The ID of your Kit - can be any string, this is what players use in the command (e.g. /kit kit-id)                                                                                                                                                                                                                        | Yes       | wooden-tools                       |
+| name                      | The name of your kit, typically just a nicer looking version of the ID                                                                                                                                                                                                                                                    | Yes       | Wooden Tools                       |
+| description               | The kit's description.                                                                                                                                                                                                                                                                                                    | Yes       | A cool kit with some wooden tools. |
+| items.[ITEM]              | List of items you'd like the player to receive from this kit - each key is the item name (Each key must be a valid [Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html))                                                                                                                         | Yes       | `WOODEN_AXE`                       |
+| items.[ITEM].amount       | The amount of the item you'd like to give the player (required)                                                                                                                                                                                                                                                           | Yes       | `1`                                |
+| items.[ITEM].enchantments | Any enchantments you'd like the items to have (optional)                                                                                                                                                                                                                                                                  | Yes       | `UNBREAKING:2`                     |
+| maxclaims                 | The maximum number of times the kit can be claimed. To disable set to -1. Can be bypassed with permissions, see below. Kit claims are always being counted even if this restriction is not present, if you'd like to restart all user's counters either rename the kit of remove the counter from their player data file. | Yes       | 3                                  |
+| permission                | <strong>Optional</strong> - See the "Permissions" section below.                                                                                                                                                                                                                                                          | No        | essence.kits.god                   |
 
 ## Permissions
 Kits require users to have a set of permissions to access them.
