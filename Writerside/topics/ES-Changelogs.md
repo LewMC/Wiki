@@ -12,7 +12,7 @@ _2026-01-XX_ – Essence 1.12.1 fixes a bug with the auto complete causing conso
 **As of 1.12.0, Essence no longer supports CraftBukkit
 or Spigot servers.**
 
-| Added   | You can now add enchantments and multiple of the same item to kits.                                                                                                                                                                                       |
+| Added   | You can now add enchantments and multiple of the same item to kits. You can now set walking and flying speeds independently of one-another [more info](ES-Stats.md).                                                                                      |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Removed | Nothing was removed in this update.                                                                                                                                                                                                                       |
 | Changed | Essence no longer supports CraftBukkit or Spigot. [More information](ES-System-Requirements.md). The kits file now works differently, it will be migrated automatically. See [](ES-Kits.md) for more information.                                         |
