@@ -104,7 +104,7 @@ Please see the below tables for a list of valid enchantments.
 ### All-Purpose
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><th>Enchantment</th><th>Max Level</th><th>Description</th></tr>
     <tr><td>MENDING</td><td>1</td><td>Repairs the item when gaining XP orbs.</td></tr>
     <tr><td>UNBREAKING</td><td>3</td><td>Increases item durability.</td></tr>
     <tr><td>CURSE_OF_VANISHING</td><td>1</td><td>Item destroyed upon death.</td></tr>
@@ -113,7 +113,7 @@ Please see the below tables for a list of valid enchantments.
 ### Armour
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><th>Enchantment</th><th>Max Level</th><th>Description</th></tr>
     <tr><td>AQUA_AFFINITY</td><td>1</td><td>Increase the rate of underwater mining speed.</td></tr>
     <tr><td>BLAST_PROTECTION</td><td>4</td><td>Reduces explosion damage and knockback. </td></tr>
     <tr><td>CURSE_OF_BINDING</td><td>4</td><td>Items cannot be removed from armour slots unless the cause is death or breaking.</td></tr>
@@ -132,7 +132,7 @@ Please see the below tables for a list of valid enchantments.
 ### Melee Weapons
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><th>Enchantment</th><th>Max Level</th><th>Description</th></tr>
     <tr><td>BANE_OF_ARTHROPODS</td><td>5</td><td>Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).</td></tr>
     <tr><td>BREACH</td><td>4</td><td>Negate the effectiveness of enemy armour by 15% per level.</td></tr>
     <tr><td>DENSITY</td><td>5</td><td>Boosts the rate at which mace multiplies damage while falling.</td></tr>
@@ -153,7 +153,7 @@ Please see the below tables for a list of valid enchantments.
 ### Ranged Weapons
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><th>Enchantment</th><th>Max Level</th><th>Description</th></tr>
     <tr><td>CHANNELING</td><td>1</td><td>Trident channels a bolt of lightning toward a hit entity. Functions only during thunderstorms and if the target is unobstructed by opaque blocks.</td></tr>
     <tr><td>FLAME</td><td>1</td><td>Arrows set targets on fire.</td></tr>
     <tr><td>IMPALING</td><td>5</td><td>Trident deals additional damage to mobs that spawn naturally in the ocean.</td></tr>
@@ -170,7 +170,7 @@ Please see the below tables for a list of valid enchantments.
 ### Tools
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><th>Enchantment</th><th>Max Level</th><th>Description</th></tr>
     <tr><td>EFFICIENCY</td><td>5</td><td>Increases mining speed.</td></tr>
     <tr><td>FORTUNE</td><td>3</td><td>Increases certain item drop chances from blocks.</td></tr>
     <tr><td>LUCK_OF_THE_SEA</td><td>3</td><td>Increases rate of fishing rare loot (enchanting books, etc.)</td></tr>
