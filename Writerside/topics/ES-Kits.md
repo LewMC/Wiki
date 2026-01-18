@@ -99,9 +99,8 @@ items:
       - UNBREAKING:2
 ```
 
-### List
 Please see the below tables for a list of valid enchantments.
-#### All Purpose
+### All Purpose
 
 <table>
     <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
@@ -124,7 +123,7 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>SWIFT_SNEAK</td><td>3</td><td>Increased player speed when crouching.</td></tr>
 </table>
 
-#### Melee Weapons
+### Melee Weapons
 
 <table>
     <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
@@ -143,7 +142,7 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>WIND_BURST</td><td>3</td><td>Allows the player to bounce up into the air following a successful hit; the height of this bounce increases with higher enchantment levels.</td></tr>
 </table>
 
-#### Ranged Weapons
+### Ranged Weapons
 
 <table>
     <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>**
@@ -160,7 +159,7 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>QUICK_CHARGE</td><td>3</td><td>Decreases crossbow charging time.</td></tr>
 </table>
 
-#### Tools
+### Tools
 
 <table>
     <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>    <tr><td>EFFICIENCY</td><td>5</td><td>Increases mining speed.</td></tr>
