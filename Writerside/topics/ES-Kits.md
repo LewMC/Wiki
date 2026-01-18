@@ -4,13 +4,13 @@
 > Your kits will be automatically migrated to the new format when you first run the new update.
 
 Kits are sets of items that can be given to players via commands. The command to access Kits is /kit. To give players
-access to all kits commands give them the `essence.kits.*` command.
+access to all kits commands, give them the `essence.kits.*` command.
 
 ## kits.yml
-Kits are stored in the kits.yml file which can be found in Essence's data folder (/plugins/essence/data).
+Kits are stored in the kits.yml file, which can be found in Essence's data folder (/plugins/essence/data).
 
 ### Example
-The below example is the defualt kits.yml file:
+The below example is the default kits.yml file:
 ```
 kits:
   wooden-tools:
@@ -61,20 +61,21 @@ Please see above for an example of these parameters in use.
 ## Permissions
 Kits require users to have a set of permissions to access them.
 
-You can set the permission to whatever you want, or remove it if you'd like any players to be able to get the kit.
+You can set the permission to whatever you want or remove it if you'd like any players to be able to get the kit.
 
 Players with the `essence.kits.all` permission can access all kits regardless of this value.
 
 Players with `essence.bypass.maxkitclaims`, including `essence.bypass.*` can redeem kits an infinite number of times.
 
 ## Spawn Kits
-You can set it so that players are given kits when they first join the server. Please note that this is based on if they have joined the server in the past, not if they have received the kit or not.
+You can set it so that players are given kits when they first join the server. Please note that this is based on whether
+they have joined the server in the past, not if they have received the kit or not.
 
 Players must have the required permissions to access the kit.
 
 Claiming the spawn kit counts towards the player's maximum kit claims.
 
-You can change this value in the [Configuration](ES-Configuration.md).
+You can change this value in the [](ES-Configuration.md).
 
 ## Enchantments
 As of Essence 1.12.0, Kits now support enchantments. You can use any valid Minecraft enchantment and level in the format
@@ -100,7 +101,7 @@ items:
 ```
 
 Please see the below tables for a list of valid enchantments.
-### All Purpose
+### All-Purpose
 
 <table>
     <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
@@ -151,14 +152,14 @@ Please see the below tables for a list of valid enchantments.
 ### Ranged Weapons
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>**
+    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
     <tr><td>CHANNELING</td><td>1</td><td>Trident channels a bolt of lightning toward a hit entity. Functions only during thunderstorms and if the target is unobstructed by opaque blocks.</td></tr>
     <tr><td>FLAME</td><td>1</td><td>Arrows set targets on fire.</td></tr>
     <tr><td>IMPALING</td><td>5</td><td>Trident deals additional damage to mobs that spawn naturally in the ocean.</td></tr>
     <tr><td>INFINITY</td><td>1</td><td>Shooting with projectiles does not consume arrows.</td></tr>
     <tr><td>LOYALTY</td><td>3</td><td>Trident returns after being thrown. Higher levels reduce the return time.</td></tr>
-    <tr><td>RIPTIDE</td><td>3</td><td>Trident launches player with itself when thrown. Functions only in water or rain.</td></tr>
-    <tr><td>MULTISHOT</td><td>1</td><td>Shoot 3 arrows at the cost of one; only one arrow can be recovered.</td></tr>
+    <tr><td>RIPTIDE</td><td>3</td><td>Trident launches the player with itself when thrown. Functions only in water or rain.</td></tr>
+    <tr><td>MULTISHOT</td><td>1</td><td>Shoot three arrows at the cost of one; only one arrow can be recovered.</td></tr>
     <tr><td>PIERCING</td><td>4</td><td>Arrows pass through multiple entities.</td></tr>
     <tr><td>POWER</td><td>5</td><td>Increases arrow damage.</td></tr>
     <tr><td>PUNCH</td><td>2</td><td>Increases arrow knockback.</td></tr>
