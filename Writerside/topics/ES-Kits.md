@@ -113,6 +113,7 @@ Please see the below tables for a list of valid enchantments.
 ### Armour
 
 <table>
+    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
     <tr><td>AQUA_AFFINITY</td><td>1</td><td>Increase the rate of underwater mining speed.</td></tr>
     <tr><td>BLAST_PROTECTION</td><td>4</td><td>Reduces explosion damage and knockback. </td></tr>
     <tr><td>CURSE_OF_BINDING</td><td>4</td><td>Items cannot be removed from armour slots unless the cause is death or breaking.</td></tr>
@@ -169,7 +170,8 @@ Please see the below tables for a list of valid enchantments.
 ### Tools
 
 <table>
-    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>    <tr><td>EFFICIENCY</td><td>5</td><td>Increases mining speed.</td></tr>
+    <tr><td>Enchantment</td><td>Max Level</td><td>Description</td></tr>
+    <tr><td>EFFICIENCY</td><td>5</td><td>Increases mining speed.</td></tr>
     <tr><td>FORTUNE</td><td>3</td><td>Increases certain item drop chances from blocks.</td></tr>
     <tr><td>LUCK_OF_THE_SEA</td><td>3</td><td>Increases rate of fishing rare loot (enchanting books, etc.)</td></tr>
     <tr><td>LURE</td><td>3</td><td>Decreases wait time until fish/junk/loot "bites"</td></tr>
