@@ -107,7 +107,11 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>MENDING</td><td>1</td><td>Repairs the item when gaining XP orbs.</td></tr>
     <tr><td>UNBREAKING</td><td>3</td><td>Increases item durability.</td></tr>
     <tr><td>CURSE_OF_VANISHING</td><td>1</td><td>Item destroyed upon death.</td></tr>
-    <tr><td colspan="3"><b>ARMOUR</b></td></tr>
+</table>
+
+### Armour
+
+<table>
     <tr><td>AQUA_AFFINITY</td><td>1</td><td>Increase the rate of underwater mining speed.</td></tr>
     <tr><td>BLAST_PROTECTION</td><td>4</td><td>Reduces explosion damage and knockback. </td></tr>
     <tr><td>CURSE_OF_BINDING</td><td>4</td><td>Items cannot be removed from armour slots unless the cause is death or breaking.</td></tr>
