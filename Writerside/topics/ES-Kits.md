@@ -99,7 +99,6 @@ items:
       - UNBREAKING:2
 ```
 
-
 ### List
 Please see the below tables for a list of valid enchantments.
 #### All Purpose
