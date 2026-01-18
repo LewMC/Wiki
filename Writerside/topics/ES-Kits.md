@@ -142,6 +142,8 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>WIND_BURST</td><td>3</td><td>Allows the player to bounce up into the air following a successful hit; the height of this bounce increases with higher enchantment levels.</td></tr>
 </table>
 
+<sub>* Minecraft Java Edition only – will not work for Bedrock players on Geyser servers.</sub>
+
 ### Ranged Weapons
 
 <table>
@@ -168,5 +170,3 @@ Please see the below tables for a list of valid enchantments.
     <tr><td>LURE</td><td>3</td><td>Decreases wait time until fish/junk/loot "bites"</td></tr>
     <tr><td>SILK_TOUCH</td><td>1</td><td>Mined blocks will drop as blocks instead of breaking into other items/blocks.</td></tr>
 </table>
-
-<sub>* Minecraft Java Edition only – will not work for Bedrock players on Geyser servers.</sub>
