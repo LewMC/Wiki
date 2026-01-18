@@ -74,6 +74,7 @@ what you're used to.
 | /invisible                 | invisible              |
 | /item                      | give                   |
 | /kit                       | kit                    |
+| /lightning                 | lightning              |
 | /list                      | list                   |
 | /loom                      | loom                   |
 | /msg                       | msg                    |
@@ -99,6 +100,7 @@ what you're used to.
 | /setteamhome               | setthome               |
 | /setwarp                   | setwarp                |
 | /skull                     | skull                  |
+| /smite                     | lightning              |
 | /smithing                  | smithing               |
 | /spawn                     | spawn                  |
 | /stonecutter               | stonecutter            |

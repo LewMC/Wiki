@@ -218,16 +218,18 @@ Wildcard permission: essence.environment.*
 
 > See [this page](ES-Time-and-Weather.md) for more information. Console usage for these commands may be different.
 
-| Command                      | Permission Required              | Description                 | Usage           | Console can run? |
-|------------------------------|----------------------------------|-----------------------------|-----------------|------------------|
-| /time                        | essence.environment.time         | Checks the server time.     | /time           | Yes              |
-| /time &lt;time>              | essence.environment.time.set     | Sets the server time.       | /time day       | Yes              |
-| /weather                     | essence.environment.weather      | Checks the server weather.  | /weather        | Yes              |
-| /weather &lt;weather>        | essence.environment.weather.set  | Sets the server weather.    | /weather clear  | Yes              |
-| /ptime                       | essence.environment.ptime        | Checks your player time.    | /ptime          | No               |
-| /ptime &lt;time/reset>       | essence.environment.ptime.set    | Sets your player time.      | /ptime day      | No               |
-| /pweather                    | essence.environment.pweather     | Checks your player weather. | /pweather       | No               |
-| /pweather &lt;weather/reset> | essence.environment.pweather.set | Sets your player weather.   | /pweather clear | No               |
+| Command                      | Permission Required                                                       | Description                           | Usage                | Console can run? |
+|------------------------------|---------------------------------------------------------------------------|---------------------------------------|----------------------|------------------|
+| /time                        | essence.environment.time                                                  | Checks the server time.               | /time                | Yes              |
+| /time &lt;time>              | essence.environment.time.set                                              | Sets the server time.                 | /time day            | Yes              |
+| /weather                     | essence.environment.weather                                               | Checks the server weather.            | /weather             | Yes              |
+| /weather &lt;weather>        | essence.environment.weather.set                                           | Sets the server weather.              | /weather clear       | Yes              |
+| /ptime                       | essence.environment.ptime                                                 | Checks your player time.              | /ptime               | No               |
+| /ptime &lt;time/reset>       | essence.environment.ptime.set                                             | Sets your player time.                | /ptime day           | No               |
+| /pweather                    | essence.environment.pweather                                              | Checks your player weather.           | /pweather            | No               |
+| /pweather &lt;weather/reset> | essence.environment.pweather.set                                          | Sets your player weather.             | /pweather clear      | No               |
+| /lightning                   | essence.environment.lightning                                             | Spawns lightning at your location.    | /lightning           | No               |
+| /lightning &lt;player>       | essence.environment.lightning **and** essence.environment.lightning.other | Spawns lightning at another player's. | /lightning LewIsLost | Yes              |
 
 ## Miscellaneous Commands
 Wildcard permission: None

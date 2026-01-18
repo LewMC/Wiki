@@ -59,6 +59,15 @@ Same as with time, we've also added some aliases to weather - you can use whiche
 | thunder   | thunder              | /weather thunder   |
 | lightning | thunder              | /weather lightning |
 
+## Lightning
+The lightning command can be used to spawn lightning at your (or another player's) location.
+
+Using `/lightning` spawns lightning at your location.
+Using `/lightning <player>` spawns lightning at the player's location.
+
+You'll need the `essence.environment.lightning` permission to use this command, and the 
+`essence.environment.lightning.other` permission to use it on another player.
+
 ## Console Usage
 Console usage is slightly different - since the console "user" is not in a world, they need to specify which one they're talking about.
 
@@ -68,4 +77,4 @@ Likewise when setting the weather a player would use `/weather clear`, but the c
 
 The usage is the same for time.
 
-Consoles cannot use /ptime or /pweather.
+Consoles cannot use /ptime, /pweather, or /lightning (console can run /lightning &lt;player>).
