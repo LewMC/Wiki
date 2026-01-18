@@ -99,9 +99,9 @@ items:
       - UNBREAKING:2
 ```
 
-Please see the below table for a list of valid enchantments.
 
 ### List
+Please see the below tables for a list of valid enchantments.
 #### All Purpose
 
 <table>
