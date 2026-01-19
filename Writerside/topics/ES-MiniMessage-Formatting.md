@@ -1,9 +1,11 @@
 # MiniMessage Formatting
 
 <warning>
-As of Essence 1.12.0, legacy (`§` and `&`) colour codes are no longer supported. Please migrate to MiniMessage Tags.
-The language and configuration files will update automatically.
+MiniMessage tags can run commands when clicked on, enabling them for use in chat may have security risks to your players.
 </warning>
+
+> As of Essence 1.12.0, legacy (`§` and `&`) colour codes are no longer supported. Please migrate to MiniMessage Tags.
+> The language and configuration files will update automatically.
 
 Broadcasts, language file messages, and config-defined messages support MiniMessage formatting. Chat messages and
 private messages support MiniMessage formatting when `allow-message-formatting` is set to `true` in the `chat`

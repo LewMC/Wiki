@@ -131,7 +131,11 @@ You can use any placeholders here, just remember to use `%essence_player%` or no
 `allow-message-formatting` decides if players are allowed to use MiniMessage tags in chat. If this is set to true, any
 tags sent will be converted into colours (or bold, or any other MiniMessage formatting tags.
 
-For example: `Hello <bold>Everybody!` will be converted into <code>Hello <strong>Everybody!</strong></code>
+**Allowing message formatting in chat may pose security risks, since MiniMessage tags can be used to execute commands.**
+You should be aware that scammers or hackers may attempt to exploit this feature to get other players to execute
+commands such as /pay. You should avoid enabling this feature if you don't trust your players.
+
+For example, `Hello <bold>Everybody!` will be converted into <code>Hello <strong>Everybody!</strong></code>
 
 ![ES-Chat message formatting.png](ES-Chat message formatting.png)
 
