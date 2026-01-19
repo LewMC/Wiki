@@ -101,6 +101,10 @@ items:
 ```
 
 Please see the below tables for a list of valid enchantments.
+
+> You can bypass the enchantment maximum level in the [](ES-Configuration.md) by setting `allow-unsafe-enchantments` to 
+> `true`.
+
 ### All-Purpose
 
 <table>
