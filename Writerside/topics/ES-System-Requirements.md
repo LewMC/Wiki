@@ -3,7 +3,7 @@
 | Essence Version | Minecraft Versions | Supported Software                                            | Java Version | Active Support |
 |-----------------|--------------------|---------------------------------------------------------------|--------------|----------------|
 | 1.12.0+         | > 1.21.1           | Paper, Folia, or a fork of these                              | 21           | Yes            |
-| 1.8.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | Yes            |
+| 1.8.0+          | > 1.21.1           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 21           | No             |
 | 1.4.0+          | > 1.20.4           | CraftBukkit, Spigot, Paper, Folia, or a fork of these         | 17           | No             |
 | 1.0.0 - 1.3.2   | > 1.19.0           | CraftBukkit, Spigot, Paper, or a fork of these (except Folia) | 17           | No             |
 
@@ -37,5 +37,13 @@ If you're unusure if we'll fix something, ask! [Open an issue on our GitHub](htt
 You're welcome to fork Essence to fix bugs on older versions yourself if you wish to do so.
 
 ## Incompatabilities
+### Bukkit and Spigot Server Software
+Essence no longer supports Bukkit and Spigot servers. This was done due to unfortunate limitations in the Bukkit API.
+We wanted to support both, but are no longer able to. We only have a single server running Essence on Spigot at the time
+of writing, and we apologise that we're dropping support for you, but the restrictions being placed on new features for
+all our other users is too great.
+
+If you are running Bukkit or Spigot, please migrate to Paper or a fork of Paper to keep using Essence.
+
 ### Data packs
 - Nice Mobs Remastered: Friends & Foes - causes Essence's /team command to be spammed in the console.

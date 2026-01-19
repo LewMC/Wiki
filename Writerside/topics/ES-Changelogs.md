@@ -12,11 +12,11 @@ _2026-01-XX_ – Essence 1.12.1 fixes a bug with the auto complete causing conso
 **As of 1.12.0, Essence no longer supports CraftBukkit
 or Spigot servers.**
 
-| Added   | Added enchantments and amounts to items in kits, ability to set walking and flying speeds independently ([more info](ES-Stats.md)), teleport request delays and expiry,                                                                                                    |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Removed | Nothing was removed in this update.                                                                                                                                                                                                                                        |
-| Changed | Essence no longer supports CraftBukkit or Spigot. [More information](ES-System-Requirements.md). The kits file now works differently, it will be migrated automatically. See [](ES-Kits.md) for more information. Teleport requests now expire after 2 minutes by default. |
-| Fixed   | [#349](https://github.com/LewMC/Essence/issues/349) Pre 1.11.0 player data is not being migrated properly/at all, [#350](https://github.com/LewMC/Essence/issues/350) IP is not stored in Essence player data despite Advanced Player Data being enabled,                  |
+| Added   | Added support for [](ES-MiniMessage-Formatting.md), enchantments and amounts to items in kits, ability to set walking and flying speeds independently ([more info](ES-Stats.md)), teleport request delays and expiry, /lightning command, Polish language file, Dutch language file. |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed | Essence no longer supports CraftBukkit or Spigot. [More information](ES-System-Requirements.md). Support for legacy colour codes, you should move to [](ES-MiniMessage-Formatting.md), your config files and language files will migrate automatically.                              |
+| Changed | The kits file now works differently, it will be migrated automatically. See [](ES-Kits.md) for more information. Teleport requests now expire after 2 minutes by default.                                                                                                            |
+| Fixed   | [#349](https://github.com/LewMC/Essence/issues/349) Pre 1.11.0 player data is not being migrated properly/at all, [#350](https://github.com/LewMC/Essence/issues/350) IP is not stored in Essence player data despite Advanced Player Data being enabled,                            |
 
 ## 1.11.1
 
