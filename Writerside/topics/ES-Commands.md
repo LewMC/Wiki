@@ -153,6 +153,8 @@ Wildcard permission: essence.stats.* and essence.stats.other.*
 | /speed &lt;player>                 | essence.stats.speed **and** essence.stats.speed.other | Sets another player's speed.       | /speed LewIsLost 2 | Yes              |
 | /fly                               | essence.stats.fly                                     | Toggles if you can fly.            | /fly               | No               |
 | /fly &lt;player>                   | essence.stats.fly **and** essence.stats.fly.other     | Toggles if another player can fly. | /fly LewIsLost     | Yes              |
+| /kill                              | essence.stats.kill                                    | Kills yourself.                    | /kill              | No               |
+| /kill &lt;player>                  | essence.stats.kill **and** essence.stats.kill.other   | Kills another player.              | /kill LewIsLost    | Yes              |
 
 ## Chat Commands
 Wildcard permission: essence.chat.*
