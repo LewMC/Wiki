@@ -1,3 +1,5 @@
+> ⚠️ This Wiki is moving after the Essence 1.12.0 release. Any contributions made on any other branches will be lost. Please make contributions at nw.lewmc.net UNLESS it is for Essence 1.12.0
+
 # LewMC Wiki
 This is the Wiki for LewMC projects, found at wiki.lewmc.net
 
