@@ -73,6 +73,7 @@ what you're used to.
 | /info                      | info                   |
 | /invisible                 | invisible              |
 | /item                      | give                   |
+| /kill                      | kill                   |
 | /kit                       | kit                    |
 | /list                      | list                   |
 | /loom                      | loom                   |
@@ -103,6 +104,7 @@ what you're used to.
 | /spawn                     | spawn                  |
 | /stonecutter               | stonecutter            |
 | /sudo                      | sudo                   |
+| /suicide                   | kill                   |
 | /thome                     | thome                  |
 | /teamhome                  | thome                  |
 | /thomes                    | thomes                 |
